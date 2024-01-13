@@ -4,18 +4,15 @@
 // Engineer: Ethan Vosburg
 // 
 // Create Date: 01/11/2024 10:40:40 PM
-// Design Name: 
+// Design Name: ProgRom Testbench
 // Module Name: ProgRom_TB
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
+// Project Name: HW1-ProgROM
+// Target Devices: Basys 3
+// Description: This is a testbench for the ProgRom module that takes in a mem file and checks that the program memory is correct
 // 
-// Dependencies: 
-// 
-// Revision:
+// Revision: 1.0
 // Revision 0.01 - File Created
-// Additional Comments:
+// Additional Comments: Still need to work on dynamic array assignment
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
@@ -81,6 +78,4 @@ module ProgRom_TB();
 
     // Toggle the clock
     always #5 PROG_CLK_TB = ~PROG_CLK_TB;
-
-
 endmodule
