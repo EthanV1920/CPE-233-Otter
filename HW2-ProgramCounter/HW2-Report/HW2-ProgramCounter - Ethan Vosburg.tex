@@ -194,9 +194,10 @@ When testing this design, there were several test cases that were used to verify
     \item \textbf{WriteEnable Test:} This test checks that the write enable is working properly. When the write enable is set to 0, the program counter should not change. When the write enable is set to 1, the program counter should increment by 4.
 \end{enumerate}
 
+\captionsetup{style=widetable}
 \subsection{Testbench Code} % Third level section
 
-\begin{lstlisting}[language=Verilog, caption=Verilog Testbench for Program Counter]{/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW2-ProgramCounter/ProgramCounter/ProgramCounter.srcs/sim_1/new/ProgramCounterEnv_TB.sv}
+\lstinputlisting[language=Verilog, caption=Verilog Testbench for Program Counter]{/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW2-ProgramCounter/ProgramCounter/ProgramCounter.srcs/sim_1/new/ProgramCounterEnv_TB.sv}
 
 \subsection{Testbench Output} % Third level section
 Here is the output from the console after running this testbench.
@@ -239,17 +240,19 @@ Running this testbench results in this simulation wavefrom.
     \label{fig:PCSimulation}
 \end{figure}
 
-
+\newpage
 \section{Source Code}
 \captionsetup{style=widetable}
 \subsection{Program Counter} % Third level section
 
 \lstinputlisting[language=Verilog, caption=Verilog Code for Program Counter]{/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW2-ProgramCounter/ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounter.sv}
 
+\newpage
 \subsection{Program Counter Multiplexer} % Third level section
 
 \lstinputlisting[language=Verilog, caption=Verilog Code for Program Counter]{/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW2-ProgramCounter/ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounterMux.sv}
 
+\newpage
 \subsection{Program Counter Environment} % Third level section
 
 \lstinputlisting[language=Verilog, caption=Verilog Code for Program Counter]{/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW2-ProgramCounter/ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounterEnv.sv}
@@ -263,10 +266,5 @@ All code for this assignment can be found \href{https://github.com/EthanV1920/CP
 
 
 \end{fullwidth}
-
-% \beg 
-
-
-%----------------------------------------------------------------------------------------
 
 \end{document}

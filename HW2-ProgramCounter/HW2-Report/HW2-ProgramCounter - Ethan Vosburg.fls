@@ -1152,16 +1152,32 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang3.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang3.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang3.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang3.sty
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW2-ProgramCounter/ProgramCounter/ProgramCounter.srcs/sim_1/new/ProgramCounterEnv_TB.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW2-ProgramCounter/ProgramCounter/ProgramCounter.srcs/sim_1/new/ProgramCounterEnv_TB.sv
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/plex/T1IBMPlexMono-TLF.fd
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/plex/T1IBMPlexMono-TLF.fd
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/plex/T1IBMPlexMono-TLF.fd
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/plex/T1IBMPlexMono-TLF.fd
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexMono-tlf-t1.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexMono-tlf-t1.tfm
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW2-ProgramCounter/ProgramCounter/ProgramCounter.srcs/sim_1/new/ProgramCounterEnv_TB.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW2-ProgramCounter/ProgramCounter/ProgramCounter.srcs/sim_1/new/ProgramCounterEnv_TB.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW2-ProgramCounter/ProgramCounter/ProgramCounter.srcs/sim_1/new/ProgramCounterEnv_TB.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW2-ProgramCounter/ProgramCounter/ProgramCounter.srcs/sim_1/new/ProgramCounterEnv_TB.sv
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-tlf-t1.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-tlf-t1.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-Italic-tlf-t1.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexMono-Bold-tlf-t1.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexMono-Italic-tlf-t1.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/ibm/plex/IBMPlexSans-Italic-tlf-t1.vf
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-Italic-tlf-t1--base.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/ibm/plex/IBMPlexMono-Bold-tlf-t1.vf
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexMono-Bold-tlf-t1--base.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/plex/plx_x4zmfh.enc
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/ibm/plex/IBMPlexMono-tlf-t1.vf
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexMono-tlf-t1--base.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/ibm/plex/IBMPlexMono-Italic-tlf-t1.vf
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexMono-Italic-tlf-t1--base.tfm
 INPUT ./Figures/Program Counter Simulation 1.png
 INPUT ./Figures/Program Counter Simulation 1.png
 INPUT Figures/Program Counter Simulation 1.png
@@ -1177,24 +1193,14 @@ INPUT ./Figures/Program Counter Simulation 3.png
 INPUT Figures/Program Counter Simulation 3.png
 INPUT ./Figures/Program Counter Simulation 3.png
 INPUT ./Figures/Program Counter Simulation 3.png
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/ibm/plex/IBMPlexSans-Italic-tlf-t1.vf
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-Italic-tlf-t1--base.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/ibm/plex/IBMPlexMono-tlf-t1.vf
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexMono-tlf-t1--base.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/plex/plx_x4zmfh.enc
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/ibm/plex/IBMPlexMono-Bold-tlf-t1.vf
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexMono-Bold-tlf-t1--base.tfm
 INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW2-ProgramCounter/ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounter.sv
 INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW2-ProgramCounter/ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounter.sv
 INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW2-ProgramCounter/ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounter.sv
 INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW2-ProgramCounter/ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounter.sv
 INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW2-ProgramCounter/ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounter.sv
 INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW2-ProgramCounter/ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounter.sv
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexMono-Italic-tlf-t1.tfm
 INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW2-ProgramCounter/ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounterMux.sv
 INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW2-ProgramCounter/ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounterMux.sv
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/ibm/plex/IBMPlexMono-Italic-tlf-t1.vf
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexMono-Italic-tlf-t1--base.tfm
 INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW2-ProgramCounter/ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounterMux.sv
 INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW2-ProgramCounter/ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounterMux.sv
 INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW2-ProgramCounter/ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounterMux.sv

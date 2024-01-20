@@ -1,13 +1,14 @@
 # Fdb version 4
-["biber HW2-ProgramCounter - Ethan Vosburg"] 1705736069 "HW2-ProgramCounter - Ethan Vosburg.bcf" "HW2-ProgramCounter - Ethan Vosburg.bbl" "HW2-ProgramCounter - Ethan Vosburg" 1705736362 0
+["biber HW2-ProgramCounter - Ethan Vosburg"] 1705736069 "HW2-ProgramCounter - Ethan Vosburg.bcf" "HW2-ProgramCounter - Ethan Vosburg.bbl" "HW2-ProgramCounter - Ethan Vosburg" 1705736614 0
   "./sample.bib" 1705732616 423 bb4d4040f48aec7c0bc550ef99e007d4 ""
-  "HW2-ProgramCounter - Ethan Vosburg.bcf" 1705736362 107347 362b9c05c9ba23dd36e2525db27a9c08 "pdflatex"
+  "HW2-ProgramCounter - Ethan Vosburg.bcf" 1705736614 107347 362b9c05c9ba23dd36e2525db27a9c08 "pdflatex"
   (generated)
   "HW2-ProgramCounter - Ethan Vosburg.bbl"
   "HW2-ProgramCounter - Ethan Vosburg.blg"
   (rewritten before read)
-["pdflatex"] 1705736359 "/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW2-ProgramCounter/HW2-Report/HW2-ProgramCounter - Ethan Vosburg.tex" "HW2-ProgramCounter - Ethan Vosburg.pdf" "HW2-ProgramCounter - Ethan Vosburg" 1705736362 0
-  "/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW2-ProgramCounter/HW2-Report/HW2-ProgramCounter - Ethan Vosburg.tex" 1705736359 12535 9ee0e85879e7c5945d34de8e9d913eaf ""
+["pdflatex"] 1705736611 "/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW2-ProgramCounter/HW2-Report/HW2-ProgramCounter - Ethan Vosburg.tex" "HW2-ProgramCounter - Ethan Vosburg.pdf" "HW2-ProgramCounter - Ethan Vosburg" 1705736614 0
+  "/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW2-ProgramCounter/HW2-Report/HW2-ProgramCounter - Ethan Vosburg.tex" 1705736608 12489 684cb96e326de04dbe37ccb6aea6136c ""
+  "/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW2-ProgramCounter/ProgramCounter/ProgramCounter.srcs/sim_1/new/ProgramCounterEnv_TB.sv" 1705732521 12074 4d0b2648fc57bca4f3784e1108019857 ""
   "/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW2-ProgramCounter/ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounter.sv" 1705727772 1498 40fad62ee88d9e1925ce79968c199f6d ""
   "/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW2-ProgramCounter/ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounterEnv.sv" 1705734335 2010 e633da8fdc59af1653fd31e1b16a5483 ""
   "/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW2-ProgramCounter/ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounterMux.sv" 1705734435 1718 5f51bdc6a5ddfb4b56cbb394a16daac6 ""
@@ -178,12 +179,12 @@
   "Figures/Program Counter Simulation 1.png" 1705735530 512583 7ea6ab5d2cf8acb49bc0ac00e188f300 ""
   "Figures/Program Counter Simulation 2.png" 1705735561 434225 23d3a6531db7fc41674c028e6b93c0e7 ""
   "Figures/Program Counter Simulation 3.png" 1705735575 444281 1c59cf0f9f003ce626d175668fa24d4a ""
-  "HW2-ProgramCounter - Ethan Vosburg.aux" 1705736362 5094 880d5986355f04da80404af418825a17 "pdflatex"
+  "HW2-ProgramCounter - Ethan Vosburg.aux" 1705736614 5394 80a4225d90bc8086ca61492c6e514546 "pdflatex"
   "HW2-ProgramCounter - Ethan Vosburg.bbl" 1705736071 466 ee04f40f768daeed26442158e95aba61 "biber HW2-ProgramCounter - Ethan Vosburg"
-  "HW2-ProgramCounter - Ethan Vosburg.out" 1705736362 2353 234572dbb465046fbec5b26f65fd3cbe "pdflatex"
-  "HW2-ProgramCounter - Ethan Vosburg.run.xml" 1705736362 2525 d2f85cd371ecbb174faa25dcdefa1393 "pdflatex"
-  "HW2-ProgramCounter - Ethan Vosburg.tex" 1705736359 12535 9ee0e85879e7c5945d34de8e9d913eaf ""
-  "HW2-ProgramCounter - Ethan Vosburg.toc" 1705736362 1194 aaec04c82b14e0216cafdd8104dc4a63 "pdflatex"
+  "HW2-ProgramCounter - Ethan Vosburg.out" 1705736614 2494 3e795cd6599224805923b8c68473caf2 "pdflatex"
+  "HW2-ProgramCounter - Ethan Vosburg.run.xml" 1705736614 2525 d2f85cd371ecbb174faa25dcdefa1393 "pdflatex"
+  "HW2-ProgramCounter - Ethan Vosburg.tex" 1705736608 12489 684cb96e326de04dbe37ccb6aea6136c ""
+  "HW2-ProgramCounter - Ethan Vosburg.toc" 1705736614 1282 df64205931aa6c8bcb97b3f0b7cb18aa "pdflatex"
   "creodocs_logo.pdf" 1705732616 1607646 72a4a03b758837f8ff164d78ef865bf6 ""
   (generated)
   "HW2-ProgramCounter - Ethan Vosburg.aux"

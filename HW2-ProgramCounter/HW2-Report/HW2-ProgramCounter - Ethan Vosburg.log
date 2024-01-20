@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.28)  19 JAN 2024 23:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.28)  19 JAN 2024 23:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -775,7 +775,7 @@ Package hyperref Info: Link coloring ON on input line 46.
 \openout4 = `"HW2-ProgramCounter - Ethan Vosburg.out"'.
 
 \c@lstlisting=\count439
-<creodocs_logo.pdf, id=60, 794.97pt x 614.295pt>
+<creodocs_logo.pdf, id=64, 794.97pt x 614.295pt>
 File: creodocs_logo.pdf Graphic file (type pdf)
 <use creodocs_logo.pdf>
 Package pdftex.def Info: creodocs_logo.pdf  used on input line 57.
@@ -853,7 +853,7 @@ LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' aliased to
 (Font)              `T1/IBMPlexSans-TLF/bold/n' on input line 146.
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/bold/n' will be
 (Font)              scaled to size 14.4pt on input line 146.
-<Figures/Program Counter Elaborated Design.png, id=108, 1584.92125pt x 407.5225pt>
+<Figures/Program Counter Elaborated Design.png, id=114, 1584.92125pt x 407.5225pt>
 File: Figures/Program Counter Elaborated Design.png Graphic file (type png)
 <use Figures/Program Counter Elaborated Design.png>
 Package pdftex.def Info: Figures/Program Counter Elaborated Design.png  used on input line 151.
@@ -871,7 +871,7 @@ LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' aliased to
 (Font)              `T1/IBMPlexSans-TLF/bold/n' on input line 152.
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/bold/n' will be
 (Font)              scaled to size 10.0pt on input line 152.
-<Figures/Program Counter Mux.png, id=110, 1204.5pt x 663.47874pt>
+<Figures/Program Counter Mux.png, id=116, 1204.5pt x 663.47874pt>
 File: Figures/Program Counter Mux.png Graphic file (type png)
 <use Figures/Program Counter Mux.png>
 Package pdftex.def Info: Figures/Program Counter Mux.png  used on input line 160.
@@ -881,7 +881,7 @@ Overfull \hbox (143.68822pt too wide) in paragraph at lines 160--161
 [][]  
  []
 
-<Figures/Program Counter Main Hardware.png, id=111, 1242.6425pt x 712.6625pt>
+<Figures/Program Counter Main Hardware.png, id=117, 1242.6425pt x 712.6625pt>
 File: Figures/Program Counter Main Hardware.png Graphic file (type png)
 <use Figures/Program Counter Main Hardware.png>
 Package pdftex.def Info: Figures/Program Counter Main Hardware.png  used on input line 168.
@@ -896,7 +896,7 @@ LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' aliased to
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/bold/n' will be
 (Font)              scaled to size 10.95pt on input line 169.
 [3 <./Figures/Program Counter Elaborated Design.png> <./Figures/Program Counter Mux.png>]
-<Figures/Program Counter Console Warnings.png, id=121, 753.81625pt x 179.67125pt>
+<Figures/Program Counter Console Warnings.png, id=127, 753.81625pt x 179.67125pt>
 File: Figures/Program Counter Console Warnings.png Graphic file (type png)
 <use Figures/Program Counter Console Warnings.png>
 Package pdftex.def Info: Figures/Program Counter Console Warnings.png  used on input line 177.
@@ -918,95 +918,97 @@ File: lstlang2.sty 2023/02/27 1.9 listings language file
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang3.sty
 File: lstlang3.sty 2023/02/27 1.9 listings language file
 )
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 199.
-LaTeX Font Info:    Trying to load font information for T1+IBMPlexMono-TLF on input line 199.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 200.
+LaTeX Font Info:    Trying to load font information for T1+IBMPlexMono-TLF on input line 200.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/plex/T1IBMPlexMono-TLF.fd
 File: T1IBMPlexMono-TLF.fd 2019/12/06 (autoinst) Font definitions for T1/IBMPlexMono-TLF.
 )
 LaTeX Font Info:    Font shape `T1/IBMPlexMono-TLF/m/n' aliased to
-(Font)              `T1/IBMPlexMono-TLF/regular/n' on input line 199.
+(Font)              `T1/IBMPlexMono-TLF/regular/n' on input line 200.
 LaTeX Font Info:    Font shape `T1/IBMPlexMono-TLF/regular/n' will be
-(Font)              scaled to size 12.0pt on input line 199.
+(Font)              scaled to size 12.0pt on input line 200.
 LaTeX Font Info:    Font shape `T1/IBMPlexMono-TLF/m/n' aliased to
-(Font)              `T1/IBMPlexMono-TLF/regular/n' on input line 199.
+(Font)              `T1/IBMPlexMono-TLF/regular/n' on input line 200.
 LaTeX Font Info:    Font shape `T1/IBMPlexMono-TLF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 199.
+(Font)              scaled to size 8.0pt on input line 200.
+ (/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW2-ProgramCounter/ProgramCounter/ProgramCounter.srcs/sim_1/new/ProgramCounterEnv_TB.sv
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/n' aliased to
-(Font)              `T1/IBMPlexSans-TLF/regular/n' on input line 201.
+(Font)              `T1/IBMPlexSans-TLF/regular/n' on input line 1.
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 201.
+(Font)              scaled to size 8.0pt on input line 1.
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/n' aliased to
-(Font)              `T1/IBMPlexSans-TLF/regular/n' on input line 201.
+(Font)              `T1/IBMPlexSans-TLF/regular/n' on input line 1.
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/regular/n' will be
-(Font)              scaled to size 6.0pt on input line 201.
+(Font)              scaled to size 6.0pt on input line 1.
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/it' aliased to
-(Font)              `T1/IBMPlexSans-TLF/regular/it' on input line 201.
+(Font)              `T1/IBMPlexSans-TLF/regular/it' on input line 1.
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/regular/it' will be
-(Font)              scaled to size 6.0pt on input line 201.
+(Font)              scaled to size 6.0pt on input line 1.
 LaTeX Font Info:    Font shape `T1/IBMPlexMono-TLF/b/n' aliased to
-(Font)              `T1/IBMPlexMono-TLF/bold/n' on input line 202.
+(Font)              `T1/IBMPlexMono-TLF/bold/n' on input line 1.
 LaTeX Font Info:    Font shape `T1/IBMPlexMono-TLF/bold/n' will be
-(Font)              scaled to size 8.0pt on input line 202.
-<Figures/Program Counter Simulation 1.png, id=134, 1952.29375pt x 355.3275pt>
-File: Figures/Program Counter Simulation 1.png Graphic file (type png)
-<use Figures/Program Counter Simulation 1.png>
-Package pdftex.def Info: Figures/Program Counter Simulation 1.png  used on input line 221.
-(pdftex.def)             Requested size: 478.00812pt x 86.99905pt.
-
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 221--222
- [][] 
- []
-
-<Figures/Program Counter Simulation 2.png, id=135, 1952.29375pt x 355.3275pt>
-File: Figures/Program Counter Simulation 2.png Graphic file (type png)
-<use Figures/Program Counter Simulation 2.png>
-Package pdftex.def Info: Figures/Program Counter Simulation 2.png  used on input line 229.
-(pdftex.def)             Requested size: 478.00812pt x 86.99905pt.
-
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 229--230
- [][] 
- []
-
-<Figures/Program Counter Simulation 3.png, id=136, 1952.29375pt x 355.3275pt>
-File: Figures/Program Counter Simulation 3.png Graphic file (type png)
-<use Figures/Program Counter Simulation 3.png>
-Package pdftex.def Info: Figures/Program Counter Simulation 3.png  used on input line 237.
-(pdftex.def)             Requested size: 478.00812pt x 86.99905pt.
-
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 237--238
- [][] 
- []
-
-[5{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/plex/plx_x4zmfh.enc} <./Figures/Program Counter Simulation 1.png> <./Figures/Program Counter Simulation 2.png>] (/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW2-ProgramCounter/ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounter.sv
+(Font)              scaled to size 8.0pt on input line 1.
 LaTeX Font Info:    Font shape `T1/IBMPlexMono-TLF/m/it' aliased to
 (Font)              `T1/IBMPlexMono-TLF/regular/it' on input line 2.
 LaTeX Font Info:    Font shape `T1/IBMPlexMono-TLF/regular/it' will be
 (Font)              scaled to size 8.0pt on input line 2.
-) [6 <./Figures/Program Counter Simulation 3.png>] (/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW2-ProgramCounter/ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounterMux.sv) (/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW2-ProgramCounter/ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounterEnv.sv [7]) [8] 
+ [5{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/plex/plx_x4zmfh.enc}] [6] [7] [8] [9])
+<Figures/Program Counter Simulation 1.png, id=509, 1952.29375pt x 355.3275pt>
+File: Figures/Program Counter Simulation 1.png Graphic file (type png)
+<use Figures/Program Counter Simulation 1.png>
+Package pdftex.def Info: Figures/Program Counter Simulation 1.png  used on input line 222.
+(pdftex.def)             Requested size: 478.00812pt x 86.99905pt.
+
+Overfull \hbox (143.68822pt too wide) in paragraph at lines 222--223
+ [][] 
+ []
+
+[10]
+<Figures/Program Counter Simulation 2.png, id=573, 1952.29375pt x 355.3275pt>
+File: Figures/Program Counter Simulation 2.png Graphic file (type png)
+<use Figures/Program Counter Simulation 2.png>
+Package pdftex.def Info: Figures/Program Counter Simulation 2.png  used on input line 230.
+(pdftex.def)             Requested size: 478.00812pt x 86.99905pt.
+
+Overfull \hbox (143.68822pt too wide) in paragraph at lines 230--231
+ [][] 
+ []
+
+<Figures/Program Counter Simulation 3.png, id=574, 1952.29375pt x 355.3275pt>
+File: Figures/Program Counter Simulation 3.png Graphic file (type png)
+<use Figures/Program Counter Simulation 3.png>
+Package pdftex.def Info: Figures/Program Counter Simulation 3.png  used on input line 238.
+(pdftex.def)             Requested size: 478.00812pt x 86.99905pt.
+
+Overfull \hbox (143.68822pt too wide) in paragraph at lines 238--239
+ [][] 
+ []
+
+[11 <./Figures/Program Counter Simulation 1.png> <./Figures/Program Counter Simulation 2.png> <./Figures/Program Counter Simulation 3.png>] (/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW2-ProgramCounter/ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounter.sv) [12] (/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW2-ProgramCounter/ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounterMux.sv) [13] (/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW2-ProgramCounter/ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounterEnv.sv) [14] [15] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./HW2-ProgramCounter - Ethan Vosburg.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `"HW2-ProgramCounter - Ethan Vosburg".out' has not changed.
-(rerunfilecheck)             Checksum: 234572DBB465046FBEC5B26F65FD3CBE;2353.
+(rerunfilecheck)             Checksum: 3E795CD6599224805923B8C68473CAF2;2494.
 Package logreq Info: Writing requests to '"HW2-ProgramCounter - Ethan Vosburg".run.xml'.
 \openout1 = `"HW2-ProgramCounter - Ethan Vosburg.run.xml"'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23513 strings out of 476025
- 419868 string characters out of 5790016
- 2167388 words of memory out of 5000000
- 43394 multiletter control sequences out of 15000+600000
+ 23914 strings out of 476025
+ 426264 string characters out of 5790016
+ 2286388 words of memory out of 5000000
+ 43408 multiletter control sequences out of 15000+600000
  735696 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,12n,91p,787b,2509s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,12n,91p,787b,2684s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexMono-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexMono-Italic.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexMono.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexSans-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexSans-BoldItalic.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexSans-Italic.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexSans-SemiBold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexSans.pfb>
-Output written on "HW2-ProgramCounter - Ethan Vosburg.pdf" (8 pages, 3305755 bytes).
+Output written on "HW2-ProgramCounter - Ethan Vosburg.pdf" (15 pages, 3330179 bytes).
 PDF statistics:
- 421 PDF objects out of 1000 (max. 8388607)
- 360 compressed objects within 4 object streams
- 203 named destinations out of 1000 (max. 500000)
- 153 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 921 PDF objects out of 1000 (max. 8388607)
+ 847 compressed objects within 9 object streams
+ 586 named destinations out of 1000 (max. 500000)
+ 161 words of extra memory for PDF output out of 10000 (max. 10000000)
 

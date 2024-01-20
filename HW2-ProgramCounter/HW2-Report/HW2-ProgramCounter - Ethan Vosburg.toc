@@ -7,9 +7,10 @@
 \contentsline {section}{\numberline {4}Verification}{4}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Testbench Coverage}{4}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Testbench Code}{5}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Source Code}{6}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Program Counter}{6}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Program Counter Multiplexer}{7}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Program Counter Environment}{7}{subsection.5.3}%
-\contentsline {section}{\numberline {6}Conclusion}{8}{section.6}%
+\contentsline {subsection}{\numberline {4.3}Testbench Output}{10}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Source Code}{12}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Program Counter}{12}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Program Counter Multiplexer}{13}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Program Counter Environment}{14}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Conclusion}{15}{section.6}%
 \contentsfinish 
