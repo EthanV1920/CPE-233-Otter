@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.28)  12 JAN 2024 23:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.28)  16 JAN 2024 16:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/ethanvosburg/Documents/git/CPE-133-Final-Lab/Report/Report Document/Report.tex"
-(/Users/ethanvosburg/Documents/git/CPE-133-Final-Lab/Report/Report Document/Report.tex
+**/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW1-ProgROM/HW1-Report/Report.tex
+(/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW1-ProgROM/HW1-Report/Report.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (./CSSullivanBusinessReport.cls
 Document Class: CSSullivanBusinessReport 2022/05/05 Creodocs Sullivan Business Report Class v1.0
@@ -905,11 +905,22 @@ LaTeX Font Info:    Font shape `T1/IBMPlexMono-TLF/m/it' aliased to
 LaTeX Font Info:    Font shape `T1/IBMPlexMono-TLF/regular/it' will be
 (Font)              scaled to size 8.0pt on input line 201.
  [4]
-Overfull \hbox (2.20673pt too wide) in paragraph at lines 321--323
+<Figures/ProgRom Simulation.png, id=140, 1666.225pt x 144.54pt>
+File: Figures/ProgRom Simulation.png Graphic file (type png)
+<use Figures/ProgRom Simulation.png>
+Package pdftex.def Info: Figures/ProgRom Simulation.png  used on input line 321.
+(pdftex.def)             Requested size: 478.00812pt x 41.46559pt.
+
+Overfull \hbox (143.68822pt too wide) in paragraph at lines 321--322
+ [][] 
+ []
+
+
+Overfull \hbox (2.20673pt too wide) in paragraph at lines 328--330
 \T1/IBMPlexSans-TLF/regular/n/12 sem-bly in-struc-tions from the [][]\T1/IBMPlexMono-TLF/regular/n/12 otter_memory.mem []\T1/IBMPlexSans-TLF/regular/n/12 file were able to be reverse-engineered 
  []
 
-[5] 
+[5 <./Figures/ProgRom Simulation.png>] [6] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./Report.aux)
 Package rerunfilecheck Info: File `Report.out' has not changed.
@@ -919,18 +930,18 @@ Package logreq Info: Writing requests to 'Report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23322 strings out of 476025
- 413197 string characters out of 5790016
+ 23336 strings out of 476025
+ 413512 string characters out of 5790016
  2208388 words of memory out of 5000000
- 43299 multiletter control sequences out of 15000+600000
+ 43308 multiletter control sequences out of 15000+600000
  740959 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,12n,91p,756b,2535s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,12n,91p,750b,2535s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexMono-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexMono-Italic.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexMono.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexSans-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexSans-BoldItalic.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexSans-Italic.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexSans-SemiBold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexSans.pfb>
-Output written on Report.pdf (5 pages, 1774465 bytes).
+Output written on Report.pdf (6 pages, 1896261 bytes).
 PDF statistics:
- 261 PDF objects out of 1000 (max. 8388607)
- 226 compressed objects within 3 object streams
- 127 named destinations out of 1000 (max. 500000)
- 54 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 270 PDF objects out of 1000 (max. 8388607)
+ 232 compressed objects within 3 object streams
+ 129 named destinations out of 1000 (max. 500000)
+ 59 words of extra memory for PDF output out of 10000 (max. 10000000)
 

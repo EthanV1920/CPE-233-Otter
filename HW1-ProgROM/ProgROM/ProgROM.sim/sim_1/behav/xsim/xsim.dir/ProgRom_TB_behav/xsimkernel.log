@@ -2,3 +2,6 @@ Running: xsim.dir/ProgRom_TB_behav/xsimk.exe -simmode gui -wdb ProgRom_TB_behav.
 Design successfully loaded
 Design Loading Memory Usage: 12488 KB (Peak: 12488 KB)
 Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 14736 KB (Peak: 14736 KB)
+Simulation CPU Usage: 109 ms

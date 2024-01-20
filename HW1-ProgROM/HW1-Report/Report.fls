@@ -1,8 +1,8 @@
-PWD /Users/ethanvosburg/Documents/git/CPE-133-Final-Lab/Report/Report Document
+PWD /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW1-ProgROM/HW1-Report
 INPUT /usr/local/texlive/2023/texmf.cnf
 INPUT /usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/ethanvosburg/Documents/git/CPE-133-Final-Lab/Report/Report Document/Report.tex
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW1-ProgROM/HW1-Report/Report.tex
 OUTPUT Report.log
 INPUT ./CSSullivanBusinessReport.cls
 INPUT ./CSSullivanBusinessReport.cls
@@ -1167,6 +1167,11 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/ibm/plex/IBMPlexMono-Bold-tlf-
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexMono-Bold-tlf-t1--base.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/ibm/plex/IBMPlexMono-Italic-tlf-t1.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexMono-Italic-tlf-t1--base.tfm
+INPUT ./Figures/ProgRom Simulation.png
+INPUT ./Figures/ProgRom Simulation.png
+INPUT Figures/ProgRom Simulation.png
+INPUT ./Figures/ProgRom Simulation.png
+INPUT ./Figures/ProgRom Simulation.png
 INPUT Report.aux
 INPUT ./Report.out
 INPUT ./Report.out

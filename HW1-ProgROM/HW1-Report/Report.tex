@@ -196,7 +196,7 @@ jump:
 
 To create a more robust testbench, the \verb|ProgRom_TB| was created. This testbench reads in the \verb|otter_memory.mem| file and then compares the machine code instructions from the file to the machine code instructions from the \verb|ProgRom| module. Once iterating through all of the instructions an overall pass/fail is displayed. The testbench was able to be run and passed. The testbench is shown below.
 
-\begin{lstlisting}[language=Verilog, caption=Assembly instructions from reverse engineered file]
+\begin{lstlisting}[language=Verilog, caption=Verilog Testbench for ProgRom]
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: Cal Poly SLO
@@ -315,6 +315,13 @@ rom_tb[6]: ff1ff06f
 Match rom_TB[6] = ff1ff06f
 OVERALL PASS
 \end{lstlisting}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=.80\pdfpagewidth]{Figures/ProgRom Simulation.png}
+    \caption{ProgRom\_TB Output Waveform}
+    \label{fig:ProgRom_TB_Output}
+\end{figure}
 
 \section {Conclusion} % Second level section
 \hypersetup{urlcolor=blue} 
