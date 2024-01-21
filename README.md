@@ -10,14 +10,14 @@ Professor - Paul Hummel (phummel@calpoly.edu)
 
 The hardware assignments were designed to build the processor from the ground up. Each assignment is built on the previous one. The assignments were as follows:
 
-[x] Hardware Assignment 1 - Program ROM and Assembly Programming
-[x] Hardware Assignment 2 - Program Counter
-[o] Hardware Assignment 3 - Register File
-[o] Hardware Assignment 4 - Arithmetic Logic Unit and Immediate Generator
-[o] Hardware Assignment 5 - Real Memory and Branch Generator
-[o] Hardware Assignment 6 - Control Unit
-[o] Hardware Assignment 7 - OTTER Wrapper
-[o] Hardware Assignment 8 - Interrupts and Button Bounce
+[x] Hardware Assignment 1 - Program ROM and Assembly Programming<br>
+[x] Hardware Assignment 2 - Program Counter<br>
+[o] Hardware Assignment 3 - Register File<br>
+[o] Hardware Assignment 4 - Arithmetic Logic Unit and Immediate Generator<br>
+[o] Hardware Assignment 5 - Real Memory and Branch Generator<br>
+[o] Hardware Assignment 6 - Control Unit<br>
+[o] Hardware Assignment 7 - OTTER Wrapper<br>
+[o] Hardware Assignment 8 - Interrupts and Button Bounce<br>
 
 ## Extra Work for Each Assignment
 
