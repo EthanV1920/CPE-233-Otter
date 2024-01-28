@@ -1,0 +1,13 @@
+\contentsline {section}{\numberline {1}Project Description}{3}{section.1}%
+\contentsline {section}{\numberline {2}Structural Design}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Overall Elaborated Design}{3}{subsection.2.1}%
+\contentsline {section}{\numberline {3}Synthesis Warnings}{3}{section.3}%
+\contentsline {section}{\numberline {4}Verification}{4}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Testbench Coverage}{4}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Testbench Code}{4}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Testbench Output}{10}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Simulation Results}{11}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Source Code}{16}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Register File}{16}{subsection.5.1}%
+\contentsline {section}{\numberline {6}Conclusion}{17}{section.6}%
+\contentsfinish 

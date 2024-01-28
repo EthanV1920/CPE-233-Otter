@@ -1,0 +1,56 @@
+Time resolution is 1 ps
+----------------------------------------
+
+RegFile Testbench
+
+----------------------------------------
+
+Setup Complete
+Error: Random Read Test RS1_TB[1] = 00000000
+Error: Random Read Test testBits[1] = c0895e81
+Error: Random Read Test RS2_TB[1] = 00000000
+Error: Random Read Test testBits[1] = c0895e81
+Error: Random Read Test RS1_TB[2] = 00000000
+Error: Random Read Test testBits[2] = 8484d609
+Error: Random Read Test RS2_TB[2] = 00000000
+Error: Random Read Test testBits[2] = 8484d609
+Error: Random Read Test RS1_TB[3] = 00000000
+Error: Random Read Test testBits[3] = b1f05663
+Error: Random Read Test RS2_TB[3] = 00000000
+Error: Random Read Test testBits[3] = b1f05663
+Error: Random Read Test RS1_TB[4] = 00000000
+Error: Random Read Test testBits[4] = 06b97b0d
+Error: Random Read Test RS2_TB[4] = 00000000
+Error: Random Read Test testBits[4] = 06b97b0d
+Error: Random Read Test RS1_TB[5] = 00000000
+Error: Random Read Test testBits[5] = 46df998d
+Error: Random Read Test RS2_TB[5] = 00000000
+Error: Random Read Test testBits[5] = 46df998d
+Error: Random Read Test RS1_TB[6] = 00000000
+Error: Random Read Test testBits[6] = b2c28465
+Error: Random Read Test RS2_TB[6] = 00000000
+Error: Random Read Test testBits[6] = b2c28465
+Error: Random Read Test RS1_TB[7] = 00000000
+Error: Random Read Test testBits[7] = 89375212
+Error: Random Read Test RS2_TB[7] = 00000000
+Error: Random Read Test testBits[7] = 89375212
+Error: Random Read Test RS1_TB[8] = 00000000
+Error: Random Read Test testBits[8] = 00f3e301
+Error: Random Read Test RS2_TB[8] = 00000000
+Error: Random Read Test testBits[8] = 00f3e301
+Error: Random Read Test RS1_TB[9] = 00000000
+Error: Random Read Test testBits[9] = 06d7cd0d
+Error: Random Read Test RS2_TB[9] = 00000000
+Error: Random Read Test testBits[9] = 06d7cd0d
+Random Bits Test Failed
+Zero Bits Test Failed
+Enable Write Test Failed
+Min Bits Test Failed
+Max Bits Test Failed
+----------------------------------------
+
+OVERALL FAIL
+
+----------------------------------------
+
+$finish called at time : 3980 ns : File "Z:/Documents/git/CPE-233-Otter/HW3-RegFile/RegFile/RegFile.srcs/sim_1/new/RegFile_TB.sv" Line 76
