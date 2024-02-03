@@ -17,7 +17,7 @@
 
 module ImmdGen_TB();
     // Inputs
-    logic [31:7] instruction_TB; // 32-bit instruction
+    logic [31:0] instruction_TB; // 32-bit instruction
 
     // Outputs
     logic [31:0] uTypeImmd_TB;
@@ -25,6 +25,15 @@ module ImmdGen_TB();
     logic [31:0] sTypeImmd_TB;
     logic [31:0] jTypeImmd_TB;
     logic [31:0] bTypeImmd_TB;
+
+    // Testing Logic 
+    logic pass = 1; // 1 = pass, 0 = fail
+    string testType; // u, i, s, j, b
+
+    // Testing Array
+    const int testArraySize = 14;
+    logic [31:0] testArray [0:13];
+
 
 
     // Instantiate the Unit Under Test (UUT)
@@ -36,4 +45,46 @@ module ImmdGen_TB();
         .jTypeImmd(jTypeImmd_TB), 
         .bTypeImmd(bTypeImmd_TB)
     );
+    
+    initial begin
+        $readmemb("ImmdGenVerification.mem", testArray);
+        for (int i = 0; i < testArraySize; i++) begin
+            case(i)
+               0: begin
+                    $display ("\nU Type Immediate\n");
+                    testType = "u";
+                end
+                4: begin
+                    $display ("\nI Type Immediate\n");
+                    testType = "i";
+                end
+                8: begin
+                    $display ("\nS Type Immediate\n");
+                    testType = "s";
+                end
+                12: begin
+                    $display ("\nJ Type Immediate\n");
+                    testType = "j";
+                end
+                16: begin
+                    $display ("\nB Type Immediate\n");
+                    testType = "b";
+                end
+               default;
+            endcase
+            
+            // Display values for debugging and verification
+            $display ("Instruction: %b", testArray[i]);
+            instruction_TB = testArray[i];
+            #10;
+            case (testType)
+                "u": $display ("uTypeImmd: %b", uTypeImmd_TB);
+                "i": $display ("iTypeImmd: %b", iTypeImmd_TB);
+                "s": $display ("sTypeImmd: %b", sTypeImmd_TB);
+                "j": $display ("jTypeImmd: %b", jTypeImmd_TB);
+                "b": $display ("bTypeImmd: %b", bTypeImmd_TB);
+            endcase
+        end
+        $finish;
+    end
 endmodule

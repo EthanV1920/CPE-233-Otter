@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "Z:/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sim_1/new/ALU_TB.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_TB
+WARNING: [VRFC 10-3824] variable 'filename' must explicitly be declared as automatic or static [Z:/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sim_1/new/ALU_TB.sv:42]
+WARNING: [VRFC 10-3824] variable 'file' must explicitly be declared as automatic or static [Z:/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sim_1/new/ALU_TB.sv:43]
+WARNING: [VRFC 10-3824] variable 'i' must explicitly be declared as automatic or static [Z:/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sim_1/new/ALU_TB.sv:48]
+ERROR: [VRFC 10-3400] illegal argument of type string in 'shortrealtobits()', expected real type [Z:/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sim_1/new/ALU_TB.sv:52]
+ERROR: [VRFC 10-8530] module 'ALU_TB' is ignored due to previous errors [Z:/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sim_1/new/ALU_TB.sv:18]
