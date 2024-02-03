@@ -28,8 +28,16 @@ module ALU_TB();
     logic pass = 1; // 1 = pass, 0 = fail
 
     // Testing Array
-    const int testArraySize = 14;
-    logic [31:0] testArray [0:13];
+    const int testArraySize = 99;
+    logic [31:0] testArray [0:98];
+
+    // Instantiate the Unit Under Test (UUT)
+    ALU uut (
+        .srcA(srcA_TB), 
+        .srcB(srcB_TB), 
+        .operation(operation_TB), 
+        .result(result_TB)
+    );
 
     initial begin
     // string filename = "aluVerification.txt";
@@ -39,23 +47,26 @@ module ALU_TB();
     // end else begin
     //     $fclose(file);
     // end
-    string filename = "Z:/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/imports/HW4-ALU-ImmedGen/aluVerification.txt";
-    int file = $fopen(filename, "r");
-    if (file == 0) begin
-        $display("Error: Failed to open file %s", filename);
-    end else begin
-        string line;
-        int i = 0;
-        while (!$feof(file) && i < testArraySize) begin
-            if ($fgets(line, file)) begin
-                $display("line: %s", line);
-                testArray[i] = {27'b0, $shortrealtobits(line)};
-                i = i + 1;
-                // $display("testArray[%0d]: %h", i, testArray[i]);
-            end
-        end
-        $fclose(file);
+    string filename = "aluVerification.mem";
+    $readmemh(filename, testArray);
+
+    for (int i = 0; i < testArraySize; i +=3) begin
+        operation_TB = testArray[i][3:0];
+        srcA_TB = testArray[i+1];
+        srcB_TB = testArray[i+2];
+        #10 // Wait for result_TB to be updated
+
+        // Display values for debugging and verification
+        // $display("srcA_TB: %h", srcA_TB);
+        // $display("srcB_TB: %h", srcB_TB);
+        // $display("operation_TB: %h", operation_TB);
+        // $display("result_TB: %h", result_TB);
+        $display("srcA: %h | srcB: %h | operation: %h | result: %h", srcA_TB, srcB_TB, operation_TB, result_TB);
+        // $display("%h", result_TB);
+    
     end
+    $finish;
+
 
     end
 

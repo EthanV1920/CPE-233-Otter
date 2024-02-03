@@ -1,0 +1,166 @@
+srcA_TB: a50f96c3
+srcB_TB: 5af0693c
+operation_TB: 0
+result_TB: ffffffff
+srcA_TB: 84105f21
+srcB_TB: 7b105fde
+operation_TB: 0
+result_TB: ff20beff
+srcA_TB: ffffffff
+srcB_TB: 00000001
+operation_TB: 0
+result_TB: 00000000
+srcA_TB: 00000000
+srcB_TB: 00000001
+operation_TB: 8
+result_TB: ffffffff
+srcA_TB: aa806355
+srcB_TB: 550162aa
+operation_TB: 8
+result_TB: 557f00ab
+srcA_TB: 550162aa
+srcB_TB: aa806355
+operation_TB: 8
+result_TB: aa80ff55
+srcA_TB: a55a00ff
+srcB_TB: 5a5affff
+operation_TB: 7
+result_TB: 005a00ff
+srcA_TB: c3c3f966
+srcB_TB: ff669f5a
+operation_TB: 7
+result_TB: c3429942
+srcA_TB: 9a9ac300
+srcB_TB: 65a3cc0f
+operation_TB: 6
+result_TB: ffbbcf0f
+srcA_TB: c3c3f966
+srcB_TB: ff669f5a
+operation_TB: 6
+result_TB: ffe7ff7e
+srcA_TB: aa5500ff
+srcB_TB: 5aa50ff0
+operation_TB: 4
+result_TB: f0f00f0f
+srcA_TB: a5a56c6c
+srcB_TB: ff00c6ff
+operation_TB: 4
+result_TB: 5aa5aa93
+srcA_TB: 805a6cf3
+srcB_TB: 00000010
+operation_TB: 5
+result_TB: 0000805a
+srcA_TB: 705a6cf3
+srcB_TB: 00000005
+operation_TB: 5
+result_TB: 0382d367
+srcA_TB: 805a6cf3
+srcB_TB: 00000000
+operation_TB: 5
+result_TB: 805a6cf3
+srcA_TB: 805a6cf3
+srcB_TB: 00000100
+operation_TB: 5
+result_TB: 00000000
+srcA_TB: 805a6cf3
+srcB_TB: 00000010
+operation_TB: 1
+result_TB: 6cf30000
+srcA_TB: 805a6cf3
+srcB_TB: 00000005
+operation_TB: 1
+result_TB: 0b4d9e60
+srcA_TB: 805a6cf3
+srcB_TB: 00000100
+operation_TB: 1
+result_TB: 00000000
+srcA_TB: 805a6cf3
+srcB_TB: 00000010
+operation_TB: d
+result_TB: 0000805a
+srcA_TB: 705a6cf3
+srcB_TB: 00000005
+operation_TB: d
+result_TB: 0382d367
+srcA_TB: 805a6cf3
+srcB_TB: 00000000
+operation_TB: d
+result_TB: 805a6cf3
+srcA_TB: 805a6cf3
+srcB_TB: 00000100
+operation_TB: d
+result_TB: 00000000
+srcA_TB: 7fffffff
+srcB_TB: 80000000
+operation_TB: 2
+result_TB: 00000000
+srcA_TB: 80000000
+srcB_TB: 00000001
+operation_TB: 2
+result_TB: 00000001
+srcA_TB: 00000000
+srcB_TB: 00000000
+operation_TB: 2
+result_TB: 00000000
+srcA_TB: 55555555
+srcB_TB: 55555555
+operation_TB: 2
+result_TB: 00000000
+srcA_TB: 7fffffff
+srcB_TB: 80000000
+operation_TB: 3
+result_TB: 00000001
+srcA_TB: 80000000
+srcB_TB: 00000001
+operation_TB: 3
+result_TB: 00000000
+srcA_TB: 00000000
+srcB_TB: 00000000
+operation_TB: 3
+result_TB: 00000000
+srcA_TB: 55aa55aa
+srcB_TB: 55aa55aa
+operation_TB: 3
+result_TB: 00000000
+srcA_TB: 01234567
+srcB_TB: 76543210
+operation_TB: 9
+result_TB: 01234567
+srcA_TB: fedcba98
+srcB_TB: 89abcdef
+operation_TB: 9
+result_TB: fedcba98
+
+srcA: a50f96c3 | srcB: 5af0693c | operation: 0 | result: ffffffff
+srcA: 84105f21 | srcB: 7b105fde | operation: 0 | result: ff20beff
+srcA: ffffffff | srcB: 00000001 | operation: 0 | result: 00000000
+srcA: 00000000 | srcB: 00000001 | operation: 8 | result: ffffffff
+srcA: aa806355 | srcB: 550162aa | operation: 8 | result: 557f00ab
+srcA: 550162aa | srcB: aa806355 | operation: 8 | result: aa80ff55
+srcA: a55a00ff | srcB: 5a5affff | operation: 7 | result: 005a00ff
+srcA: c3c3f966 | srcB: ff669f5a | operation: 7 | result: c3429942
+srcA: 9a9ac300 | srcB: 65a3cc0f | operation: 6 | result: ffbbcf0f
+srcA: c3c3f966 | srcB: ff669f5a | operation: 6 | result: ffe7ff7e
+srcA: aa5500ff | srcB: 5aa50ff0 | operation: 4 | result: f0f00f0f
+srcA: a5a56c6c | srcB: ff00c6ff | operation: 4 | result: 5aa5aa93
+srcA: 805a6cf3 | srcB: 00000010 | operation: 5 | result: 0000805a
+srcA: 705a6cf3 | srcB: 00000005 | operation: 5 | result: 0382d367
+srcA: 805a6cf3 | srcB: 00000000 | operation: 5 | result: 805a6cf3
+srcA: 805a6cf3 | srcB: 00000100 | operation: 5 | result: 00000000
+srcA: 805a6cf3 | srcB: 00000010 | operation: 1 | result: 6cf30000
+srcA: 805a6cf3 | srcB: 00000005 | operation: 1 | result: 0b4d9e60
+srcA: 805a6cf3 | srcB: 00000100 | operation: 1 | result: 00000000
+srcA: 805a6cf3 | srcB: 00000010 | operation: d | result: 0000805a
+srcA: 705a6cf3 | srcB: 00000005 | operation: d | result: 0382d367
+srcA: 805a6cf3 | srcB: 00000000 | operation: d | result: 805a6cf3
+srcA: 805a6cf3 | srcB: 00000100 | operation: d | result: 00000000
+srcA: 7fffffff | srcB: 80000000 | operation: 2 | result: 00000000
+srcA: 80000000 | srcB: 00000001 | operation: 2 | result: 00000001
+srcA: 00000000 | srcB: 00000000 | operation: 2 | result: 00000000
+srcA: 55555555 | srcB: 55555555 | operation: 2 | result: 00000000
+srcA: 7fffffff | srcB: 80000000 | operation: 3 | result: 00000001
+srcA: 80000000 | srcB: 00000001 | operation: 3 | result: 00000000
+srcA: 00000000 | srcB: 00000000 | operation: 3 | result: 00000000
+srcA: 55aa55aa | srcB: 55aa55aa | operation: 3 | result: 00000000
+srcA: 01234567 | srcB: 76543210 | operation: 9 | result: 01234567
+srcA: fedcba98 | srcB: 89abcdef | operation: 9 | result: fedcba98

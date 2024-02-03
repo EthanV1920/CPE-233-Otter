@@ -31,8 +31,8 @@ module ImmdGen_TB();
     string testType; // u, i, s, j, b
 
     // Testing Array
-    const int testArraySize = 14;
-    logic [31:0] testArray [0:13];
+    const int testArraySize = 20;
+    logic [31:0] testArray [0:19];
 
 
 

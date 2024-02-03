@@ -22,4 +22,11 @@ sb t3, 0x7ff(t3)
 # Testing J-Type Immediate Generation
 jal x0, ZEROLABLE  # jump to 0x00000 and save position to ra
 jal x0, ZEROLABLE  # jump to 0x00000 and save position to ra
+jal x0, ZEROLABLE  # jump to 0x00000 and save position to ra
+jal x0, ZEROLABLE  # jump to 0x00000 and save position to ra
 
+# Testing B-Type Immediate Generation
+bge t2, t2, ZEROLABLE
+bge t2, t2, ZEROLABLE
+bge t2, t2, ZEROLABLE
+bge t2, t2, ZEROLABLE

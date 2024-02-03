@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ImmdGen_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="ImmdGen_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="200.001 ns"></ZoomEndTime>
+      <Cursor1Time time="200.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="156"></NameColumnWidth>
+      <ValueColumnWidth column_width="69"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/ImmdGen_TB/instruction_TB" type="array">
+      <obj_property name="ElementShortName">instruction_TB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction_TB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ImmdGen_TB/uTypeImmd_TB" type="array">
+      <obj_property name="ElementShortName">uTypeImmd_TB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">uTypeImmd_TB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ImmdGen_TB/iTypeImmd_TB" type="array">
+      <obj_property name="ElementShortName">iTypeImmd_TB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">iTypeImmd_TB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ImmdGen_TB/sTypeImmd_TB" type="array">
+      <obj_property name="ElementShortName">sTypeImmd_TB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sTypeImmd_TB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ImmdGen_TB/jTypeImmd_TB" type="array">
+      <obj_property name="ElementShortName">jTypeImmd_TB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">jTypeImmd_TB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ImmdGen_TB/bTypeImmd_TB" type="array">
+      <obj_property name="ElementShortName">bTypeImmd_TB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">bTypeImmd_TB[31:0]</obj_property>
+   </wvobject>
+</wave_config>

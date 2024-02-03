@@ -27,15 +27,15 @@ module ALU(
 always_comb begin
     case (operation)
         4'b0000: result = srcA + srcB;                      // ADD: Add
-        4'b0001: result = srcA - srcB;                      // SUB: Subtract
+        4'b1000: result = srcA - srcB;                      // SUB: Subtract
         4'b0110: result = srcA | srcB;                      // OR: or the two inputs
         4'b0111: result = srcA & srcB;                      // AND: and the two inputs
         4'b0100: result = srcA ^ srcB;                      // XOR: xor the two inputs
-        4'b0101: result = srcA << srcB;                     // SRL: logical shift left
-        4'b1000: result = srcA >> srcB;                     // SLL: logical shift right
+        4'b0101: result = srcA >> srcB;                     // SRL: logical shift left
+        4'b0001: result = srcA << srcB;                     // SLL: logical shift right
         4'b1101: result = srcA >>> srcB;                    // SRA: shift right arithmetic
         4'b0010: result = srcA > srcB;                      // SLT: set less than
-        4'b0011: result = $signed(srcA) >= $signed(srcB);   // SLTU: set less than or equal #TODO: check this
+        4'b0011: result = $signed(srcA) > $signed(srcB);   // SLTU: set less than or equal #TODO: check this
         4'b1001: result = srcA;                             // LUI-COPY: copy srcA to result
         default: result = result;                           // default case 
     endcase
