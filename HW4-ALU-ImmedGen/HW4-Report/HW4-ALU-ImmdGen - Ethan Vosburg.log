@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.28)  2 FEB 2024 22:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.28)  3 FEB 2024 02:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -701,7 +701,11 @@ Package: listings 2023/02/27 1.9 (Carsten Heinz)
 )
 \@quotelevel=\count435
 \@quotereset=\count436
- (./HW4-ALU-ImmdGen - Ethan Vosburg.aux)
+ (./HW4-ALU-ImmdGen - Ethan Vosburg.aux
+
+LaTeX Warning: Label `fig:ALUElaboratedDesign' multiply defined.
+
+)
 \openout1 = `"HW4-ALU-ImmdGen - Ethan Vosburg.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
@@ -809,7 +813,7 @@ Package hyperref Info: Link coloring ON on input line 46.
 \openout4 = `"HW4-ALU-ImmdGen - Ethan Vosburg.out"'.
 
 \c@lstlisting=\count445
-<creodocs_logo.pdf, id=52, 794.97pt x 614.295pt>
+<creodocs_logo.pdf, id=80, 794.97pt x 614.295pt>
 File: creodocs_logo.pdf Graphic file (type pdf)
 <use creodocs_logo.pdf>
 Package pdftex.def Info: creodocs_logo.pdf  used on input line 57.
@@ -854,6 +858,11 @@ LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/it' aliased to
 (Font)              `T1/IBMPlexSans-TLF/bold/it' on input line 65.
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/bold/it' will be
 (Font)              scaled to size 20.74pt on input line 65.
+
+Overfull \hbox (1.97157pt too wide) in paragraph at lines 65--65
+[]\T1/IBMPlexSans-TLF/bold/it/20.74 Arithmetic Logic Unit and Im-me-di-ate Gen-er-a-tor De- 
+ []
+
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/n' aliased to
 (Font)              `T1/IBMPlexSans-TLF/regular/n' on input line 69.
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/regular/n' will be
@@ -862,7 +871,7 @@ LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/n' aliased to
 (Font)              `T1/IBMPlexSans-TLF/regular/n' on input line 73.
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/regular/n' will be
 (Font)              scaled to size 14.4pt on input line 73.
- [1
+[1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/plex/plx_umrhwx.enc} <./creodocs_logo.pdf, page is rotated 90 degrees>]
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' aliased to
@@ -880,45 +889,59 @@ LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/semibold/n' will be
 
  [2]
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' aliased to
-(Font)              `T1/IBMPlexSans-TLF/bold/n' on input line 146.
+(Font)              `T1/IBMPlexSans-TLF/bold/n' on input line 145.
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/bold/n' will be
-(Font)              scaled to size 14.4pt on input line 146.
-<Figures/RegFile Elaborated Design.png, id=96, 1216.545pt x 607.26875pt>
-File: Figures/RegFile Elaborated Design.png Graphic file (type png)
-<use Figures/RegFile Elaborated Design.png>
-Package pdftex.def Info: Figures/RegFile Elaborated Design.png  used on input line 151.
-(pdftex.def)             Requested size: 478.00812pt x 238.6037pt.
+(Font)              scaled to size 14.4pt on input line 145.
+<Figures/ALU-Elaborated-Design.png, id=138, 1360.08125pt x 984.67876pt>
+File: Figures/ALU-Elaborated-Design.png Graphic file (type png)
+<use Figures/ALU-Elaborated-Design.png>
+Package pdftex.def Info: Figures/ALU-Elaborated-Design.png  used on input line 150.
+(pdftex.def)             Requested size: 478.00812pt x 346.0701pt.
 
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 151--152
+Overfull \hbox (143.68822pt too wide) in paragraph at lines 150--151
  [][] 
  []
 
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' aliased to
-(Font)              `T1/IBMPlexSans-TLF/bold/n' on input line 152.
+(Font)              `T1/IBMPlexSans-TLF/bold/n' on input line 151.
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/bold/n' will be
-(Font)              scaled to size 12.0pt on input line 152.
+(Font)              scaled to size 12.0pt on input line 151.
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' aliased to
-(Font)              `T1/IBMPlexSans-TLF/bold/n' on input line 152.
+(Font)              `T1/IBMPlexSans-TLF/bold/n' on input line 151.
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/bold/n' will be
-(Font)              scaled to size 10.0pt on input line 152.
-<Figures/Program Counter Console Warnings.png, id=98, 753.81625pt x 179.67125pt>
-File: Figures/Program Counter Console Warnings.png Graphic file (type png)
-<use Figures/Program Counter Console Warnings.png>
-Package pdftex.def Info: Figures/Program Counter Console Warnings.png  used on input line 161.
+(Font)              scaled to size 10.0pt on input line 151.
+<Figures/Immediate-Generator-Elaborated Design.png, id=140, 717.68124pt x 440.64626pt>
+File: Figures/Immediate-Generator-Elaborated Design.png Graphic file (type png)
+<use Figures/Immediate-Generator-Elaborated Design.png>
+Package pdftex.def Info: Figures/Immediate-Generator-Elaborated Design.png  used on input line 159.
+(pdftex.def)             Requested size: 298.75394pt x 183.4363pt.
+
+Overfull \hbox (143.68822pt too wide) in paragraph at lines 159--160
+ [][] 
+ []
+
+[3 <./Figures/ALU-Elaborated-Design.png>]
+<Figures/Zero Console Warnings.png, id=148, 753.81625pt x 179.67125pt>
+File: Figures/Zero Console Warnings.png Graphic file (type png)
+<use Figures/Zero Console Warnings.png>
+Package pdftex.def Info: Figures/Zero Console Warnings.png  used on input line 170.
 (pdftex.def)             Requested size: 448.1309pt x 106.81113pt.
 
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 161--162
+Overfull \hbox (143.68822pt too wide) in paragraph at lines 170--171
 [][]  
  []
 
-[3 <./Figures/RegFile Elaborated Design.png> <./Figures/Program Counter Console Warnings.png>] (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2023/02/27 1.9 listings language file
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2023/02/27 1.9 listings language file
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2023/02/27 1.9 listings language file
-)
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 183.
+<Figures/ImmdGen Console Warnings.png, id=149, 776.9025pt x 210.7875pt>
+File: Figures/ImmdGen Console Warnings.png Graphic file (type png)
+<use Figures/ImmdGen Console Warnings.png>
+Package pdftex.def Info: Figures/ImmdGen Console Warnings.png  used on input line 178.
+(pdftex.def)             Requested size: 448.1309pt x 121.58783pt.
+
+Overfull \hbox (143.68822pt too wide) in paragraph at lines 178--179
+[][]  
+ []
+
+[4 <./Figures/Immediate-Generator-Elaborated Design.png> <./Figures/Zero Console Warnings.png> <./Figures/ImmdGen Console Warnings.png>]
 LaTeX Font Info:    Trying to load font information for T1+IBMPlexMono-TLF on input line 183.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/plex/T1IBMPlexMono-TLF.fd
 File: T1IBMPlexMono-TLF.fd 2019/12/06 (autoinst) Font definitions for T1/IBMPlexMono-TLF.
@@ -927,11 +950,19 @@ LaTeX Font Info:    Font shape `T1/IBMPlexMono-TLF/m/n' aliased to
 (Font)              `T1/IBMPlexMono-TLF/regular/n' on input line 183.
 LaTeX Font Info:    Font shape `T1/IBMPlexMono-TLF/regular/n' will be
 (Font)              scaled to size 12.0pt on input line 183.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2023/02/27 1.9 listings language file
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2023/02/27 1.9 listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 204.
 LaTeX Font Info:    Font shape `T1/IBMPlexMono-TLF/m/n' aliased to
-(Font)              `T1/IBMPlexMono-TLF/regular/n' on input line 183.
+(Font)              `T1/IBMPlexMono-TLF/regular/n' on input line 204.
 LaTeX Font Info:    Font shape `T1/IBMPlexMono-TLF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 183.
- (/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW3-RegFile/RegFile/RegFile.srcs/sim_1/new/RegFile_TB.sv
+(Font)              scaled to size 8.0pt on input line 204.
+ (/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sim_1/new/ALU_TB.sv
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/n' aliased to
 (Font)              `T1/IBMPlexSans-TLF/regular/n' on input line 1.
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/regular/n' will be
@@ -952,311 +983,87 @@ LaTeX Font Info:    Font shape `T1/IBMPlexMono-TLF/m/it' aliased to
 (Font)              `T1/IBMPlexMono-TLF/regular/it' on input line 2.
 LaTeX Font Info:    Font shape `T1/IBMPlexMono-TLF/regular/it' will be
 (Font)              scaled to size 8.0pt on input line 2.
- [4{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/plex/plx_x4zmfh.enc}] [5] [6] [7] [8]) [9] [10]
-<Figures/RegFile Simulation 00.png, id=548, 1938.24126pt x 297.11pt>
-File: Figures/RegFile Simulation 00.png Graphic file (type png)
-<use Figures/RegFile Simulation 00.png>
-Package pdftex.def Info: Figures/RegFile Simulation 00.png  used on input line 219.
-(pdftex.def)             Requested size: 478.00812pt x 73.27086pt.
+ [5{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/plex/plx_x4zmfh.enc}]) [6] (/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/imports/HW4-ALU-ImmedGen/aluVerification.mem [7]) [8] (/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sim_1/new/ImmdGen_TB.sv [9]) (/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/imports/HW4-ALU-ImmedGen/ImmdGenVerification.mem) [10]
+LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/n' aliased to
+(Font)              `T1/IBMPlexSans-TLF/regular/n' on input line 222.
+LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/regular/n' will be
+(Font)              scaled to size 10.0pt on input line 222.
+ [11] (/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/ImmdGenTestCase.txt) [12]
+<Figures/ALU-Simulation-0.png, id=557, 1645.14626pt x 206.7725pt>
+File: Figures/ALU-Simulation-0.png Graphic file (type png)
+<use Figures/ALU-Simulation-0.png>
+Package pdftex.def Info: Figures/ALU-Simulation-0.png  used on input line 288.
+(pdftex.def)             Requested size: 478.00812pt x 60.07922pt.
 
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 219--220
+Overfull \hbox (143.68822pt too wide) in paragraph at lines 288--289
  [][] 
  []
 
-<Figures/RegFile Simulation 01.png, id=549, 1938.24126pt x 297.11pt>
-File: Figures/RegFile Simulation 01.png Graphic file (type png)
-<use Figures/RegFile Simulation 01.png>
-Package pdftex.def Info: Figures/RegFile Simulation 01.png  used on input line 227.
-(pdftex.def)             Requested size: 478.00812pt x 73.27086pt.
+<Figures/ALU-Simulation-1.png, id=558, 1645.14626pt x 206.7725pt>
+File: Figures/ALU-Simulation-1.png Graphic file (type png)
+<use Figures/ALU-Simulation-1.png>
+Package pdftex.def Info: Figures/ALU-Simulation-1.png  used on input line 296.
+(pdftex.def)             Requested size: 478.00812pt x 60.07922pt.
 
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 227--228
+Overfull \hbox (143.68822pt too wide) in paragraph at lines 296--297
  [][] 
  []
 
-<Figures/RegFile Simulation 02.png, id=550, 1938.24126pt x 297.11pt>
-File: Figures/RegFile Simulation 02.png Graphic file (type png)
-<use Figures/RegFile Simulation 02.png>
-Package pdftex.def Info: Figures/RegFile Simulation 02.png  used on input line 235.
-(pdftex.def)             Requested size: 478.00812pt x 73.27086pt.
+<Figures/ALU-Simulation-2.png, id=559, 1645.14626pt x 206.7725pt>
+File: Figures/ALU-Simulation-2.png Graphic file (type png)
+<use Figures/ALU-Simulation-2.png>
+Package pdftex.def Info: Figures/ALU-Simulation-2.png  used on input line 304.
+(pdftex.def)             Requested size: 478.00812pt x 60.07922pt.
 
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 235--236
+Overfull \hbox (143.68822pt too wide) in paragraph at lines 304--305
  [][] 
  []
 
-<Figures/RegFile Simulation 03.png, id=551, 1938.24126pt x 297.11pt>
-File: Figures/RegFile Simulation 03.png Graphic file (type png)
-<use Figures/RegFile Simulation 03.png>
-Package pdftex.def Info: Figures/RegFile Simulation 03.png  used on input line 243.
-(pdftex.def)             Requested size: 478.00812pt x 73.27086pt.
+<Figures/ALU-Simulation-3.png, id=560, 1645.14626pt x 206.7725pt>
+File: Figures/ALU-Simulation-3.png Graphic file (type png)
+<use Figures/ALU-Simulation-3.png>
+Package pdftex.def Info: Figures/ALU-Simulation-3.png  used on input line 312.
+(pdftex.def)             Requested size: 478.00812pt x 60.07922pt.
 
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 243--244
+Overfull \hbox (143.68822pt too wide) in paragraph at lines 312--313
  [][] 
  []
 
-<Figures/RegFile Simulation 04.png, id=552, 1938.24126pt x 297.11pt>
-File: Figures/RegFile Simulation 04.png Graphic file (type png)
-<use Figures/RegFile Simulation 04.png>
-Package pdftex.def Info: Figures/RegFile Simulation 04.png  used on input line 251.
-(pdftex.def)             Requested size: 478.00812pt x 73.27086pt.
+<Figures/ImmdGen Simulation.png, id=561, 1752.5475pt x 187.70125pt>
+File: Figures/ImmdGen Simulation.png Graphic file (type png)
+<use Figures/ImmdGen Simulation.png>
+Package pdftex.def Info: Figures/ImmdGen Simulation.png  used on input line 320.
+(pdftex.def)             Requested size: 478.00812pt x 51.19554pt.
 
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 251--252
+Overfull \hbox (143.68822pt too wide) in paragraph at lines 320--321
  [][] 
  []
 
-<Figures/RegFile Simulation 05.png, id=553, 1938.24126pt x 297.11pt>
-File: Figures/RegFile Simulation 05.png Graphic file (type png)
-<use Figures/RegFile Simulation 05.png>
-Package pdftex.def Info: Figures/RegFile Simulation 05.png  used on input line 259.
-(pdftex.def)             Requested size: 478.00812pt x 73.27086pt.
-
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 259--260
- [][] 
- []
-
-[11 <./Figures/RegFile Simulation 00.png> <./Figures/RegFile Simulation 01.png> <./Figures/RegFile Simulation 02.png> <./Figures/RegFile Simulation 03.png> <./Figures/RegFile Simulation 04.png>]
-<Figures/RegFile Simulation 06.png, id=569, 1938.24126pt x 297.11pt>
-File: Figures/RegFile Simulation 06.png Graphic file (type png)
-<use Figures/RegFile Simulation 06.png>
-Package pdftex.def Info: Figures/RegFile Simulation 06.png  used on input line 267.
-(pdftex.def)             Requested size: 478.00812pt x 73.27086pt.
-
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 267--268
- [][] 
- []
-
-<Figures/RegFile Simulation 07.png, id=570, 1938.24126pt x 297.11pt>
-File: Figures/RegFile Simulation 07.png Graphic file (type png)
-<use Figures/RegFile Simulation 07.png>
-Package pdftex.def Info: Figures/RegFile Simulation 07.png  used on input line 275.
-(pdftex.def)             Requested size: 478.00812pt x 73.27086pt.
-
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 275--276
- [][] 
- []
-
-<Figures/RegFile Simulation 08.png, id=571, 1938.24126pt x 297.11pt>
-File: Figures/RegFile Simulation 08.png Graphic file (type png)
-<use Figures/RegFile Simulation 08.png>
-Package pdftex.def Info: Figures/RegFile Simulation 08.png  used on input line 283.
-(pdftex.def)             Requested size: 478.00812pt x 73.27086pt.
-
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 283--284
- [][] 
- []
-
-<Figures/RegFile Simulation 09.png, id=572, 1938.24126pt x 297.11pt>
-File: Figures/RegFile Simulation 09.png Graphic file (type png)
-<use Figures/RegFile Simulation 09.png>
-Package pdftex.def Info: Figures/RegFile Simulation 09.png  used on input line 291.
-(pdftex.def)             Requested size: 478.00812pt x 73.27086pt.
-
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 291--292
- [][] 
- []
-
-<Figures/RegFile Simulation 10.png, id=573, 1938.24126pt x 297.11pt>
-File: Figures/RegFile Simulation 10.png Graphic file (type png)
-<use Figures/RegFile Simulation 10.png>
-Package pdftex.def Info: Figures/RegFile Simulation 10.png  used on input line 299.
-(pdftex.def)             Requested size: 478.00812pt x 73.27086pt.
-
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 299--300
- [][] 
- []
-
-<Figures/RegFile Simulation 11.png, id=574, 1938.24126pt x 297.11pt>
-File: Figures/RegFile Simulation 11.png Graphic file (type png)
-<use Figures/RegFile Simulation 11.png>
-Package pdftex.def Info: Figures/RegFile Simulation 11.png  used on input line 307.
-(pdftex.def)             Requested size: 478.00812pt x 73.27086pt.
-
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 307--308
- [][] 
- []
-
-[12 <./Figures/RegFile Simulation 05.png> <./Figures/RegFile Simulation 06.png> <./Figures/RegFile Simulation 07.png> <./Figures/RegFile Simulation 08.png> <./Figures/RegFile Simulation 09.png> <./Figures/RegFile Simulation 10.png>]
-<Figures/RegFile Simulation 12.png, id=593, 1938.24126pt x 297.11pt>
-File: Figures/RegFile Simulation 12.png Graphic file (type png)
-<use Figures/RegFile Simulation 12.png>
-Package pdftex.def Info: Figures/RegFile Simulation 12.png  used on input line 315.
-(pdftex.def)             Requested size: 478.00812pt x 73.27086pt.
-
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 315--316
- [][] 
- []
-
-<Figures/RegFile Simulation 13.png, id=594, 1938.24126pt x 297.11pt>
-File: Figures/RegFile Simulation 13.png Graphic file (type png)
-<use Figures/RegFile Simulation 13.png>
-Package pdftex.def Info: Figures/RegFile Simulation 13.png  used on input line 323.
-(pdftex.def)             Requested size: 478.00812pt x 73.27086pt.
-
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 323--324
- [][] 
- []
-
-<Figures/RegFile Simulation 14.png, id=595, 1938.24126pt x 297.11pt>
-File: Figures/RegFile Simulation 14.png Graphic file (type png)
-<use Figures/RegFile Simulation 14.png>
-Package pdftex.def Info: Figures/RegFile Simulation 14.png  used on input line 331.
-(pdftex.def)             Requested size: 478.00812pt x 73.27086pt.
-
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 331--332
- [][] 
- []
-
-<Figures/RegFile Simulation 15.png, id=596, 1938.24126pt x 297.11pt>
-File: Figures/RegFile Simulation 15.png Graphic file (type png)
-<use Figures/RegFile Simulation 15.png>
-Package pdftex.def Info: Figures/RegFile Simulation 15.png  used on input line 339.
-(pdftex.def)             Requested size: 478.00812pt x 73.27086pt.
-
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 339--340
- [][] 
- []
-
-<Figures/RegFile Simulation 16.png, id=597, 1938.24126pt x 297.11pt>
-File: Figures/RegFile Simulation 16.png Graphic file (type png)
-<use Figures/RegFile Simulation 16.png>
-Package pdftex.def Info: Figures/RegFile Simulation 16.png  used on input line 347.
-(pdftex.def)             Requested size: 478.00812pt x 73.27086pt.
-
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 347--348
- [][] 
- []
-
-<Figures/RegFile Simulation 17.png, id=598, 1938.24126pt x 297.11pt>
-File: Figures/RegFile Simulation 17.png Graphic file (type png)
-<use Figures/RegFile Simulation 17.png>
-Package pdftex.def Info: Figures/RegFile Simulation 17.png  used on input line 355.
-(pdftex.def)             Requested size: 478.00812pt x 73.27086pt.
-
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 355--356
- [][] 
- []
-
-<Figures/RegFile Simulation 18.png, id=599, 1938.24126pt x 297.11pt>
-File: Figures/RegFile Simulation 18.png Graphic file (type png)
-<use Figures/RegFile Simulation 18.png>
-Package pdftex.def Info: Figures/RegFile Simulation 18.png  used on input line 363.
-(pdftex.def)             Requested size: 478.00812pt x 73.27086pt.
-
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 363--364
- [][] 
- []
-
-<Figures/RegFile Simulation 19.png, id=600, 1938.24126pt x 297.11pt>
-File: Figures/RegFile Simulation 19.png Graphic file (type png)
-<use Figures/RegFile Simulation 19.png>
-Package pdftex.def Info: Figures/RegFile Simulation 19.png  used on input line 371.
-(pdftex.def)             Requested size: 478.00812pt x 73.27086pt.
-
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 371--372
- [][] 
- []
-
-<Figures/RegFile Simulation 20.png, id=601, 1938.24126pt x 297.11pt>
-File: Figures/RegFile Simulation 20.png Graphic file (type png)
-<use Figures/RegFile Simulation 20.png>
-Package pdftex.def Info: Figures/RegFile Simulation 20.png  used on input line 379.
-(pdftex.def)             Requested size: 478.00812pt x 73.27086pt.
-
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 379--380
- [][] 
- []
-
-<Figures/RegFile Simulation 21.png, id=602, 1938.24126pt x 297.11pt>
-File: Figures/RegFile Simulation 21.png Graphic file (type png)
-<use Figures/RegFile Simulation 21.png>
-Package pdftex.def Info: Figures/RegFile Simulation 21.png  used on input line 387.
-(pdftex.def)             Requested size: 478.00812pt x 73.27086pt.
-
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 387--388
- [][] 
- []
-
-<Figures/RegFile Simulation 22.png, id=603, 1938.24126pt x 297.11pt>
-File: Figures/RegFile Simulation 22.png Graphic file (type png)
-<use Figures/RegFile Simulation 22.png>
-Package pdftex.def Info: Figures/RegFile Simulation 22.png  used on input line 395.
-(pdftex.def)             Requested size: 478.00812pt x 73.27086pt.
-
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 395--396
- [][] 
- []
-
-<Figures/RegFile Simulation 23.png, id=604, 1938.24126pt x 297.11pt>
-File: Figures/RegFile Simulation 23.png Graphic file (type png)
-<use Figures/RegFile Simulation 23.png>
-Package pdftex.def Info: Figures/RegFile Simulation 23.png  used on input line 403.
-(pdftex.def)             Requested size: 478.00812pt x 73.27086pt.
-
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 403--404
- [][] 
- []
-
-<Figures/RegFile Simulation 24.png, id=605, 1938.24126pt x 297.11pt>
-File: Figures/RegFile Simulation 24.png Graphic file (type png)
-<use Figures/RegFile Simulation 24.png>
-Package pdftex.def Info: Figures/RegFile Simulation 24.png  used on input line 411.
-(pdftex.def)             Requested size: 478.00812pt x 73.27086pt.
-
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 411--412
- [][] 
- []
-
-<Figures/RegFile Simulation 25.png, id=606, 1938.24126pt x 297.11pt>
-File: Figures/RegFile Simulation 25.png Graphic file (type png)
-<use Figures/RegFile Simulation 25.png>
-Package pdftex.def Info: Figures/RegFile Simulation 25.png  used on input line 419.
-(pdftex.def)             Requested size: 478.00812pt x 73.27086pt.
-
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 419--420
- [][] 
- []
-
-<Figures/RegFile Simulation 26.png, id=607, 1938.24126pt x 297.11pt>
-File: Figures/RegFile Simulation 26.png Graphic file (type png)
-<use Figures/RegFile Simulation 26.png>
-Package pdftex.def Info: Figures/RegFile Simulation 26.png  used on input line 427.
-(pdftex.def)             Requested size: 478.00812pt x 73.27086pt.
-
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 427--428
- [][] 
- []
-
-<Figures/RegFile Simulation 27.png, id=608, 1938.24126pt x 297.11pt>
-File: Figures/RegFile Simulation 27.png Graphic file (type png)
-<use Figures/RegFile Simulation 27.png>
-Package pdftex.def Info: Figures/RegFile Simulation 27.png  used on input line 435.
-(pdftex.def)             Requested size: 478.00812pt x 73.27086pt.
-
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 435--436
- [][] 
- []
-
-[13 <./Figures/RegFile Simulation 15.png> <./Figures/RegFile Simulation 11.png> <./Figures/RegFile Simulation 12.png> <./Figures/RegFile Simulation 13.png> <./Figures/RegFile Simulation 14.png>] [14 <./Figures/RegFile Simulation 16.png> <./Figures/RegFile Simulation 17.png> <./Figures/RegFile Simulation 18.png> <./Figures/RegFile Simulation 19.png> <./Figures/RegFile Simulation 20.png> <./Figures/RegFile Simulation 21.png>] [15 <./Figures/RegFile Simulation 22.png> <./Figures/RegFile Simulation 23.png> <./Figures/RegFile Simulation 24.png> <./Figures/RegFile Simulation 25.png> <./Figures/RegFile Simulation 26.png> <./Figures/RegFile Simulation 27.png>] (/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW3-RegFile/RegFile/RegFile.srcs/sources_1/new/RegFile.sv) [16] [17] 
+[13 <./Figures/ALU-Simulation-0.png> <./Figures/ALU-Simulation-1.png> <./Figures/ALU-Simulation-2.png> <./Figures/ALU-Simulation-3.png> <./Figures/ImmdGen Simulation.png>] (/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/new/ALU.sv) [14] (/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/new/ImmdGen.sv) [15] [16] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./HW4-ALU-ImmdGen - Ethan Vosburg.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `"HW4-ALU-ImmdGen - Ethan Vosburg".out' has not changed.
-(rerunfilecheck)             Checksum: 45BD9F550774A68A3CDE4A899434E858;1591.
+(rerunfilecheck)             Checksum: DA667582BCED4ECAA5ED3319BAB016C6;3743.
 Package logreq Info: Writing requests to '"HW4-ALU-ImmdGen - Ethan Vosburg".run.xml'.
 \openout1 = `"HW4-ALU-ImmdGen - Ethan Vosburg.run.xml"'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29167 strings out of 476025
- 537903 string characters out of 5790016
- 2305388 words of memory out of 5000000
- 48640 multiletter control sequences out of 15000+600000
- 723279 words of font info for 84 fonts, out of 8000000 for 9000
+ 29080 strings out of 476025
+ 535538 string characters out of 5790016
+ 2225388 words of memory out of 5000000
+ 48583 multiletter control sequences out of 15000+600000
+ 741355 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,12n,91p,782b,2667s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,12n,91p,935b,2722s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexMono-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexMono-Italic.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexMono.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexSans-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexSans-BoldItalic.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexSans-Italic.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexSans-SemiBold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexSans.pfb>
-Output written on "HW4-ALU-ImmdGen - Ethan Vosburg.pdf" (17 pages, 6080315 bytes).
+Output written on "HW4-ALU-ImmdGen - Ethan Vosburg.pdf" (16 pages, 3059316 bytes).
 PDF statistics:
- 870 PDF objects out of 1000 (max. 8388607)
- 752 compressed objects within 8 object streams
- 511 named destinations out of 1000 (max. 500000)
- 252 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 825 PDF objects out of 1000 (max. 8388607)
+ 743 compressed objects within 8 object streams
+ 482 named destinations out of 1000 (max. 500000)
+ 203 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1189,208 +1189,153 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-Bold-tlf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/ibm/plex/IBMPlexSans-SemiBold-tlf-t1.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-SemiBold-tlf-t1--base.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-Bold-tlf-t1.tfm
-INPUT ./Figures/RegFile Elaborated Design.png
-INPUT ./Figures/RegFile Elaborated Design.png
-INPUT Figures/RegFile Elaborated Design.png
-INPUT ./Figures/RegFile Elaborated Design.png
-INPUT ./Figures/RegFile Elaborated Design.png
+INPUT ./Figures/ALU-Elaborated-Design.png
+INPUT ./Figures/ALU-Elaborated-Design.png
+INPUT Figures/ALU-Elaborated-Design.png
+INPUT ./Figures/ALU-Elaborated-Design.png
+INPUT ./Figures/ALU-Elaborated-Design.png
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-Bold-tlf-t1.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-Bold-tlf-t1.tfm
-INPUT ./Figures/Program Counter Console Warnings.png
-INPUT ./Figures/Program Counter Console Warnings.png
-INPUT Figures/Program Counter Console Warnings.png
-INPUT ./Figures/Program Counter Console Warnings.png
-INPUT ./Figures/Program Counter Console Warnings.png
+INPUT ./Figures/Immediate-Generator-Elaborated Design.png
+INPUT ./Figures/Immediate-Generator-Elaborated Design.png
+INPUT Figures/Immediate-Generator-Elaborated Design.png
+INPUT ./Figures/Immediate-Generator-Elaborated Design.png
+INPUT ./Figures/Immediate-Generator-Elaborated Design.png
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/ibm/plex/IBMPlexSans-Bold-tlf-t1.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-Bold-tlf-t1--base.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/ibm/plex/IBMPlexSans-Bold-tlf-t1.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-Bold-tlf-t1--base.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang2.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang2.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang2.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang2.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang3.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang3.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang3.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang3.sty
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW3-RegFile/RegFile/RegFile.srcs/sim_1/new/RegFile_TB.sv
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW3-RegFile/RegFile/RegFile.srcs/sim_1/new/RegFile_TB.sv
+INPUT ./Figures/Zero Console Warnings.png
+INPUT ./Figures/Zero Console Warnings.png
+INPUT Figures/Zero Console Warnings.png
+INPUT ./Figures/Zero Console Warnings.png
+INPUT ./Figures/Zero Console Warnings.png
+INPUT ./Figures/ImmdGen Console Warnings.png
+INPUT ./Figures/ImmdGen Console Warnings.png
+INPUT Figures/ImmdGen Console Warnings.png
+INPUT ./Figures/ImmdGen Console Warnings.png
+INPUT ./Figures/ImmdGen Console Warnings.png
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/plex/T1IBMPlexMono-TLF.fd
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/plex/T1IBMPlexMono-TLF.fd
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/plex/T1IBMPlexMono-TLF.fd
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/plex/T1IBMPlexMono-TLF.fd
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexMono-tlf-t1.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang2.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang2.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang2.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang2.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang3.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang3.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang3.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang3.sty
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sim_1/new/ALU_TB.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sim_1/new/ALU_TB.sv
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexMono-tlf-t1.tfm
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW3-RegFile/RegFile/RegFile.srcs/sim_1/new/RegFile_TB.sv
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW3-RegFile/RegFile/RegFile.srcs/sim_1/new/RegFile_TB.sv
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW3-RegFile/RegFile/RegFile.srcs/sim_1/new/RegFile_TB.sv
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW3-RegFile/RegFile/RegFile.srcs/sim_1/new/RegFile_TB.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sim_1/new/ALU_TB.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sim_1/new/ALU_TB.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sim_1/new/ALU_TB.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sim_1/new/ALU_TB.sv
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-tlf-t1.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-tlf-t1.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-Italic-tlf-t1.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexMono-Bold-tlf-t1.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexMono-Italic-tlf-t1.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/ibm/plex/IBMPlexMono-tlf-t1.vf
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexMono-tlf-t1--base.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/plex/plx_x4zmfh.enc
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/ibm/plex/IBMPlexSans-Bold-tlf-t1.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-Bold-tlf-t1--base.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/ibm/plex/IBMPlexSans-Italic-tlf-t1.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-Italic-tlf-t1--base.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/ibm/plex/IBMPlexMono-Bold-tlf-t1.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexMono-Bold-tlf-t1--base.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/plex/plx_x4zmfh.enc
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/ibm/plex/IBMPlexMono-tlf-t1.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexMono-tlf-t1--base.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/ibm/plex/IBMPlexMono-Italic-tlf-t1.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexMono-Italic-tlf-t1--base.tfm
-INPUT ./Figures/RegFile Simulation 00.png
-INPUT ./Figures/RegFile Simulation 00.png
-INPUT Figures/RegFile Simulation 00.png
-INPUT ./Figures/RegFile Simulation 00.png
-INPUT ./Figures/RegFile Simulation 00.png
-INPUT ./Figures/RegFile Simulation 01.png
-INPUT ./Figures/RegFile Simulation 01.png
-INPUT Figures/RegFile Simulation 01.png
-INPUT ./Figures/RegFile Simulation 01.png
-INPUT ./Figures/RegFile Simulation 01.png
-INPUT ./Figures/RegFile Simulation 02.png
-INPUT ./Figures/RegFile Simulation 02.png
-INPUT Figures/RegFile Simulation 02.png
-INPUT ./Figures/RegFile Simulation 02.png
-INPUT ./Figures/RegFile Simulation 02.png
-INPUT ./Figures/RegFile Simulation 03.png
-INPUT ./Figures/RegFile Simulation 03.png
-INPUT Figures/RegFile Simulation 03.png
-INPUT ./Figures/RegFile Simulation 03.png
-INPUT ./Figures/RegFile Simulation 03.png
-INPUT ./Figures/RegFile Simulation 04.png
-INPUT ./Figures/RegFile Simulation 04.png
-INPUT Figures/RegFile Simulation 04.png
-INPUT ./Figures/RegFile Simulation 04.png
-INPUT ./Figures/RegFile Simulation 04.png
-INPUT ./Figures/RegFile Simulation 05.png
-INPUT ./Figures/RegFile Simulation 05.png
-INPUT Figures/RegFile Simulation 05.png
-INPUT ./Figures/RegFile Simulation 05.png
-INPUT ./Figures/RegFile Simulation 05.png
-INPUT ./Figures/RegFile Simulation 06.png
-INPUT ./Figures/RegFile Simulation 06.png
-INPUT Figures/RegFile Simulation 06.png
-INPUT ./Figures/RegFile Simulation 06.png
-INPUT ./Figures/RegFile Simulation 06.png
-INPUT ./Figures/RegFile Simulation 07.png
-INPUT ./Figures/RegFile Simulation 07.png
-INPUT Figures/RegFile Simulation 07.png
-INPUT ./Figures/RegFile Simulation 07.png
-INPUT ./Figures/RegFile Simulation 07.png
-INPUT ./Figures/RegFile Simulation 08.png
-INPUT ./Figures/RegFile Simulation 08.png
-INPUT Figures/RegFile Simulation 08.png
-INPUT ./Figures/RegFile Simulation 08.png
-INPUT ./Figures/RegFile Simulation 08.png
-INPUT ./Figures/RegFile Simulation 09.png
-INPUT ./Figures/RegFile Simulation 09.png
-INPUT Figures/RegFile Simulation 09.png
-INPUT ./Figures/RegFile Simulation 09.png
-INPUT ./Figures/RegFile Simulation 09.png
-INPUT ./Figures/RegFile Simulation 10.png
-INPUT ./Figures/RegFile Simulation 10.png
-INPUT Figures/RegFile Simulation 10.png
-INPUT ./Figures/RegFile Simulation 10.png
-INPUT ./Figures/RegFile Simulation 10.png
-INPUT ./Figures/RegFile Simulation 11.png
-INPUT ./Figures/RegFile Simulation 11.png
-INPUT Figures/RegFile Simulation 11.png
-INPUT ./Figures/RegFile Simulation 11.png
-INPUT ./Figures/RegFile Simulation 11.png
-INPUT ./Figures/RegFile Simulation 12.png
-INPUT ./Figures/RegFile Simulation 12.png
-INPUT Figures/RegFile Simulation 12.png
-INPUT ./Figures/RegFile Simulation 12.png
-INPUT ./Figures/RegFile Simulation 12.png
-INPUT ./Figures/RegFile Simulation 13.png
-INPUT ./Figures/RegFile Simulation 13.png
-INPUT Figures/RegFile Simulation 13.png
-INPUT ./Figures/RegFile Simulation 13.png
-INPUT ./Figures/RegFile Simulation 13.png
-INPUT ./Figures/RegFile Simulation 14.png
-INPUT ./Figures/RegFile Simulation 14.png
-INPUT Figures/RegFile Simulation 14.png
-INPUT ./Figures/RegFile Simulation 14.png
-INPUT ./Figures/RegFile Simulation 14.png
-INPUT ./Figures/RegFile Simulation 15.png
-INPUT ./Figures/RegFile Simulation 15.png
-INPUT Figures/RegFile Simulation 15.png
-INPUT ./Figures/RegFile Simulation 15.png
-INPUT ./Figures/RegFile Simulation 15.png
-INPUT ./Figures/RegFile Simulation 16.png
-INPUT ./Figures/RegFile Simulation 16.png
-INPUT Figures/RegFile Simulation 16.png
-INPUT ./Figures/RegFile Simulation 16.png
-INPUT ./Figures/RegFile Simulation 16.png
-INPUT ./Figures/RegFile Simulation 17.png
-INPUT ./Figures/RegFile Simulation 17.png
-INPUT Figures/RegFile Simulation 17.png
-INPUT ./Figures/RegFile Simulation 17.png
-INPUT ./Figures/RegFile Simulation 17.png
-INPUT ./Figures/RegFile Simulation 18.png
-INPUT ./Figures/RegFile Simulation 18.png
-INPUT Figures/RegFile Simulation 18.png
-INPUT ./Figures/RegFile Simulation 18.png
-INPUT ./Figures/RegFile Simulation 18.png
-INPUT ./Figures/RegFile Simulation 19.png
-INPUT ./Figures/RegFile Simulation 19.png
-INPUT Figures/RegFile Simulation 19.png
-INPUT ./Figures/RegFile Simulation 19.png
-INPUT ./Figures/RegFile Simulation 19.png
-INPUT ./Figures/RegFile Simulation 20.png
-INPUT ./Figures/RegFile Simulation 20.png
-INPUT Figures/RegFile Simulation 20.png
-INPUT ./Figures/RegFile Simulation 20.png
-INPUT ./Figures/RegFile Simulation 20.png
-INPUT ./Figures/RegFile Simulation 21.png
-INPUT ./Figures/RegFile Simulation 21.png
-INPUT Figures/RegFile Simulation 21.png
-INPUT ./Figures/RegFile Simulation 21.png
-INPUT ./Figures/RegFile Simulation 21.png
-INPUT ./Figures/RegFile Simulation 22.png
-INPUT ./Figures/RegFile Simulation 22.png
-INPUT Figures/RegFile Simulation 22.png
-INPUT ./Figures/RegFile Simulation 22.png
-INPUT ./Figures/RegFile Simulation 22.png
-INPUT ./Figures/RegFile Simulation 23.png
-INPUT ./Figures/RegFile Simulation 23.png
-INPUT Figures/RegFile Simulation 23.png
-INPUT ./Figures/RegFile Simulation 23.png
-INPUT ./Figures/RegFile Simulation 23.png
-INPUT ./Figures/RegFile Simulation 24.png
-INPUT ./Figures/RegFile Simulation 24.png
-INPUT Figures/RegFile Simulation 24.png
-INPUT ./Figures/RegFile Simulation 24.png
-INPUT ./Figures/RegFile Simulation 24.png
-INPUT ./Figures/RegFile Simulation 25.png
-INPUT ./Figures/RegFile Simulation 25.png
-INPUT Figures/RegFile Simulation 25.png
-INPUT ./Figures/RegFile Simulation 25.png
-INPUT ./Figures/RegFile Simulation 25.png
-INPUT ./Figures/RegFile Simulation 26.png
-INPUT ./Figures/RegFile Simulation 26.png
-INPUT Figures/RegFile Simulation 26.png
-INPUT ./Figures/RegFile Simulation 26.png
-INPUT ./Figures/RegFile Simulation 26.png
-INPUT ./Figures/RegFile Simulation 27.png
-INPUT ./Figures/RegFile Simulation 27.png
-INPUT Figures/RegFile Simulation 27.png
-INPUT ./Figures/RegFile Simulation 27.png
-INPUT ./Figures/RegFile Simulation 27.png
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW3-RegFile/RegFile/RegFile.srcs/sources_1/new/RegFile.sv
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW3-RegFile/RegFile/RegFile.srcs/sources_1/new/RegFile.sv
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW3-RegFile/RegFile/RegFile.srcs/sources_1/new/RegFile.sv
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW3-RegFile/RegFile/RegFile.srcs/sources_1/new/RegFile.sv
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW3-RegFile/RegFile/RegFile.srcs/sources_1/new/RegFile.sv
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW3-RegFile/RegFile/RegFile.srcs/sources_1/new/RegFile.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/imports/HW4-ALU-ImmedGen/aluVerification.mem
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/imports/HW4-ALU-ImmedGen/aluVerification.mem
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/imports/HW4-ALU-ImmedGen/aluVerification.mem
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/imports/HW4-ALU-ImmedGen/aluVerification.mem
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/imports/HW4-ALU-ImmedGen/aluVerification.mem
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/imports/HW4-ALU-ImmedGen/aluVerification.mem
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sim_1/new/ImmdGen_TB.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sim_1/new/ImmdGen_TB.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sim_1/new/ImmdGen_TB.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sim_1/new/ImmdGen_TB.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sim_1/new/ImmdGen_TB.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sim_1/new/ImmdGen_TB.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/imports/HW4-ALU-ImmedGen/ImmdGenVerification.mem
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/imports/HW4-ALU-ImmedGen/ImmdGenVerification.mem
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/imports/HW4-ALU-ImmedGen/ImmdGenVerification.mem
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/imports/HW4-ALU-ImmedGen/ImmdGenVerification.mem
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/imports/HW4-ALU-ImmedGen/ImmdGenVerification.mem
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/imports/HW4-ALU-ImmedGen/ImmdGenVerification.mem
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-tlf-t1.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/mathpazo/zplmr7m.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/mathpazo/zplmr7m.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/mathpazo/zplmr7m.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/mathpazo/zplmr7y.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/mathpazo/zplmr7y.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/mathpazo/zplmr7y.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/mathpazo/zplmr7v.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/mathpazo/zplmr7v.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/mathpazo/zplmr7v.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/ibm/plex/IBMPlexSans-tlf-t1.vf
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-tlf-t1--base.tfm
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/ImmdGenTestCase.txt
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/ImmdGenTestCase.txt
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/ImmdGenTestCase.txt
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/ImmdGenTestCase.txt
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/ImmdGenTestCase.txt
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/ImmdGenTestCase.txt
+INPUT ./Figures/ALU-Simulation-0.png
+INPUT ./Figures/ALU-Simulation-0.png
+INPUT Figures/ALU-Simulation-0.png
+INPUT ./Figures/ALU-Simulation-0.png
+INPUT ./Figures/ALU-Simulation-0.png
+INPUT ./Figures/ALU-Simulation-1.png
+INPUT ./Figures/ALU-Simulation-1.png
+INPUT Figures/ALU-Simulation-1.png
+INPUT ./Figures/ALU-Simulation-1.png
+INPUT ./Figures/ALU-Simulation-1.png
+INPUT ./Figures/ALU-Simulation-2.png
+INPUT ./Figures/ALU-Simulation-2.png
+INPUT Figures/ALU-Simulation-2.png
+INPUT ./Figures/ALU-Simulation-2.png
+INPUT ./Figures/ALU-Simulation-2.png
+INPUT ./Figures/ALU-Simulation-3.png
+INPUT ./Figures/ALU-Simulation-3.png
+INPUT Figures/ALU-Simulation-3.png
+INPUT ./Figures/ALU-Simulation-3.png
+INPUT ./Figures/ALU-Simulation-3.png
+INPUT ./Figures/ImmdGen Simulation.png
+INPUT ./Figures/ImmdGen Simulation.png
+INPUT Figures/ImmdGen Simulation.png
+INPUT ./Figures/ImmdGen Simulation.png
+INPUT ./Figures/ImmdGen Simulation.png
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/new/ALU.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/new/ALU.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/new/ALU.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/new/ALU.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/new/ALU.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/new/ALU.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/new/ImmdGen.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/new/ImmdGen.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/new/ImmdGen.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/new/ImmdGen.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/new/ImmdGen.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/new/ImmdGen.sv
 INPUT HW4-ALU-ImmdGen - Ethan Vosburg.aux
 INPUT ./HW4-ALU-ImmdGen - Ethan Vosburg.out
 INPUT ./HW4-ALU-ImmdGen - Ethan Vosburg.out

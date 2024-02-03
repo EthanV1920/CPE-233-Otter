@@ -35,11 +35,11 @@ module ImmdGen(
     assign iTypeImmd = {{20{instruction[31]}}, instruction[30:20]};
     
     // S type immediate generation
-    assign sTypeImmd = {{20{instruction[31]}}, instruction[30:25], instruction[17:11]};
+    assign sTypeImmd = {{21{instruction[31]}}, instruction[30:25], instruction[11:7]};
 
     // B type immediate generation
-    assign jTypeImmd = {{11{instruction[31]}}, instruction[19:12], instruction[20], instruction[31:21], 1'b0};
+    assign bTypeImmd = {{20{instruction[31]}}, instruction[7], instruction[30:25], instruction[11:8], 1'b0};
     
     // J type immediate generation
-    assign bTypeImmd = {{19{instruction[31]}}, instruction[7], instruction[30:25], instruction[18:11], 1'b0};
+    assign jTypeImmd = {{12{instruction[31]}}, instruction[19:12], instruction[20], instruction[30:21], 1'b0};
 endmodule

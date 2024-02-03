@@ -31,9 +31,9 @@
 %	REPORT INFORMATION
 %----------------------------------------------------------------------------------------
 
-\reporttitle{CPE 233 Hardware Assignment 3} % The report title is to appear on the title page and page headers, do not create manual new lines here as this will carry over to page headers
+\reporttitle{CPE 233 Hardware Assignment 4} % The report title is to appear on the title page and page headers, do not create manual new lines here as this will carry over to page headers
 
-\reportsubtitle{Register File and Verification} % Report subtitle, include new lines if needed
+\reportsubtitle{Arithmetic Logic Unit and Immediate Generator Design and Verification} % Report subtitle, include new lines if needed
 
 \reportauthors{Report by:\\\smallskip Ethan Vosburg (evosburg@calpoly.edu)} % Report authors/group/department, include new lines if needed
 
@@ -138,75 +138,144 @@
 
 \section{Project Description} % Top level section
 
-In this project, a register file was created and tested using a testbench. The testbench was able to verify that the register file worked properly and passed all of the test cases. The register file was able to take in two different addresses and return the correct information as well as take in one address and write to a specific address.
-
+In this project, an Arithmetic Logic Unit (ALU) and an Immediate Generator were designed and verified. The ALU is a combinational circuit that performs arithmetic and logic operations on two 32-bit inputs. The Immediate Generator is a combinational circuit that generates a 32-bit immediate value from a multi-bit immediate value. The ALU and Immediate Generator were designed using System Verilog and then verified using a testbench.
 
 \section{Structural Design} % Second level section
 
-\subsection{Overall Elaborated Design} % Third level section
+\subsection{Arithmetic Logic Unit Elaborated Design} % Third level section
 
 \begin{figure}[H]
     \centering
     \captionsetup{style=widetable}
-    \includegraphics[width=.80\pdfpagewidth]{Figures/RegFile Elaborated Design.png}
-    \caption{Program Counter Elaborated Design}
-    \label{fig:PCElaboratedDesign}
+    \includegraphics[width=.80\pdfpagewidth]{Figures/ALU-Elaborated-Design.png}
+    \caption{Arithmetic Logic Unit Elaborated Design}
+    \label{fig:ALUElaboratedDesign}
+\end{figure}
+
+\subsection{Immediate Generator Elaborated Design} % Third level section
+\begin{figure}[H]
+    \centering
+    \captionsetup{style=widetable}
+    \makebox[.80\pdfpagewidth]{\includegraphics[width=.50\pdfpagewidth]{Figures/Immediate-Generator-Elaborated Design.png}}
+    \caption{Immediate Generator Elaborated Design}
+    \label{fig:ALUElaboratedDesign}
 \end{figure}
 
 
 \section{Synthesis Warnings} % Second level section
 
+\subsection{Arithmetic Logic Unit Synthesis Warnings} % Third level section
 \begin{figure}[H]
     \captionsetup{style=widetable}
-    \makebox[.80\pdfpagewidth]{\includegraphics[width=.75\pdfpagewidth]{Figures/Program Counter Console Warnings.png}}
-    \caption{Synthesis Warnings}
-    \label{fig:SynthesisWarnings}
+    \makebox[.80\pdfpagewidth]{\includegraphics[width=.75\pdfpagewidth]{Figures/Zero Console Warnings.png}}
+    \caption{Arithmetic Logic Unit Synthesis Warnings}
+    \label{fig:ALUSynthesisWarnings}
 \end{figure}
 
+\subsection{Immediate Generator Synthesis Warnings} % Third level section
+\begin{figure}[H]
+    \captionsetup{style=widetable}
+    \makebox[.80\pdfpagewidth]{\includegraphics[width=.75\pdfpagewidth]{Figures/ImmdGen Console Warnings.png}}
+    \caption{Immediate Generator Synthesis Warnings}
+    \label{fig:ImmdGenSynthesisWarnings}
+\end{figure}
+
+The three warning messages that came up in figure \ref{fig:ImmdGenSynthesisWarnings} are not concerning. Warning \\\verb|Synth 8-3917| references a constant driving the output of the module. This is expected because we are padding the immediate values with zeros which are constants. Warning \verb|Synth 8-7129| is also not a concern as to maintain the same terminology as the RiscV specification for the immediate values, the first 7 bits of the input to the immediate generator are not used. Warning \verb|Synth 8-3330| is also not a concern since this module is simply parsing an immediate value and is not performing logic. Finally, warning \verb|Synth 7080| is not a concern as we are not performing parallel synthesis.  
 \section{Verification} % Second level section
 
-\subsection{Testbench Coverage} % Third level section
+\subsection{Arithmetic Logic Unit Testbench Coverage} % Third level section
 
-When testing this design, there were several test cases that were used to verify that the design was working properly. The test cases are listed below.
+The testbench for the ALU was designed to test many of the edge cases of the ALU as well as make sure that every operation was tested in a way where all of the bits in and out were either 1 or 0 for at least one operation. The testbench was able to verify that the ALU worked properly and passed all of the test cases.
+
+\subsection{Immediate Generator Testbench Coverage} % Third level section
+
 
 \begin{enumerate}
-    \item \textbf{Random Bits Test:} This test case was used to verify that the RegFile could store any random number in all of the registers and then provide that number through both of the register outputs.
-    \item \textbf{Zero Bits Test:} This test case was used to verify that the RegFile could store a zero in all of the registers and then provide that number through both of the register outputs.
-    \item \textbf{Enable Write Test:} This test case was used to verify that the enable write bit would allow the RegFile to write to the registers when it was high and not write to the registers when it was low.
-    \item \textbf{Min Bits Test:} This test case was used to verify that the RegFile could store the minimum number in all of the registers and then provide that number through both of the register outputs.
-    \item \textbf{Max Bits Test:} This test case was used to verify that the RegFile could store the maximum number in all of the registers and then provide that number through both of the register outputs.
+    \item \textbf{U Type} For testing the U Type immediate, several test cases were made in RARS to test the maximum and minimum values of the immediate as well as make sure every bit could be a 1 or a 0.
+    \item \textbf{I Type} For testing the I Type immediate, several test cases were made in RARS to test the maximum and minimum values of the immediate as well as make sure every bit could be a 1 or a 0.
+    \item \textbf{S Type} For testing the S Type immediate, several test cases were made in RARS to test the maximum and minimum values of the immediate as well as make sure every bit could be a 1 or a 0.
+    \item \textbf{S Type} For testing the S Type immediately, several values were tested as well as changing the sign extension of some values to make sure the sign extension was working properly.
+    \item \textbf{B Type} For the B Type immediate, a similar approach was taken as with the S Type where the sign extension was tested as well as several values.
 \end{enumerate}
 
 \captionsetup{style=widetable}
-\subsection{Testbench Code} % Third level section
+\subsection{Arithmetic Logic Unit Testbench Code} % Third level section?
 
-\lstinputlisting[language=Verilog, caption=Verilog Testbench for Program Counter]{/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW3-RegFile/RegFile/RegFile.srcs/sim_1/new/RegFile_TB.sv}
+\lstinputlisting[language=Verilog, caption=System Verilod Testbench Code for Arithmetic Logic Unit]{/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sim_1/new/ALU_TB.sv}
 
 \newpage
-\subsection{Testbench Output} % Third level section
+\lstinputlisting[language=Verilog, caption=System Verilog Arithmetic Logic Unit Test Case File]{/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/imports/HW4-ALU-ImmedGen/aluVerification.mem}
+
+\newpage
+\subsection {Immediate Generator Testbench Code} % Third level section
+\lstinputlisting[language=Verilog, caption=System Verilog Immediate Generator Testbench]{/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sim_1/new/ImmdGen_TB.sv}
+
+\lstinputlisting[language=Verilog, caption=System Verilog Immediate Generator Testbench]{/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/imports/HW4-ALU-ImmedGen/ImmdGenVerification.mem}
+
+
+\newpage
+\subsection{Arithmetic Logic Unit Testbench Output} % Third level section
 Running this testbench produced the following output in the TCL code console:
+\begin{table}[H]
+    \centering
+    % \captionsetup{justification=centering}
+    \footnotesize
+    \captionsetup{style=widetable}
+    \caption{Flow Chart 1 Test Cases}
+    \begin{tabular}{|c||l|c|c|c|}
+    % \begin{tabular}{|c|c|}
+    \hline
+     ALU FUN &ALU\_SEL&A& B& Output\\\hline
+    \hline
+    ADD&0000&0xA50F96C3& 0x5AF0693C& 0xffffffff\\\hline
+    &0000&0x84105F21& 0x7B105FDE& 0xff20beff\\\hline
+    &0000&0xFFFFFFFF& 0x00000001& 0x00000000\\\hline
+    \hline
+    SUB&1000& 0x00000000& 0x00000001&0xffffffff\\\hline
+    &1000& 0xAA806355& 0x550162AA& 0x557f00ab\\\hline
+    &1000& 0x550162AA& 0xAA806355&0xaa80ff55\\\hline
+    \hline
+    AND&0111& 0xA55A00FF& 0x5A5AFFFF&0x005a00ff\\\hline
+    &0111& 0xC3C3F966& 0xFF669F5A&0xc3429942\\\hline
+    \hline
+    OR&0110& 0x9A9AC300& 0x65A3CC0F&0xffbbcf0f\\\hline
+    &0110& 0xC3C3F966& 0xFF669F5A&0xffe7ff7e\\\hline
+    \hline
+    XOR&0100& 0xAA5500FF& 0x5AA50FF0&0xf0f00f0f\\\hline
+    &0100& 0xA5A56C6C& 0xFF00C6FF&0x5aa5aa93\\\hline
+    \hline
+    SRL&0101& 0x805A6CF3& 0x00000010&0x0000805a\\\hline
+    &0101& 0x705A6CF3& 0x00000005&0x0382d367\\\hline
+    &0101& 0x805A6CF3& 0x00000000&0x805a6cf3\\\hline
+    &0101& 0x805A6CF3& 0x00000100&0x00000000\\\hline
+    \hline
+    SLL&0001& 0x805A6CF3& 0x00000010&0x6cf30000\\\hline
+    &0001& 0x805A6CF3& 0x00000005&0x0b4d9e60\\\hline
+    &0001& 0x805A6CF3& 0x00000100&0x00000000\\\hline
+    \hline
+    SRA&1101& 0x805A6CF3& 0x00000010&0x0000805a\\\hline
+    &1101& 0x705A6CF3& 0x00000005&0x0382d367\\\hline
+    &1101& 0x805A6CF3& 0x00000000&0x805a6cf3\\\hline
+    &1101& 0x805A6CF3& 0x00000100&0x00000000\\\hline
+    \hline
+    SLT&0010& 0x7FFFFFFF& 0x80000000&0x00000000\\\hline
+    &0010& 0x80000000& 0x00000001&0x00000001\\\hline
+    &0010& 0x00000000& 0x00000000&0x00000000\\\hline
+    &0010& 0x55555555& 0x55555555&0x00000000\\\hline
+    \hline
+    SLTU&0011& 0x7FFFFFFF& 0x80000000&0x00000001\\\hline
+    &0011& 0x80000000& 0x00000001&0x00000000\\\hline
+    &0011& 0x00000000& 0x00000000&0x00000000\\\hline
+    &0011& 0x55AA55AA& 0x55AA55AA&0x00000000\\\hline
+    \hline
+    LUI COPY&1001& 0x01234567& 0x76543210&0x01234567\\\hline
+    &1001& 0xFEDCBA98& 0x89ABCDEF&0xfedcba98\\\hline
+    \end{tabular}
+\end{table}
 
-\begin{lstlisting}[language=Verilog, caption=TCl Output from ProgramCounterEnv\_TB]
-----------------------------------------
-
-RegFile Testbench
-
-----------------------------------------
-
-Setup Complete
-Random Bits Test Passed
-Zero Bits Test Passed
-Enable Write Test Passed
-Min Bits Test Passed
-Max Bits Test Passed
-----------------------------------------
-
-OVERALL PASS
-
-----------------------------------------
-
-$finish called at time : 3980 ns
-\end{lstlisting}
+\newpage
+\subsection{Immediate Generator Testbench Output} % Third level section
+\lstinputlisting[language=Verilog, caption=Verilog Code for Arithmetic Logic Unit]{/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/ImmdGenTestCase.txt}
 
 \newpage
 \subsection{Simulation Results} % Third level section
@@ -216,234 +285,54 @@ Running this testbench produced the following simulation results:
 \begin{figure}[H]
     \centering
     \captionsetup{style=widetable}
-    \makebox[.80\pdfpagewidth]{\includegraphics[width=.8\pdfpagewidth]{Figures/RegFile Simulation 00.png}}
-    \caption{RegFile Simulation 0ns - 140ns}
-    \label{fig:regfilesim1}
+    \makebox[.80\pdfpagewidth]{\includegraphics[width=.8\pdfpagewidth]{Figures/ALU-Simulation-0.png}}
+    \caption{Arithmetic Logic Unit Simulation 0ns - 100ns}
+    \label{fig:ALUSim0}
 \end{figure}
 
 \begin{figure}[H]
     \centering
     \captionsetup{style=widetable}
-    \makebox[.80\pdfpagewidth]{\includegraphics[width=.8\pdfpagewidth]{Figures/RegFile Simulation 01.png}}
-    \caption{RegFile Simulation 140ns - 280ns}
-    \label{fig:regfilesim2}
+    \makebox[.80\pdfpagewidth]{\includegraphics[width=.8\pdfpagewidth]{Figures/ALU-Simulation-1.png}}
+    \caption{Arithmetic Logic Unit Simulation 100ns - 200ns}
+    \label{fig:ALUSim1}
 \end{figure}
 
 \begin{figure}[H]
     \centering
     \captionsetup{style=widetable}
-    \makebox[.80\pdfpagewidth]{\includegraphics[width=.8\pdfpagewidth]{Figures/RegFile Simulation 02.png}}
-    \caption{RegFile Simulation 280ns - 420ns}
-    \label{fig:regfilesim3}
+    \makebox[.80\pdfpagewidth]{\includegraphics[width=.8\pdfpagewidth]{Figures/ALU-Simulation-2.png}}
+    \caption{Arithmetic Logic Unit Simulation 200ns - 300ns}
+    \label{fig:ALUSim2}
 \end{figure}
 
 \begin{figure}[H]
     \centering
     \captionsetup{style=widetable}
-    \makebox[.80\pdfpagewidth]{\includegraphics[width=.8\pdfpagewidth]{Figures/RegFile Simulation 03.png}}
-    \caption{RegFile Simulation 420ns - 560ns}
-    \label{fig:regfilesim4}
+    \makebox[.80\pdfpagewidth]{\includegraphics[width=.8\pdfpagewidth]{Figures/ALU-Simulation-3.png}}
+    \caption{Aritmetic Logic Unit Simulation 300ns - 330ns}
+    \label{fig:ALUSim3}
 \end{figure}
 
 \begin{figure}[H]
     \centering
     \captionsetup{style=widetable}
-    \makebox[.80\pdfpagewidth]{\includegraphics[width=.8\pdfpagewidth]{Figures/RegFile Simulation 04.png}}
-    \caption{RegFile Simulation 560ns - 700ns}
-    \label{fig:regfilesim5}
+    \makebox[.80\pdfpagewidth]{\includegraphics[width=.8\pdfpagewidth]{Figures/ImmdGen Simulation.png}}
+    \caption{Immediate Generator Simulation 0ns - 200ns}
+    \label{fig:ImmdGenSim0}
 \end{figure}
-
-\begin{figure}[H]
-    \centering
-    \captionsetup{style=widetable}
-    \makebox[.80\pdfpagewidth]{\includegraphics[width=.8\pdfpagewidth]{Figures/RegFile Simulation 05.png}}
-    \caption{RegFile Simulation 700ns - 840ns}
-    \label{fig:regfilesim6}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \captionsetup{style=widetable}
-    \makebox[.80\pdfpagewidth]{\includegraphics[width=.8\pdfpagewidth]{Figures/RegFile Simulation 06.png}}
-    \caption{RegFile Simulation 840ns - 980ns}
-    \label{fig:regfilesim7}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \captionsetup{style=widetable}
-    \makebox[.80\pdfpagewidth]{\includegraphics[width=.8\pdfpagewidth]{Figures/RegFile Simulation 07.png}}
-    \caption{RegFile Simulation 980ns - 1120ns}
-    \label{fig:regfilesim8}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \captionsetup{style=widetable}
-    \includegraphics[width=.80\pdfpagewidth]{Figures/RegFile Simulation 08.png}
-    \caption{RegFile Simulation 1120ns - 1260ns}
-    \label{fig:regfilesim9}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \captionsetup{style=widetable}
-    \includegraphics[width=.80\pdfpagewidth]{Figures/RegFile Simulation 09.png}
-    \caption{RegFile Simulation 1260ns - 1400ns}
-    \label{fig:regfilesim10}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \captionsetup{style=widetable}
-    \includegraphics[width=.80\pdfpagewidth]{Figures/RegFile Simulation 10.png}
-    \caption{RegFile Simulation 1400ns - 1540ns}
-    \label{fig:regfilesim11}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \captionsetup{style=widetable}
-    \includegraphics[width=.80\pdfpagewidth]{Figures/RegFile Simulation 11.png}
-    \caption{RegFile Simulation 1540ns - 1680ns}
-    \label{fig:regfilesim12}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \captionsetup{style=widetable}
-    \includegraphics[width=.80\pdfpagewidth]{Figures/RegFile Simulation 12.png}
-    \caption{RegFile Simulation 1680ns - 1820ns}
-    \label{fig:regfilesim13}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \captionsetup{style=widetable}
-    \includegraphics[width=.80\pdfpagewidth]{Figures/RegFile Simulation 13.png}
-    \caption{RegFile Simulation 1820ns - 1960ns}
-    \label{fig:regfilesim14}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \captionsetup{style=widetable}
-    \includegraphics[width=.80\pdfpagewidth]{Figures/RegFile Simulation 14.png}
-    \caption{RegFile Simulation 1960ns - 2100ns}
-    \label{fig:regfilesim15}
-\end{figure}
-
-\begin{figure}
-    \centering
-    \captionsetup{style=widetable}
-    \includegraphics[width=.80\pdfpagewidth]{Figures/RegFile Simulation 15.png}
-    \caption{RegFile Simulation 2100ns - 2240ns}
-    \label{fig:regfilesim16}
-\end{figure}
-
-\begin{figure}
-    \centering
-    \captionsetup{style=widetable}
-    \includegraphics[width=.80\pdfpagewidth]{Figures/RegFile Simulation 16.png}
-    \caption{RegFile Simulation 2240ns - 2380ns}
-    \label{fig:regfilesim17}
-\end{figure}
-
-\begin{figure}
-    \centering
-    \captionsetup{style=widetable}
-    \includegraphics[width=.80\pdfpagewidth]{Figures/RegFile Simulation 17.png}
-    \caption{RegFile Simulation 2380ns - 2520ns}
-    \label{fig:regfilesim18}
-\end{figure}
-
-\begin{figure}
-    \centering
-    \captionsetup{style=widetable}
-    \includegraphics[width=.80\pdfpagewidth]{Figures/RegFile Simulation 18.png}
-    \caption{RegFile Simulation 2520ns - 2660ns}
-    \label{fig:regfilesim19}
-\end{figure}
-
-\begin{figure}
-    \centering
-    \captionsetup{style=widetable}
-    \includegraphics[width=.80\pdfpagewidth]{Figures/RegFile Simulation 19.png}
-    \caption{RegFile Simulation 2660ns - 2800ns}
-    \label{fig:regfilesim20}
-\end{figure}
-
-\begin{figure}
-    \centering
-    \captionsetup{style=widetable}
-    \includegraphics[width=.80\pdfpagewidth]{Figures/RegFile Simulation 20.png}
-    \caption{RegFile Simulation 2800ns - 2940ns}
-    \label{fig:regfilesim21}
-\end{figure}
-
-\begin{figure}
-    \centering
-    \captionsetup{style=widetable}
-    \includegraphics[width=.80\pdfpagewidth]{Figures/RegFile Simulation 21.png}
-    \caption{RegFile Simulation 2940ns - 3080ns}
-    \label{fig:regfilesim22}
-\end{figure}
-
-\begin{figure}
-    \centering
-    \captionsetup{style=widetable}
-    \includegraphics[width=.80\pdfpagewidth]{Figures/RegFile Simulation 22.png}
-    \caption{RegFile Simulation 3080ns - 3220ns}
-    \label{fig:regfilesim23}
-\end{figure}
-
-\begin{figure}
-    \centering
-    \captionsetup{style=widetable}
-    \makebox[.80\pdfpagewidth]{\includegraphics[width=.8\pdfpagewidth]{Figures/RegFile Simulation 23.png}}
-    \caption{RegFile Simulation 3220ns - 3360ns}
-    \label{fig:regfilesim24}
-\end{figure}
-
-\begin{figure}
-    \centering
-    \captionsetup{style=widetable}
-    \makebox[.80\pdfpagewidth]{\includegraphics[width=.8\pdfpagewidth]{Figures/RegFile Simulation 24.png}}
-    \caption{RegFile Simulation 3360ns - 3500ns}
-    \label{fig:regfilesim25}
-\end{figure}
-
-\begin{figure}
-    \centering
-    \captionsetup{style=widetable}
-    \makebox[.80\pdfpagewidth]{\includegraphics[width=.8\pdfpagewidth]{Figures/RegFile Simulation 25.png}}
-    \caption{RegFile Simulation 3500ns - 3640ns}
-    \label{fig:regfilesim26}
-\end{figure}
-
-\begin{figure}
-    \centering
-    \captionsetup{style=widetable}
-    \includegraphics[width=.80\pdfpagewidth]{Figures/RegFile Simulation 26.png}
-    \caption{RegFile Simulation 3640ns - 3780ns}
-    \label{fig:regfilesim27}
-\end{figure}
-
-\begin{figure}
-    \centering
-    \captionsetup{style=widetable}
-    \includegraphics[width=.8\pdfpagewidth]{Figures/RegFile Simulation 27.png}
-    \caption{RegFile Simulation 3780ns - 3920ns}
-    \label{fig:regfilesim28}
-\end{figure}
-
 
 \newpage
 \section{Source Code}
 \captionsetup{style=widetable}
-\subsection{Register File} % Third level section
+\subsection{Arithmetic Logic Unit} % Third level section
 
-\lstinputlisting[language=Verilog, caption=Verilog Code for Register File]{/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW3-RegFile/RegFile/RegFile.srcs/sources_1/new/RegFile.sv}
+\lstinputlisting[language=Verilog, caption=Verilog Code for Arithmetic Logic Unit]{/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/new/ALU.sv}
+
+\newpage
+\subsection{Immediate Generator} % Third level section
+
+\lstinputlisting[language=Verilog, caption=Verilog Code for Immediate Generator]{/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/new/ImmdGen.sv}
 
 \newpage
 
@@ -451,7 +340,7 @@ Running this testbench produced the following simulation results:
 
 \section {Conclusion} % Second level section
 \hypersetup{urlcolor=blue} 
-The program counter is a very important module and will be used heavily in the Otter processor. This counter keeps track of which line of machine code to feed the rest of the processor and it makes allows branching and many other capabilities. In this project, a program counter was created and tested using a testbench. The testbench was able to verify that the program counter and the mux associated with it worked properly and passed all of the test cases.
+The arithmetic logic unit is the heart of the Otter processor and performs all of the actions as described by the RiscV specification. The immediate generator is equally important and parses all of the immediate values that are frequently fed into the ALU. In this project, an ALU and immediate generator were created and tested. Through the verification process, both modules were tested and passed all test cases showing that there is reasonable confidence that the modules will work as expected in the Otter processor. 
 All code for this assignment can be found \href{https://github.com/EthanV1920/CPE-233-Otter/tree/main}{here}.
 
 

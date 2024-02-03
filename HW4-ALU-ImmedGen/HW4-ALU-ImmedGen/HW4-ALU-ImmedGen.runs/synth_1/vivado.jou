@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1.1 (64-bit)
+# SW Build 3900603 on Fri Jun 16 19:31:24 MDT 2023
+# IP Build 3900379 on Sat Jun 17 05:28:05 MDT 2023
+# SharedData Build 3899622 on Fri Jun 16 03:34:24 MDT 2023
+# Start of session at: Sat Feb  3 01:30:29 2024
+# Process ID: 7132
+# Current directory: Z:/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.runs/synth_1
+# Command line: vivado.exe -log ImmdGen.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ImmdGen.tcl
+# Log file: Z:/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.runs/synth_1/ImmdGen.vds
+# Journal file: Z:/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.runs/synth_1\vivado.jou
+# Running On: ETHANVOSBURAA6F, OS: Windows, CPU Frequency: 3200 MHz, CPU Physical cores: 2, Host memory: 34354 MB
+#-----------------------------------------------------------
+source ImmdGen.tcl -notrace

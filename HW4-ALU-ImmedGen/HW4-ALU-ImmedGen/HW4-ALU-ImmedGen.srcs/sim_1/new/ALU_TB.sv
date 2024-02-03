@@ -22,10 +22,7 @@ module ALU_TB();
     logic [3:0] operation_TB;      // 5-bit function code
 
     // Outputs
-    logic [31:0] result_TB;  // 32-bit result
-
-    // Testing Logic 
-    logic pass = 1; // 1 = pass, 0 = fail
+    logic [31:0] result_TB;         // 32-bit result
 
     // Testing Array
     const int testArraySize = 99;
@@ -40,34 +37,33 @@ module ALU_TB();
     );
 
     initial begin
-    // string filename = "aluVerification.txt";
-    // int file = $fopen(filename, "r");
-    // if (file == 0) begin
-    //     $display("Error: Failed to open file %s", filename);
-    // end else begin
-    //     $fclose(file);
-    // end
+    // Read in mem file with test cases 
     string filename = "aluVerification.mem";
     $readmemh(filename, testArray);
 
-    for (int i = 0; i < testArraySize; i +=3) begin
-        operation_TB = testArray[i][3:0];
-        srcA_TB = testArray[i+1];
-        srcB_TB = testArray[i+2];
-        #10 // Wait for result_TB to be updated
+        // Iterate through test cases
+        for (int i = 0; i < testArraySize; i +=3) begin
+            // Set test parameters iterating in chunks of 3
+            operation_TB = testArray[i][3:0];   // 4-bit function code is first line
+            srcA_TB = testArray[i+1];           // srcA is second line
+            srcB_TB = testArray[i+2];           // srcB is third line
+            #10 // Allow signals to propagate 
 
-        // Display values for debugging and verification
-        // $display("srcA_TB: %h", srcA_TB);
-        // $display("srcB_TB: %h", srcB_TB);
-        // $display("operation_TB: %h", operation_TB);
-        // $display("result_TB: %h", result_TB);
-        $display("srcA: %h | srcB: %h | operation: %h | result: %h", srcA_TB, srcB_TB, operation_TB, result_TB);
-        // $display("%h", result_TB);
-    
-    end
+            // Display values for debugging and verification
+            // Debugging scheme 1
+            // $display("srcA_TB: %h", srcA_TB);
+            // $display("srcB_TB: %h", srcB_TB);
+            // $display("operation_TB: %h", operation_TB);
+            // $display("result_TB: %h", result_TB);
+
+            // Debugging scheme 2
+            $display("srcA: %h | srcB: %h | operation: %h | result: %h", srcA_TB, srcB_TB, operation_TB, result_TB);
+
+            // Debugging scheme 3
+            // $display("%h", result_TB);
+        
+        end
+
     $finish;
-
-
     end
-
 endmodule

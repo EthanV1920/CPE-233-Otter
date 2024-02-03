@@ -20,18 +20,18 @@ module ImmdGen_TB();
     logic [31:0] instruction_TB; // 32-bit instruction
 
     // Outputs
-    logic [31:0] uTypeImmd_TB;
-    logic [31:0] iTypeImmd_TB;
-    logic [31:0] sTypeImmd_TB;
-    logic [31:0] jTypeImmd_TB;
-    logic [31:0] bTypeImmd_TB;
+    logic [31:0] uTypeImmd_TB;  // U type immediate
+    logic [31:0] iTypeImmd_TB;  // I type immediate
+    logic [31:0] sTypeImmd_TB;  // S type immediate
+    logic [31:0] jTypeImmd_TB;  // J type immediate
+    logic [31:0] bTypeImmd_TB;  // B type immediate
 
     // Testing Logic 
     logic pass = 1; // 1 = pass, 0 = fail
     string testType; // u, i, s, j, b
 
     // Testing Array
-    const int testArraySize = 20;
+    const int testArraySize = 20; // Set to number of test cases
     logic [31:0] testArray [0:19];
 
 
@@ -47,7 +47,10 @@ module ImmdGen_TB();
     );
     
     initial begin
+        // Read in mem file with test cases
         $readmemb("ImmdGenVerification.mem", testArray);
+        
+        // Iterate through test cases
         for (int i = 0; i < testArraySize; i++) begin
             case(i)
                0: begin
@@ -74,15 +77,15 @@ module ImmdGen_TB();
             endcase
             
             // Display values for debugging and verification
-            $display ("Instruction: %b", testArray[i]);
+            $display ("Instruction: %h", testArray[i]);
             instruction_TB = testArray[i];
             #10;
             case (testType)
-                "u": $display ("uTypeImmd: %b", uTypeImmd_TB);
-                "i": $display ("iTypeImmd: %b", iTypeImmd_TB);
-                "s": $display ("sTypeImmd: %b", sTypeImmd_TB);
-                "j": $display ("jTypeImmd: %b", jTypeImmd_TB);
-                "b": $display ("bTypeImmd: %b", bTypeImmd_TB);
+                "u": $display ("uTypeImmd: %h", uTypeImmd_TB);
+                "i": $display ("iTypeImmd: %h", iTypeImmd_TB);
+                "s": $display ("sTypeImmd: %h", sTypeImmd_TB);
+                "j": $display ("jTypeImmd: %h", jTypeImmd_TB);
+                "b": $display ("bTypeImmd: %h", bTypeImmd_TB);
             endcase
         end
         $finish;
