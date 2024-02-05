@@ -1,46 +1,17 @@
 # file: SW4-ArraySorting.asm
 # brief: Assembly code for sorting an array.
 # 
-# This file contains the assembly code for sorting an array using a specific algorithm.
-# The sorting algorythm that was implemented in this project is bubble sort.
+# This file contains the assembly code for sorting an array of 10 32-bit
+# unsigned numbers. The sorting algorithm that was implemented in this 
+# project is bubble sort.
 # 
 # author: Ethan Vosburg
 # date: 02-03-2024
 
 .data
 sortArray:
-    # .space 40
-    # .word 0
-    # .word 1
-    # .word 2
-    # .word 3
-    # .word 4
-    # .word 5
-    # .word 6
-    # .word 7
-    # .word 8
-    # .word 9
-    # .word 0xffffffff
-    # .word 0xffffffff
-    # .word 0xffffffff
-    # .word 0xffffffff
-    # .word 0xffffffff
-    # .word 0x00000000
-    # .word 0x00000000
-    # .word 0x00000000
-    # .word 0x00000000
-    # .word 0x00000000
-    .word 0xaaaaaaaa
-    .word 0xaaaaaaaa
-    .word 0xaaaaaaaa
-    .word 0xaaaaaaaa
-    .word 0xaaaaaaaa
-    .word 0x55555555
-    .word 0x55555555
-    .word 0x55555555
-    .word 0x55555555
-    .word 0x55555555
-
+    # Create space in an array for 10 32-bit unsigned numbers
+    .space 40
 
 .text
     # Initialize registers
@@ -51,14 +22,12 @@ sortArray:
     lui     s0, 0x11000         # Load io address
     la      s1, sortArray       # Load array address
 
-j endLoad
-
-    # Read in switches from 0x11000000
 readSwitches:
-    bge     t0, t2, endLoad
-    lw      t6, 0(s0)           # Read the swithches in to a t6 temporary
+    # Read in switches from 0x11000000
+    bge     t0, t2, endLoad     # Check if loading from switches is done
+    lw      t6, 0(s0)           # Read the switches in to a t6 temporary
     sw      t6, 0(s1)           # Store the switch value in sortArray
-    addi    s1, s1, 4           # Iterate to the next addres
+    addi    s1, s1, 4           # Iterate to the next address
     addi    t0, t0, 4           # Iterate the loop variable
     j       readSwitches
 
@@ -71,10 +40,10 @@ bubbleBegin:
     li      t1, 0               # Reset the pass counter
 
 passBegin:
-    bgeu    t1, t3, passDone
+    bgeu    t1, t3, passDone    # Check is the current pass is done
     lw      t4, 0(s1)           # Load j
     lw      t5, 4(s1)           # Load j + 1
-    bleu    t4, t5, noSwap      # If left number is greater, swap
+    bleu    t4, t5, noSwap      # If the left number is greater, swap
     # Swap the values
     sw      t5, 0(s1)
     sw      t4, 4(s1)
@@ -90,14 +59,14 @@ passDone:
 bubbleEnd:
 
     li      t0, 0               # Counter for loops
-    la      s1, sortArray       # Reset array address for write out 
+    la      s1, sortArray       # Reset array address for write-out 
 
 writeSwitches:
     # Wtite to the switches at 0x11000020
-    bge     t0, t2, endWrite
+    bge     t0, t2, endWrite    # Check is writing out switches is done
     lw      t6, 0(s1)           # Read Read the switch value in sortArray
-    sw      t6, 0x20(s0)          # Write t6 to the swithches
-    addi    s1, s1, 4           # Iterate to the next addres
+    sw      t6, 0x20(s0)        # Write t6 to the switches
+    addi    s1, s1, 4           # Iterate to the next address
     addi    t0, t0, 4           # Iterate the loop variable
     j       writeSwitches
 

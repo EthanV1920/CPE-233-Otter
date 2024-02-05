@@ -1,3 +1,14 @@
+# file: SW4-FibonacciAddition.asm
+# brief: Assembly code for generateing the Fibonacci sequence and then 
+# adding values.
+# 
+# This file contains the assembly code for generating the first 25 Fibonacci
+# numbers and then adding every other number to each other and then writing
+# the output to the LEDs.
+# 
+# author: Mateo Vang
+# date: 02-03-2024
+
 .data
 	ARRAY: .word 0 # 0x6000
 		.word 1 # 0x6004
@@ -21,7 +32,7 @@
 			addi t0, t0, 4 # increments to the next word address
 	j CreateFibo
 	
-	EndCreate: # now we get ready to subtract the Fibo numbers and store them to LEDs
+	EndCreate: # Now we get ready to subtract the Fibo numbers and store them in LEDs
 		 li t0, 12
 		 li t6, 100 # conditional change to 100 when submitting
 		 
@@ -35,7 +46,7 @@
 	SubFibo: bge t0, t6, end
 		 lw t3, 0(s0) # Fn-3 Pointer
 		 lw t4, 0(s1) # Fn Pointer
-		 sub t5, t4, t3 # creates the next value to store into LEDs
+		 sub t5, t4, t3 # creates the next value to store in LEDs
 		 addi s0, s0, 4 # increments to the next Fn-3
 		 addi s1, s1, 4 # increments to the next Fn
 		 sw t5, 0(s2) # stores our value into the LEDs
