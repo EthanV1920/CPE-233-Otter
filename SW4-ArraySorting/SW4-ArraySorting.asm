@@ -10,16 +10,37 @@
 .data
 sortArray:
     # .space 40
-    .word 9
-    .word 80
-    .word 700
-    .word 6
-    .word 5
-    .word 4
-    .word 3
-    .word 2
-    .word 1
-    .word 0
+    # .word 0
+    # .word 1
+    # .word 2
+    # .word 3
+    # .word 4
+    # .word 5
+    # .word 6
+    # .word 7
+    # .word 8
+    # .word 9
+    # .word 0xffffffff
+    # .word 0xffffffff
+    # .word 0xffffffff
+    # .word 0xffffffff
+    # .word 0xffffffff
+    # .word 0x00000000
+    # .word 0x00000000
+    # .word 0x00000000
+    # .word 0x00000000
+    # .word 0x00000000
+    .word 0xaaaaaaaa
+    .word 0xaaaaaaaa
+    .word 0xaaaaaaaa
+    .word 0xaaaaaaaa
+    .word 0xaaaaaaaa
+    .word 0x55555555
+    .word 0x55555555
+    .word 0x55555555
+    .word 0x55555555
+    .word 0x55555555
+
 
 .text
     # Initialize registers
@@ -45,15 +66,15 @@ endLoad:
     li      t0, 4               # Reset counter for loop
 
 bubbleBegin:
-    bge     t0, t2, bubbleEnd   # Check if bubble sort is done 
+    bgeu    t0, t2, bubbleEnd   # Check if bubble sort is done 
     la      s1, sortArray       # Reset array address for next pass
     li      t1, 0               # Reset the pass counter
 
 passBegin:
-    bge     t1, t3, passDone
+    bgeu    t1, t3, passDone
     lw      t4, 0(s1)           # Load j
     lw      t5, 4(s1)           # Load j + 1
-    ble     t4, t5, noSwap      # If left number is greater, swap
+    bleu    t4, t5, noSwap      # If left number is greater, swap
     # Swap the values
     sw      t5, 0(s1)
     sw      t4, 4(s1)
