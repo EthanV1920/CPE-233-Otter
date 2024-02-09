@@ -28,16 +28,17 @@ module ProgramCounter(
     output logic [31:0] PC_COUNT_INC    // Data Out Incremented by 4
     );
 
+
+    // #TODO: change to comb
+    PC_COUNT_INC <= PC_DIN + 4; // Write the Data In to the Program Counter and increment by 4
+
     always_ff @( posedge CLK ) begin
         if (PC_RST) begin
             PC_COUNT <= 32'h0000_0000;  // Reset the Program Counter to 0
-            PC_COUNT_INC <= 32'h0000_0004;  // Reset the Program Counter to 4
         end else if (PC_WE) begin
-            PC_COUNT <= PC_DIN;         // Write the Data In to the Program Counter
-            PC_COUNT_INC <= PC_DIN + 4; // Write the Data In to the Program Counter and increment by 4
+            // this should be combinational assign
+            PC_COUNT <= PC_DIN; // Write the signal #TODO: Make this better
         end
-        else
-            PC_COUNT <= PC_COUNT;       // Do nothing and keep the Program Counter the same
     end
     
 endmodule

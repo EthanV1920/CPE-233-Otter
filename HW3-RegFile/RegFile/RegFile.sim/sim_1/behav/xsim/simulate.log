@@ -1,0 +1,20 @@
+Time resolution is 1 ps
+----------------------------------------
+
+RegFile Testbench
+
+----------------------------------------
+
+Setup Complete
+Random Bits Test Passed
+Zero Bits Test Passed
+Enable Write Test Passed
+Min Bits Test Passed
+Max Bits Test Passed
+----------------------------------------
+
+OVERALL PASS
+
+----------------------------------------
+
+$finish called at time : 3410 ns : File "Z:/Documents/git/CPE-233-Otter/HW3-RegFile/RegFile/RegFile.srcs/sim_1/new/RegFile_TB.sv" Line 76

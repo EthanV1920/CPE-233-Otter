@@ -2,3 +2,6 @@ Running: xsim.dir/ImmdGen_TB_behav/xsimk.exe -simmode gui -wdb ImmdGen_TB_behav.
 Design successfully loaded
 Design Loading Memory Usage: 12232 KB (Peak: 12232 KB)
 Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 14560 KB (Peak: 14560 KB)
+Simulation CPU Usage: 30 ms

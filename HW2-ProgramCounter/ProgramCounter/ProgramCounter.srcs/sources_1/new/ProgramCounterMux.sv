@@ -40,7 +40,7 @@ module ProgramCounterMux(
             5: PC_MUX_OUT = MEPC;
             6: PC_MUX_OUT = PC_COUNT_INCD;          // Default to PC_COUNT_INCD
             7: PC_MUX_OUT = PC_COUNT_INCD;          // Default to PC_COUNT_INCD
-            default: PC_MUX_OUT = PC_COUNT_INCD;    // Default to PC_COUNT_INCD
+            default: PC_MUX_OUT = PC_COUNT_INCD;    // Default to PC_COUNT_INCD #TODO: Fail Extraordinary while debugging
         endcase
     end
 

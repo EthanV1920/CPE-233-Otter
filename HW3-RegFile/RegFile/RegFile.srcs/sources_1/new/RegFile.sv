@@ -37,17 +37,18 @@ module RegFile(
             // Write data to register
             register[WADR] <= WDATA;
         end
+    end
 
-        // Present data from 2 desire 
-        RS1 <= register[ADR1];
-        RS2 <= register[ADR2];
-        
+    always_comb begin
         // Add logic for zero register
-        if (ADR1 == 0) begin
-            RS1 <= 32'h0000_0000;
-        end
-        if (ADR2 == 0) begin
-            RS2 <= 32'h0000_0000;
-        end
+        if (ADR1 == 0) RS1 = 32'h0000_0000;
+        else RS1 = register[ADR1];
+
+        if (ADR2 == 0) RS2 = 32'h0000_0000;
+        else RS2 = register[ADR2];
+        
+        // Present data from 2 desire 
+        
+        
     end
 endmodule

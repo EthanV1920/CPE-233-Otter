@@ -1,5 +1,5 @@
     # Setup registers 
-    lui     x11, 0x11000    # Define Address for switch input
+    lui     x11, 0x11000    # Define the Address for the switch input
     lui     x5, 0x00000     # Output value from multiplication
 
     li      x6, 5000        # Define delay time by cycle count
@@ -13,7 +13,7 @@
     lw      x9, 0(x11)      # Load switch values to x9
 
 countLoop:
-    # Count up untill the desired time is met and the move
+    # Count up until the desired time is met and the move
     # forward in the program
     bge     x5, x6, end
     addi    x5, x5, 1       # Increment loop counter

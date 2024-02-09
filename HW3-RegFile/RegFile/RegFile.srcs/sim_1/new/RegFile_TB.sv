@@ -127,7 +127,7 @@ module RegFile_TB();
             // Set ADR1 and ADR2 to i and allow for propagation
             ADR1_TB = i;
             ADR2_TB = i;
-            #10;
+            #1; // Less than 10ns to verify async read behavior
 
             // Check RS1 returns expecred value
             if (RS1_TB != testBits[i]) begin
@@ -142,7 +142,7 @@ module RegFile_TB();
                 $display("Error: Random Read Test testBits[%0d] = %h", i, testBits[i]);
                 passed = 0;
             end
-            #10;
+            // #10;
 
             // Display Case
             // $display("ADR1_TB[%0d] = %h", i, ADR1_TB);

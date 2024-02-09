@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.28)  28 JAN 2024 01:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.28)  29 JAN 2024 18:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1245,18 +1245,18 @@ Package logreq Info: Writing requests to '"HW3-RegFile - Ethan Vosburg".run.xml'
 
  ) 
 Here is how much of TeX's memory you used:
- 29165 strings out of 476025
- 537734 string characters out of 5790016
- 2293388 words of memory out of 5000000
- 48639 multiletter control sequences out of 15000+600000
+ 29169 strings out of 476025
+ 537792 string characters out of 5790016
+ 2305388 words of memory out of 5000000
+ 48640 multiletter control sequences out of 15000+600000
  723279 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,12n,91p,773b,2667s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexMono-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexMono-Italic.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexMono.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexSans-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexSans-BoldItalic.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexSans-Italic.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexSans-SemiBold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexSans.pfb>
-Output written on "HW3-RegFile - Ethan Vosburg.pdf" (17 pages, 6080084 bytes).
+Output written on "HW3-RegFile - Ethan Vosburg.pdf" (17 pages, 6080544 bytes).
 PDF statistics:
- 868 PDF objects out of 1000 (max. 8388607)
- 750 compressed objects within 8 object streams
- 510 named destinations out of 1000 (max. 500000)
+ 872 PDF objects out of 1000 (max. 8388607)
+ 754 compressed objects within 8 object streams
+ 513 named destinations out of 1000 (max. 500000)
  252 words of extra memory for PDF output out of 10000 (max. 10000000)
 

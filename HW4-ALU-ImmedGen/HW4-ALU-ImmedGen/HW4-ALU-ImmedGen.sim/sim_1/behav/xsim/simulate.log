@@ -1,0 +1,57 @@
+Time resolution is 1 ps
+
+U Type Immediate
+
+Instruction: 000002b7
+uTypeImmd: 00000000
+Instruction: aaaaa337
+uTypeImmd: aaaaa000
+Instruction: 555553b7
+uTypeImmd: 55555000
+Instruction: fffffe37
+uTypeImmd: fffff000
+
+I Type Immediate
+
+Instruction: 0003f293
+iTypeImmd: 00000000
+Instruction: 2aa2f313
+iTypeImmd: 000002aa
+Instruction: 55537393
+iTypeImmd: 00000555
+Instruction: 7ffe7e13
+iTypeImmd: 000007ff
+
+S Type Immediate
+
+Instruction: 00528023
+sTypeImmd: 00000000
+Instruction: 2a528523
+sTypeImmd: 000002aa
+Instruction: 54528aa3
+sTypeImmd: 00000555
+Instruction: 7e528fa3
+sTypeImmd: 000007ff
+
+J Type Immediate
+
+Instruction: fd1ff06f
+jTypeImmd: ffffffd0
+Instruction: 7ddff06f
+jTypeImmd: 000fffdc
+Instruction: fe9ff06f
+jTypeImmd: ffffffe8
+Instruction: ff5ff06f
+jTypeImmd: fffffff4
+
+B Type Immediate
+
+Instruction: fc73d0e3
+bTypeImmd: ffffffc0
+Instruction: 7c73d6e3
+bTypeImmd: 00000fcc
+Instruction: fc73dce3
+bTypeImmd: ffffffd8
+Instruction: fe73d2e3
+bTypeImmd: ffffffe4
+$finish called at time : 200 ns : File "Z:/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sim_1/new/ImmdGen_TB.sv" Line 88

@@ -1,15 +1,15 @@
 # Fdb version 4
-["biber HW3-RegFile - Ethan Vosburg"] 1706341440 "HW3-RegFile - Ethan Vosburg.bcf" "HW3-RegFile - Ethan Vosburg.bbl" "HW3-RegFile - Ethan Vosburg" 1706432792 0
+["biber HW3-RegFile - Ethan Vosburg"] 1706341440 "HW3-RegFile - Ethan Vosburg.bcf" "HW3-RegFile - Ethan Vosburg.bbl" "HW3-RegFile - Ethan Vosburg" 1706582100 0
   "./sample.bib" 1706341416 423 bb4d4040f48aec7c0bc550ef99e007d4 ""
-  "HW3-RegFile - Ethan Vosburg.bcf" 1706432792 107347 362b9c05c9ba23dd36e2525db27a9c08 "pdflatex"
+  "HW3-RegFile - Ethan Vosburg.bcf" 1706582100 107347 362b9c05c9ba23dd36e2525db27a9c08 "pdflatex"
   (generated)
   "HW3-RegFile - Ethan Vosburg.bbl"
   "HW3-RegFile - Ethan Vosburg.blg"
   (rewritten before read)
-["pdflatex"] 1706432787 "/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW3-RegFile/HW3-Report/HW3-RegFile - Ethan Vosburg.tex" "HW3-RegFile - Ethan Vosburg.pdf" "HW3-RegFile - Ethan Vosburg" 1706432792 0
-  "/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW3-RegFile/HW3-Report/HW3-RegFile - Ethan Vosburg.tex" 1706432787 17205 7d0636f788a9e36bcadf599e93126494 ""
-  "/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW3-RegFile/RegFile/RegFile.srcs/sim_1/new/RegFile_TB.sv" 1706430765 10718 1f146f9aa4e1c1dfd1a5f23c46bf01d7 ""
-  "/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW3-RegFile/RegFile/RegFile.srcs/sources_1/new/RegFile.sv" 1706429369 1231 eadd0ecf63588b16620bd0f139a07ee3 ""
+["pdflatex"] 1706582095 "/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW3-RegFile/HW3-Report/HW3-RegFile - Ethan Vosburg.tex" "HW3-RegFile - Ethan Vosburg.pdf" "HW3-RegFile - Ethan Vosburg" 1706582100 0
+  "/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW3-RegFile/HW3-Report/HW3-RegFile - Ethan Vosburg.tex" 1706489468 17205 7d0636f788a9e36bcadf599e93126494 ""
+  "/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW3-RegFile/RegFile/RegFile.srcs/sim_1/new/RegFile_TB.sv" 1706582095 10768 e0d76e71a29a3acf64bd3a4581eeab8d ""
+  "/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW3-RegFile/RegFile/RegFile.srcs/sources_1/new/RegFile.sv" 1706581460 1236 fb59f3465565da04c03d9249b476e3e9 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/plex/plx_umrhwx.enc" 1575759491 2973 d9bea0bd1d246dd1af040bcb2b3efc76 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/plex/plx_x4zmfh.enc" 1575759491 2852 aa963d040d61fb66c354ccdfa04843f3 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -225,12 +225,12 @@
   "Figures/RegFile Simulation 25.png" 1706431025 236265 fa7bb318683bb60966441042b5397a13 ""
   "Figures/RegFile Simulation 26.png" 1706431026 235073 f4bc90593f658e5ffd9cbfc6cd3a1595 ""
   "Figures/RegFile Simulation 27.png" 1706431029 235363 4bc5aca5df090cf0a934e5ee00ec2b07 ""
-  "HW3-RegFile - Ethan Vosburg.aux" 1706432792 10569 27f044d40b21b099b1d6414ee9413ed8 "pdflatex"
+  "HW3-RegFile - Ethan Vosburg.aux" 1706582100 10569 27f044d40b21b099b1d6414ee9413ed8 "pdflatex"
   "HW3-RegFile - Ethan Vosburg.bbl" 1706341455 466 ee04f40f768daeed26442158e95aba61 "biber HW3-RegFile - Ethan Vosburg"
-  "HW3-RegFile - Ethan Vosburg.out" 1706432792 1591 45bd9f550774a68a3cde4a899434e858 "pdflatex"
-  "HW3-RegFile - Ethan Vosburg.run.xml" 1706432792 2476 89ef50583dd452c6501e51d290dca934 "pdflatex"
-  "HW3-RegFile - Ethan Vosburg.tex" 1706432787 17205 7d0636f788a9e36bcadf599e93126494 ""
-  "HW3-RegFile - Ethan Vosburg.toc" 1706432792 945 dcd4e49f7c773ee9e00e8227a95806a8 "pdflatex"
+  "HW3-RegFile - Ethan Vosburg.out" 1706582100 1591 45bd9f550774a68a3cde4a899434e858 "pdflatex"
+  "HW3-RegFile - Ethan Vosburg.run.xml" 1706582100 2476 89ef50583dd452c6501e51d290dca934 "pdflatex"
+  "HW3-RegFile - Ethan Vosburg.tex" 1706489468 17205 7d0636f788a9e36bcadf599e93126494 ""
+  "HW3-RegFile - Ethan Vosburg.toc" 1706582100 945 dcd4e49f7c773ee9e00e8227a95806a8 "pdflatex"
   "creodocs_logo.pdf" 1706341416 1607646 72a4a03b758837f8ff164d78ef865bf6 ""
   (generated)
   "HW3-RegFile - Ethan Vosburg.aux"

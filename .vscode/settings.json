@@ -1,0 +1,12 @@
+{
+    "grammarly.selectors": [
+        {
+            "language": "verilog",
+            "scheme": "file"
+        },
+        {
+            "language": "riscv",
+            "scheme": "file"
+        }
+    ]
+}
