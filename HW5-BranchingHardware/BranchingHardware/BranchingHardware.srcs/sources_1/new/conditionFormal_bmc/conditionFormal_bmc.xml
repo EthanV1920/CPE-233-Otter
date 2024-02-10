@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+<testsuite timestamp="2024-02-09T23:15:10" hostname="Ethans-MacBook-Pro-123.local" package="conditionFormal" id="0" name="bmc" tests="3" errors="0" failures="0" time="0" skipped="0">
+<properties>
+<property name="os" value="Darwin"/>
+<property name="expect" value="PASS"/>
+<property name="status" value="PASS"/>
+</properties>
+<testcase classname="bmc" name="build execution" time="0">
+</testcase>
+<testcase classname="bmc" name="Property ASSERT in BranchConditionGenFormal at BranchConditionGenFormal.sv:42.40-43.30" time="0" type="ASSERT" location="BranchConditionGenFormal.sv:42.40-43.30" id="$assert$BranchConditionGenFormal.sv:42$3">
+</testcase>
+<testcase classname="bmc" name="Property ASSERT in BranchConditionGenFormal at BranchConditionGenFormal.sv:47.57-48.31" time="0" type="ASSERT" location="BranchConditionGenFormal.sv:47.57-48.31" id="$assert$BranchConditionGenFormal.sv:47$6">
+</testcase>
+<testcase classname="bmc" name="Property ASSERT in BranchConditionGenFormal at BranchConditionGenFormal.sv:52.39-53.39" time="0" type="ASSERT" location="BranchConditionGenFormal.sv:52.39-53.39" id="$assert$BranchConditionGenFormal.sv:52$9">
+</testcase>
+<system-out>SBY 23:15:10 [conditionFormal_bmc] Removing directory '/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/conditionFormal_bmc'.
+SBY 23:15:10 [conditionFormal_bmc] Copy '/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchConditionGen.sv' to '/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/conditionFormal_bmc/src/BranchConditionGen.sv'.
+SBY 23:15:10 [conditionFormal_bmc] Copy '/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchConditionGenFormal.sv' to '/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/conditionFormal_bmc/src/BranchConditionGenFormal.sv'.
+SBY 23:15:10 [conditionFormal_bmc] engine_0: smtbmc boolector
+SBY 23:15:10 [conditionFormal_bmc] base: starting process &quot;cd conditionFormal_bmc/src; yosys -ql ../model/design.log ../model/design.ys&quot;
+SBY 23:15:10 [conditionFormal_bmc] base: finished (returncode=0)
+SBY 23:15:10 [conditionFormal_bmc] prep: starting process &quot;cd conditionFormal_bmc/model; yosys -ql design_prep.log design_prep.ys&quot;
+SBY 23:15:10 [conditionFormal_bmc] prep: finished (returncode=0)
+SBY 23:15:10 [conditionFormal_bmc] smt2: starting process &quot;cd conditionFormal_bmc/model; yosys -ql design_smt2.log design_smt2.ys&quot;
+SBY 23:15:10 [conditionFormal_bmc] smt2: finished (returncode=0)
+SBY 23:15:10 [conditionFormal_bmc] engine_0: starting process &quot;cd conditionFormal_bmc; yosys-smtbmc -s boolector --presat --unroll --noprogress -t 10  --append 0 --dump-vcd engine_0/trace.vcd --dump-yw engine_0/trace.yw --dump-vlogtb engine_0/trace_tb.v --dump-smtc engine_0/trace.smtc model/design_smt2.smt2&quot;
+SBY 23:15:10 [conditionFormal_bmc] engine_0: ##   0:00:00  Solver: boolector
+SBY 23:15:10 [conditionFormal_bmc] engine_0: ##   0:00:00  Checking assumptions in step 0..
+SBY 23:15:10 [conditionFormal_bmc] engine_0: ##   0:00:00  Checking assertions in step 0..
+SBY 23:15:10 [conditionFormal_bmc] engine_0: ##   0:00:00  Checking assumptions in step 1..
+SBY 23:15:10 [conditionFormal_bmc] engine_0: ##   0:00:00  Checking assertions in step 1..
+SBY 23:15:10 [conditionFormal_bmc] engine_0: ##   0:00:00  Checking assumptions in step 2..
+SBY 23:15:10 [conditionFormal_bmc] engine_0: ##   0:00:00  Checking assertions in step 2..
+SBY 23:15:10 [conditionFormal_bmc] engine_0: ##   0:00:00  Checking assumptions in step 3..
+SBY 23:15:10 [conditionFormal_bmc] engine_0: ##   0:00:00  Checking assertions in step 3..
+SBY 23:15:10 [conditionFormal_bmc] engine_0: ##   0:00:00  Checking assumptions in step 4..
+SBY 23:15:10 [conditionFormal_bmc] engine_0: ##   0:00:00  Checking assertions in step 4..
+SBY 23:15:10 [conditionFormal_bmc] engine_0: ##   0:00:00  Checking assumptions in step 5..
+SBY 23:15:10 [conditionFormal_bmc] engine_0: ##   0:00:00  Checking assertions in step 5..
+SBY 23:15:10 [conditionFormal_bmc] engine_0: ##   0:00:00  Checking assumptions in step 6..
+SBY 23:15:10 [conditionFormal_bmc] engine_0: ##   0:00:00  Checking assertions in step 6..
+SBY 23:15:10 [conditionFormal_bmc] engine_0: ##   0:00:00  Checking assumptions in step 7..
+SBY 23:15:10 [conditionFormal_bmc] engine_0: ##   0:00:00  Checking assertions in step 7..
+SBY 23:15:10 [conditionFormal_bmc] engine_0: ##   0:00:00  Checking assumptions in step 8..
+SBY 23:15:10 [conditionFormal_bmc] engine_0: ##   0:00:00  Checking assertions in step 8..
+SBY 23:15:10 [conditionFormal_bmc] engine_0: ##   0:00:00  Checking assumptions in step 9..
+SBY 23:15:10 [conditionFormal_bmc] engine_0: ##   0:00:00  Checking assertions in step 9..
+SBY 23:15:10 [conditionFormal_bmc] engine_0: ##   0:00:00  Status: passed
+SBY 23:15:10 [conditionFormal_bmc] engine_0: finished (returncode=0)
+SBY 23:15:10 [conditionFormal_bmc] engine_0: Status returned by engine: pass
+SBY 23:15:10 [conditionFormal_bmc] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 23:15:10 [conditionFormal_bmc] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 23:15:10 [conditionFormal_bmc] summary: engine_0 (smtbmc boolector) returned pass
+SBY 23:15:10 [conditionFormal_bmc] summary: engine_0 did not produce any traces
+SBY 23:15:10 [conditionFormal_bmc] DONE (PASS, rc=0)
+</system-out>
+<system-err>
+</system-err>
+</testsuite>
+</testsuites>

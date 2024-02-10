@@ -1,0 +1,40 @@
+SBY 23:15:47 [addressFormal_bmc] Removing directory '/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/addressFormal_bmc'.
+SBY 23:15:47 [addressFormal_bmc] Copy '/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGen.sv' to '/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/addressFormal_bmc/src/BranchAddressGen.sv'.
+SBY 23:15:47 [addressFormal_bmc] Copy '/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGenFormal.sv' to '/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/addressFormal_bmc/src/BranchAddressGenFormal.sv'.
+SBY 23:15:47 [addressFormal_bmc] engine_0: smtbmc boolector
+SBY 23:15:47 [addressFormal_bmc] base: starting process "cd addressFormal_bmc/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY 23:15:47 [addressFormal_bmc] base: finished (returncode=0)
+SBY 23:15:47 [addressFormal_bmc] prep: starting process "cd addressFormal_bmc/model; yosys -ql design_prep.log design_prep.ys"
+SBY 23:15:47 [addressFormal_bmc] prep: finished (returncode=0)
+SBY 23:15:47 [addressFormal_bmc] smt2: starting process "cd addressFormal_bmc/model; yosys -ql design_smt2.log design_smt2.ys"
+SBY 23:15:47 [addressFormal_bmc] smt2: finished (returncode=0)
+SBY 23:15:47 [addressFormal_bmc] engine_0: starting process "cd addressFormal_bmc; yosys-smtbmc -s boolector --presat --unroll --noprogress -t 10  --append 0 --dump-vcd engine_0/trace.vcd --dump-yw engine_0/trace.yw --dump-vlogtb engine_0/trace_tb.v --dump-smtc engine_0/trace.smtc model/design_smt2.smt2"
+SBY 23:15:47 [addressFormal_bmc] engine_0: ##   0:00:00  Solver: boolector
+SBY 23:15:47 [addressFormal_bmc] engine_0: ##   0:00:00  Checking assumptions in step 0..
+SBY 23:15:47 [addressFormal_bmc] engine_0: ##   0:00:00  Checking assertions in step 0..
+SBY 23:15:47 [addressFormal_bmc] engine_0: ##   0:00:00  Checking assumptions in step 1..
+SBY 23:15:47 [addressFormal_bmc] engine_0: ##   0:00:00  Checking assertions in step 1..
+SBY 23:15:47 [addressFormal_bmc] engine_0: ##   0:00:00  Checking assumptions in step 2..
+SBY 23:15:47 [addressFormal_bmc] engine_0: ##   0:00:00  Checking assertions in step 2..
+SBY 23:15:47 [addressFormal_bmc] engine_0: ##   0:00:00  Checking assumptions in step 3..
+SBY 23:15:47 [addressFormal_bmc] engine_0: ##   0:00:00  Checking assertions in step 3..
+SBY 23:15:47 [addressFormal_bmc] engine_0: ##   0:00:00  Checking assumptions in step 4..
+SBY 23:15:47 [addressFormal_bmc] engine_0: ##   0:00:00  Checking assertions in step 4..
+SBY 23:15:47 [addressFormal_bmc] engine_0: ##   0:00:00  Checking assumptions in step 5..
+SBY 23:15:47 [addressFormal_bmc] engine_0: ##   0:00:00  Checking assertions in step 5..
+SBY 23:15:47 [addressFormal_bmc] engine_0: ##   0:00:00  Checking assumptions in step 6..
+SBY 23:15:47 [addressFormal_bmc] engine_0: ##   0:00:00  Checking assertions in step 6..
+SBY 23:15:47 [addressFormal_bmc] engine_0: ##   0:00:00  Checking assumptions in step 7..
+SBY 23:15:47 [addressFormal_bmc] engine_0: ##   0:00:00  Checking assertions in step 7..
+SBY 23:15:47 [addressFormal_bmc] engine_0: ##   0:00:00  Checking assumptions in step 8..
+SBY 23:15:47 [addressFormal_bmc] engine_0: ##   0:00:00  Checking assertions in step 8..
+SBY 23:15:47 [addressFormal_bmc] engine_0: ##   0:00:00  Checking assumptions in step 9..
+SBY 23:15:47 [addressFormal_bmc] engine_0: ##   0:00:00  Checking assertions in step 9..
+SBY 23:15:47 [addressFormal_bmc] engine_0: ##   0:00:00  Status: passed
+SBY 23:15:47 [addressFormal_bmc] engine_0: finished (returncode=0)
+SBY 23:15:47 [addressFormal_bmc] engine_0: Status returned by engine: pass
+SBY 23:15:47 [addressFormal_bmc] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 23:15:47 [addressFormal_bmc] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 23:15:47 [addressFormal_bmc] summary: engine_0 (smtbmc boolector) returned pass
+SBY 23:15:47 [addressFormal_bmc] summary: engine_0 did not produce any traces
+SBY 23:15:47 [addressFormal_bmc] DONE (PASS, rc=0)

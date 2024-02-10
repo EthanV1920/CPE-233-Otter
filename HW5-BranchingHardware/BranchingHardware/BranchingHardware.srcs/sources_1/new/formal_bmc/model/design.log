@@ -1,0 +1,246 @@
+
+ /----------------------------------------------------------------------------\
+ |                                                                            |
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |                                                                            |
+ |  Copyright (C) 2012 - 2020  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |                                                                            |
+ |  Permission to use, copy, modify, and/or distribute this software for any  |
+ |  purpose with or without fee is hereby granted, provided that the above    |
+ |  copyright notice and this permission notice appear in all copies.         |
+ |                                                                            |
+ |  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES  |
+ |  WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF          |
+ |  MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR   |
+ |  ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES    |
+ |  WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN     |
+ |  ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF   |
+ |  OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.            |
+ |                                                                            |
+ \----------------------------------------------------------------------------/
+
+ Yosys 0.37+90 (git sha1 16ff3e0a3, clang 15.0.0 -fPIC -Os)
+
+
+-- Executing script file `../model/design.ys' --
+
+1. Executing Verilog-2005 frontend: BranchAddressGenFormal.sv
+Parsing formal SystemVerilog input from `BranchAddressGenFormal.sv' to AST representation.
+Storing AST representation for module `$abstract\BranchAddressGen'.
+Storing AST representation for module `$abstract\BranchAddressGenFormal'.
+Successfully finished Verilog frontend.
+
+2. Executing PREP pass.
+
+2.1. Executing HIERARCHY pass (managing design hierarchy).
+
+2.2. Executing AST frontend in derive mode using pre-parsed AST for module `\BranchAddressGenFormal'.
+Generating RTLIL representation for module `\BranchAddressGenFormal'.
+
+2.2.1. Analyzing design hierarchy..
+Top module:  \BranchAddressGenFormal
+
+2.2.2. Executing AST frontend in derive mode using pre-parsed AST for module `\BranchAddressGen'.
+Generating RTLIL representation for module `\BranchAddressGen'.
+
+2.2.3. Analyzing design hierarchy..
+Top module:  \BranchAddressGenFormal
+Used module:     \BranchAddressGen
+
+2.2.4. Analyzing design hierarchy..
+Top module:  \BranchAddressGenFormal
+Used module:     \BranchAddressGen
+Removing unused module `$abstract\BranchAddressGenFormal'.
+Removing unused module `$abstract\BranchAddressGen'.
+Removed 2 unused modules.
+Module BranchAddressGenFormal directly or indirectly contains formal properties -> setting "keep" attribute.
+
+2.3. Executing PROC pass (convert processes to netlists).
+
+2.3.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+2.3.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Removed a total of 0 dead cases.
+
+2.3.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 3 redundant assignments.
+Promoted 3 assignments to connections.
+
+2.3.4. Executing PROC_INIT pass (extract init attributes).
+
+2.3.5. Executing PROC_ARST pass (detect async resets in processes).
+
+2.3.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+
+2.3.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `\BranchAddressGenFormal.$proc$BranchAddressGenFormal.sv:48$1'.
+
+2.3.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+
+2.3.9. Executing PROC_DFF pass (convert process syncs to FFs).
+
+2.3.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+2.3.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Removing empty process `BranchAddressGenFormal.$proc$BranchAddressGenFormal.sv:48$1'.
+Cleaned up 0 empty switches.
+
+2.3.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module BranchAddressGen.
+Optimizing module BranchAddressGenFormal.
+
+2.4. Executing FUTURE pass.
+
+2.5. Executing OPT_EXPR pass (perform const folding).
+Optimizing module BranchAddressGen.
+Optimizing module BranchAddressGenFormal.
+
+2.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \BranchAddressGen..
+Finding unused cells or wires in module \BranchAddressGenFormal..
+Removed 0 unused cells and 6 unused wires.
+<suppressed ~2 debug messages>
+
+2.7. Executing CHECK pass (checking for obvious problems).
+Checking module BranchAddressGen...
+Checking module BranchAddressGenFormal...
+Found and reported 0 problems.
+
+2.8. Executing OPT pass (performing simple optimizations).
+
+2.8.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module BranchAddressGen.
+Optimizing module BranchAddressGenFormal.
+
+2.8.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\BranchAddressGen'.
+Finding identical cells in module `\BranchAddressGenFormal'.
+Removed a total of 0 cells.
+
+2.8.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \BranchAddressGen..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \BranchAddressGenFormal..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+2.8.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \BranchAddressGen.
+  Optimizing cells in module \BranchAddressGenFormal.
+Performed a total of 0 changes.
+
+2.8.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\BranchAddressGen'.
+Finding identical cells in module `\BranchAddressGenFormal'.
+Removed a total of 0 cells.
+
+2.8.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \BranchAddressGen..
+Finding unused cells or wires in module \BranchAddressGenFormal..
+
+2.8.7. Executing OPT_EXPR pass (perform const folding).
+Optimizing module BranchAddressGen.
+Optimizing module BranchAddressGenFormal.
+
+2.8.8. Finished OPT passes. (There is nothing left to do.)
+
+2.9. Executing WREDUCE pass (reducing word size of cells).
+
+2.10. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \BranchAddressGen..
+Finding unused cells or wires in module \BranchAddressGenFormal..
+
+2.11. Executing MEMORY_COLLECT pass (generating $mem cells).
+
+2.12. Executing OPT pass (performing simple optimizations).
+
+2.12.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module BranchAddressGen.
+Optimizing module BranchAddressGenFormal.
+
+2.12.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\BranchAddressGen'.
+Finding identical cells in module `\BranchAddressGenFormal'.
+Removed a total of 0 cells.
+
+2.12.3. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \BranchAddressGen..
+Finding unused cells or wires in module \BranchAddressGenFormal..
+
+2.12.4. Finished fast OPT passes.
+
+2.13. Printing statistics.
+
+=== BranchAddressGen ===
+
+   Number of wires:                  8
+   Number of wire bits:            256
+   Number of public wires:           8
+   Number of public wire bits:     256
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  3
+     $add                            3
+
+=== BranchAddressGenFormal ===
+
+   Number of wires:                 14
+   Number of wire bits:            355
+   Number of public wires:           8
+   Number of public wire bits:     256
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 10
+     $add                            3
+     $check                          3
+     $eq                             3
+     BranchAddressGen                1
+
+=== design hierarchy ===
+
+   BranchAddressGenFormal            1
+     BranchAddressGen                1
+
+   Number of wires:                 22
+   Number of wire bits:            611
+   Number of public wires:          16
+   Number of public wire bits:     512
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 12
+     $add                            6
+     $check                          3
+     $eq                             3
+
+2.14. Executing CHECK pass (checking for obvious problems).
+Checking module BranchAddressGen...
+Checking module BranchAddressGenFormal...
+Found and reported 0 problems.
+
+3. Executing HIERARCHY pass (managing design hierarchy).
+
+3.1. Analyzing design hierarchy..
+Top module:  \BranchAddressGenFormal
+Used module:     \BranchAddressGen
+
+3.2. Analyzing design hierarchy..
+Top module:  \BranchAddressGenFormal
+Used module:     \BranchAddressGen
+Removed 0 unused modules.
+Module BranchAddressGenFormal directly or indirectly contains formal properties -> setting "keep" attribute.
+
+4. Executing jny backend.
+
+5. Executing RTLIL backend.
+Output filename: ../model/design.il
+
+End of script. Logfile hash: f9428b6ead, CPU: user 0.02s system 0.00s
+Yosys 0.37+90 (git sha1 16ff3e0a3, clang 15.0.0 -fPIC -Os)
+Time spent: 26% 4x opt_clean (0 sec), 21% 5x opt_expr (0 sec), ...

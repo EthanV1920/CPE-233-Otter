@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+<testsuite timestamp="2024-02-09T22:43:51" hostname="Ethans-MacBook-Pro-123.local" package="formal" id="0" name="bmc" tests="3" errors="0" failures="0" time="0" skipped="0">
+<properties>
+<property name="os" value="Darwin"/>
+<property name="expect" value="PASS"/>
+<property name="status" value="PASS"/>
+</properties>
+<testcase classname="bmc" name="build execution" time="0">
+</testcase>
+<testcase classname="bmc" name="Property ASSERT in BranchAddressGenFormal at BranchAddressGenFormal.sv:48.18-50.45" time="0" type="ASSERT" location="BranchAddressGenFormal.sv:48.18-50.45" id="$assert$BranchAddressGenFormal.sv:48$2">
+</testcase>
+<testcase classname="bmc" name="Property ASSERT in BranchAddressGenFormal at BranchAddressGenFormal.sv:50.46-53.49" time="0" type="ASSERT" location="BranchAddressGenFormal.sv:50.46-53.49" id="$assert$BranchAddressGenFormal.sv:50$5">
+</testcase>
+<testcase classname="bmc" name="Property ASSERT in BranchAddressGenFormal at BranchAddressGenFormal.sv:53.50-56.43" time="0" type="ASSERT" location="BranchAddressGenFormal.sv:53.50-56.43" id="$assert$BranchAddressGenFormal.sv:53$8">
+</testcase>
+<system-out>SBY 22:43:51 [formal_bmc] Removing directory '/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/formal_bmc'.
+SBY 22:43:51 [formal_bmc] Copy '/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGen.sv' to '/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/formal_bmc/src/BranchAddressGen.sv'.
+SBY 22:43:51 [formal_bmc] Copy '/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGenFormal.sv' to '/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/formal_bmc/src/BranchAddressGenFormal.sv'.
+SBY 22:43:51 [formal_bmc] engine_0: smtbmc boolector
+SBY 22:43:51 [formal_bmc] base: starting process &quot;cd formal_bmc/src; yosys -ql ../model/design.log ../model/design.ys&quot;
+SBY 22:43:51 [formal_bmc] base: finished (returncode=0)
+SBY 22:43:51 [formal_bmc] prep: starting process &quot;cd formal_bmc/model; yosys -ql design_prep.log design_prep.ys&quot;
+SBY 22:43:51 [formal_bmc] prep: finished (returncode=0)
+SBY 22:43:51 [formal_bmc] smt2: starting process &quot;cd formal_bmc/model; yosys -ql design_smt2.log design_smt2.ys&quot;
+SBY 22:43:51 [formal_bmc] smt2: finished (returncode=0)
+SBY 22:43:51 [formal_bmc] engine_0: starting process &quot;cd formal_bmc; yosys-smtbmc -s boolector --presat --unroll --noprogress -t 10  --append 0 --dump-vcd engine_0/trace.vcd --dump-yw engine_0/trace.yw --dump-vlogtb engine_0/trace_tb.v --dump-smtc engine_0/trace.smtc model/design_smt2.smt2&quot;
+SBY 22:43:51 [formal_bmc] engine_0: ##   0:00:00  Solver: boolector
+SBY 22:43:51 [formal_bmc] engine_0: ##   0:00:00  Checking assumptions in step 0..
+SBY 22:43:51 [formal_bmc] engine_0: ##   0:00:00  Checking assertions in step 0..
+SBY 22:43:51 [formal_bmc] engine_0: ##   0:00:00  Checking assumptions in step 1..
+SBY 22:43:51 [formal_bmc] engine_0: ##   0:00:00  Checking assertions in step 1..
+SBY 22:43:51 [formal_bmc] engine_0: ##   0:00:00  Checking assumptions in step 2..
+SBY 22:43:51 [formal_bmc] engine_0: ##   0:00:00  Checking assertions in step 2..
+SBY 22:43:51 [formal_bmc] engine_0: ##   0:00:00  Checking assumptions in step 3..
+SBY 22:43:51 [formal_bmc] engine_0: ##   0:00:00  Checking assertions in step 3..
+SBY 22:43:51 [formal_bmc] engine_0: ##   0:00:00  Checking assumptions in step 4..
+SBY 22:43:51 [formal_bmc] engine_0: ##   0:00:00  Checking assertions in step 4..
+SBY 22:43:51 [formal_bmc] engine_0: ##   0:00:00  Checking assumptions in step 5..
+SBY 22:43:51 [formal_bmc] engine_0: ##   0:00:00  Checking assertions in step 5..
+SBY 22:43:51 [formal_bmc] engine_0: ##   0:00:00  Checking assumptions in step 6..
+SBY 22:43:51 [formal_bmc] engine_0: ##   0:00:00  Checking assertions in step 6..
+SBY 22:43:51 [formal_bmc] engine_0: ##   0:00:00  Checking assumptions in step 7..
+SBY 22:43:51 [formal_bmc] engine_0: ##   0:00:00  Checking assertions in step 7..
+SBY 22:43:51 [formal_bmc] engine_0: ##   0:00:00  Checking assumptions in step 8..
+SBY 22:43:51 [formal_bmc] engine_0: ##   0:00:00  Checking assertions in step 8..
+SBY 22:43:51 [formal_bmc] engine_0: ##   0:00:00  Checking assumptions in step 9..
+SBY 22:43:51 [formal_bmc] engine_0: ##   0:00:00  Checking assertions in step 9..
+SBY 22:43:51 [formal_bmc] engine_0: ##   0:00:00  Status: passed
+SBY 22:43:51 [formal_bmc] engine_0: finished (returncode=0)
+SBY 22:43:51 [formal_bmc] engine_0: Status returned by engine: pass
+SBY 22:43:51 [formal_bmc] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 22:43:51 [formal_bmc] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 22:43:51 [formal_bmc] summary: engine_0 (smtbmc boolector) returned pass
+SBY 22:43:51 [formal_bmc] summary: engine_0 did not produce any traces
+SBY 22:43:51 [formal_bmc] DONE (PASS, rc=0)
+</system-out>
+<system-err>
+</system-err>
+</testsuite>
+</testsuites>

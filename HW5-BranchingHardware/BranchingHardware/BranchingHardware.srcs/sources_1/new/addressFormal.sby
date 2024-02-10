@@ -1,0 +1,17 @@
+[tasks]
+bmc
+
+[options]
+bmc: mode bmc
+depth 10
+
+[engines]
+smtbmc boolector
+
+[script]
+read -formal -sv BranchAddressGenFormal.sv
+prep -top BranchAddressGenFormal
+
+[files]
+BranchAddressGen.sv
+BranchAddressGenFormal.sv
