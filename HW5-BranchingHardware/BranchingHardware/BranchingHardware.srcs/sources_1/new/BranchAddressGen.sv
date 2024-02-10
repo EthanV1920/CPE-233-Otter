@@ -16,7 +16,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module BranchConditionGen(
+module BranchAddressGen(
     // Inputs
     input [31:0] programCounter,
     input [31:0] jTypeImmd,
