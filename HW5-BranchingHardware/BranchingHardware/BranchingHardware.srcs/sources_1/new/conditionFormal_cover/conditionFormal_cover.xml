@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+<testsuite timestamp="2024-02-10T01:04:04" hostname="Ethans-MacBook-Pro-123.local" package="conditionFormal" id="0" name="cover" tests="4" errors="0" failures="0" time="0" skipped="3">
+<properties>
+<property name="os" value="Darwin"/>
+<property name="expect" value="PASS"/>
+<property name="status" value="PASS"/>
+</properties>
+<testcase classname="cover" name="build execution" time="0">
+</testcase>
+<testcase classname="cover" name="Property ASSERT in BranchConditionGenFormal at BranchConditionGenFormal.sv:42.40-43.30" time="0" type="ASSERT" location="BranchConditionGenFormal.sv:42.40-43.30" id="$assert$BranchConditionGenFormal.sv:42$3">
+<skipped />
+</testcase>
+<testcase classname="cover" name="Property ASSERT in BranchConditionGenFormal at BranchConditionGenFormal.sv:47.57-48.31" time="0" type="ASSERT" location="BranchConditionGenFormal.sv:47.57-48.31" id="$assert$BranchConditionGenFormal.sv:47$6">
+<skipped />
+</testcase>
+<testcase classname="cover" name="Property ASSERT in BranchConditionGenFormal at BranchConditionGenFormal.sv:52.39-53.39" time="0" type="ASSERT" location="BranchConditionGenFormal.sv:52.39-53.39" id="$assert$BranchConditionGenFormal.sv:52$9">
+<skipped />
+</testcase>
+<testcase classname="cover" name="Property COVER in BranchConditionGenFormal at BranchConditionGenFormal.sv:54.8-56.51" time="0" type="COVER" location="BranchConditionGenFormal.sv:54.8-56.51" id="$cover$BranchConditionGenFormal.sv:54$11" tracefile="engine_0/trace0.vcd">
+</testcase>
+<system-out>SBY  1:04:04 [conditionFormal_cover] Removing directory '/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/conditionFormal_cover'.
+SBY  1:04:04 [conditionFormal_cover] Copy '/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchConditionGen.sv' to '/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/conditionFormal_cover/src/BranchConditionGen.sv'.
+SBY  1:04:04 [conditionFormal_cover] Copy '/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchConditionGenFormal.sv' to '/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/conditionFormal_cover/src/BranchConditionGenFormal.sv'.
+SBY  1:04:04 [conditionFormal_cover] engine_0: smtbmc boolector
+SBY  1:04:04 [conditionFormal_cover] base: starting process &quot;cd conditionFormal_cover/src; yosys -ql ../model/design.log ../model/design.ys&quot;
+SBY  1:04:04 [conditionFormal_cover] base: finished (returncode=0)
+SBY  1:04:04 [conditionFormal_cover] prep: starting process &quot;cd conditionFormal_cover/model; yosys -ql design_prep.log design_prep.ys&quot;
+SBY  1:04:04 [conditionFormal_cover] prep: finished (returncode=0)
+SBY  1:04:04 [conditionFormal_cover] smt2: starting process &quot;cd conditionFormal_cover/model; yosys -ql design_smt2.log design_smt2.ys&quot;
+SBY  1:04:04 [conditionFormal_cover] smt2: finished (returncode=0)
+SBY  1:04:04 [conditionFormal_cover] engine_0: starting process &quot;cd conditionFormal_cover; yosys-smtbmc -s boolector --presat --unroll -c --noprogress -t 10  --append 0 --dump-vcd engine_0/trace%.vcd --dump-yw engine_0/trace%.yw --dump-vlogtb engine_0/trace%_tb.v --dump-smtc engine_0/trace%.smtc model/design_smt2.smt2&quot;
+SBY  1:04:04 [conditionFormal_cover] engine_0: ##   0:00:00  Solver: boolector
+SBY  1:04:04 [conditionFormal_cover] engine_0: ##   0:00:00  Checking cover reachability in step 0..
+SBY  1:04:04 [conditionFormal_cover] engine_0: ##   0:00:00  Reached cover statement at BranchConditionGenFormal.sv:54.8-56.51 ($cover$BranchConditionGenFormal.sv:54$11) in step 0.
+SBY  1:04:04 [conditionFormal_cover] engine_0: ##   0:00:00  Writing trace to VCD file: engine_0/trace0.vcd
+SBY  1:04:04 [conditionFormal_cover] engine_0: ##   0:00:00  Writing trace to Verilog testbench: engine_0/trace0_tb.v
+SBY  1:04:04 [conditionFormal_cover] engine_0: ##   0:00:00  Writing trace to constraints file: engine_0/trace0.smtc
+SBY  1:04:04 [conditionFormal_cover] engine_0: ##   0:00:00  Writing trace to Yosys witness file: engine_0/trace0.yw
+SBY  1:04:04 [conditionFormal_cover] engine_0: ##   0:00:00  Status: passed
+SBY  1:04:04 [conditionFormal_cover] engine_0: finished (returncode=0)
+SBY  1:04:04 [conditionFormal_cover] engine_0: Status returned by engine: pass
+SBY  1:04:04 [conditionFormal_cover] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY  1:04:04 [conditionFormal_cover] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY  1:04:04 [conditionFormal_cover] summary: engine_0 (smtbmc boolector) returned pass
+SBY  1:04:04 [conditionFormal_cover] summary: cover trace: conditionFormal_cover/engine_0/trace0.vcd
+SBY  1:04:04 [conditionFormal_cover] summary:   reached cover statement BranchConditionGenFormal.$cover$BranchConditionGenFormal.sv:54$11 at BranchConditionGenFormal.sv:54.8-56.51 in step 0
+SBY  1:04:04 [conditionFormal_cover] DONE (PASS, rc=0)
+</system-out>
+<system-err>
+</system-err>
+</testsuite>
+</testsuites>

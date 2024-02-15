@@ -1,0 +1,5 @@
+Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+engine_0 (smtbmc boolector) returned pass
+cover trace: engine_0/trace0.vcd
+  reached cover statement BranchConditionGenFormal.$cover$BranchConditionGenFormal.sv:54$11 at BranchConditionGenFormal.sv:54.8-56.51 in step 0

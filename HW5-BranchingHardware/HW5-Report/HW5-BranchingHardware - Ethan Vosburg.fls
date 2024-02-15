@@ -349,6 +349,17 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/varwidth/varwidth.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/varwidth/varwidth.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/varwidth/varwidth.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/varwidth/varwidth.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
@@ -713,6 +724,19 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/color.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx
@@ -876,16 +900,6 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/enumitem/enumitem.sty
@@ -1153,6 +1167,9 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.cfg
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.cfg
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.cfg
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.cfg
+INPUT ./HW5-BranchingHardware - Ethan Vosburg.aux
+INPUT HW5-BranchingHardware - Ethan Vosburg.aux
+INPUT HW5-BranchingHardware - Ethan Vosburg.aux
 OUTPUT HW5-BranchingHardware - Ethan Vosburg.aux
 INPUT /usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -1184,8 +1201,18 @@ INPUT ./HW5-BranchingHardware - Ethan Vosburg.bbl
 INPUT ./HW5-BranchingHardware - Ethan Vosburg.bbl
 INPUT HW5-BranchingHardware - Ethan Vosburg.bbl
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/color.sty
-OUTPUT HW5-BranchingHardware - Ethan Vosburg.out
+INPUT ./HW5-BranchingHardware - Ethan Vosburg.out
+INPUT HW5-BranchingHardware - Ethan Vosburg.out
+INPUT ./HW5-BranchingHardware - Ethan Vosburg.out
+INPUT HW5-BranchingHardware - Ethan Vosburg.out
+INPUT ./HW5-BranchingHardware - Ethan Vosburg.out
+INPUT HW5-BranchingHardware - Ethan Vosburg.out
+INPUT ./HW5-BranchingHardware - Ethan Vosburg.out
+INPUT HW5-BranchingHardware - Ethan Vosburg.out
 OUTPUT HW5-BranchingHardware - Ethan Vosburg.pdf
+INPUT ./HW5-BranchingHardware - Ethan Vosburg.out
+INPUT ./HW5-BranchingHardware - Ethan Vosburg.out
+OUTPUT HW5-BranchingHardware - Ethan Vosburg.out
 INPUT ./creodocs_logo.pdf
 INPUT ./creodocs_logo.pdf
 INPUT creodocs_logo.pdf
@@ -1244,49 +1271,48 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-tlf-t1--
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/ibm/plex/IBMPlexSans-tlf-t1.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-tlf-t1--base.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-Bold-tlf-t1.tfm
+INPUT ./HW5-BranchingHardware - Ethan Vosburg.toc
+INPUT HW5-BranchingHardware - Ethan Vosburg.toc
+INPUT HW5-BranchingHardware - Ethan Vosburg.toc
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-SemiBold-tlf-t1.tfm
 OUTPUT HW5-BranchingHardware - Ethan Vosburg.toc
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-Bold-tlf-t1.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/ibm/plex/IBMPlexSans-tlf-t1.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-tlf-t1--base.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/ibm/plex/IBMPlexSans-Bold-tlf-t1.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-Bold-tlf-t1--base.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/ibm/plex/IBMPlexSans-SemiBold-tlf-t1.vf
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-SemiBold-tlf-t1--base.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-Bold-tlf-t1.tfm
+INPUT ./Figures/Branch Address Generator Elaborated Design.png
+INPUT ./Figures/Branch Address Generator Elaborated Design.png
+INPUT Figures/Branch Address Generator Elaborated Design.png
+INPUT ./Figures/Branch Address Generator Elaborated Design.png
+INPUT ./Figures/Branch Address Generator Elaborated Design.png
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-Bold-tlf-t1.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-Bold-tlf-t1.tfm
+INPUT ./Figures/Branch Condition Generator Elaborated Design.png
+INPUT ./Figures/Branch Condition Generator Elaborated Design.png
+INPUT Figures/Branch Condition Generator Elaborated Design.png
+INPUT ./Figures/Branch Condition Generator Elaborated Design.png
+INPUT ./Figures/Branch Condition Generator Elaborated Design.png
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/ibm/plex/IBMPlexSans-Bold-tlf-t1.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-Bold-tlf-t1--base.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-Bold-tlf-t1.tfm
-INPUT ./Figures/ALU-Elaborated-Design.png
-INPUT ./Figures/ALU-Elaborated-Design.png
-INPUT Figures/ALU-Elaborated-Design.png
-INPUT ./Figures/ALU-Elaborated-Design.png
-INPUT ./Figures/ALU-Elaborated-Design.png
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-Bold-tlf-t1.tfm
-INPUT ./Figures/Immediate-Generator-Elaborated Design.png
-INPUT ./Figures/Immediate-Generator-Elaborated Design.png
-INPUT Figures/Immediate-Generator-Elaborated Design.png
-INPUT ./Figures/Immediate-Generator-Elaborated Design.png
-INPUT ./Figures/Immediate-Generator-Elaborated Design.png
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/ibm/plex/IBMPlexSans-Bold-tlf-t1.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-Bold-tlf-t1--base.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/ibm/plex/IBMPlexSans-Bold-tlf-t1.vf
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-Bold-tlf-t1--base.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-Bold-tlf-t1.tfm
 INPUT ./Figures/Zero Console Warnings.png
 INPUT ./Figures/Zero Console Warnings.png
 INPUT Figures/Zero Console Warnings.png
 INPUT ./Figures/Zero Console Warnings.png
 INPUT ./Figures/Zero Console Warnings.png
-INPUT ./Figures/ImmdGen Console Warnings.png
-INPUT ./Figures/ImmdGen Console Warnings.png
-INPUT Figures/ImmdGen Console Warnings.png
-INPUT ./Figures/ImmdGen Console Warnings.png
-INPUT ./Figures/ImmdGen Console Warnings.png
+INPUT ./Figures/Zero Console Warnings.png
+INPUT ./Figures/Zero Console Warnings.png
+INPUT Figures/Zero Console Warnings.png
+INPUT ./Figures/Zero Console Warnings.png
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/plex/T1IBMPlexMono-TLF.fd
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/plex/T1IBMPlexMono-TLF.fd
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/plex/T1IBMPlexMono-TLF.fd
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/plex/T1IBMPlexMono-TLF.fd
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexMono-tlf-t1.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/ibm/plex/IBMPlexMono-tlf-t1.vf
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexMono-tlf-t1--base.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/plex/plx_x4zmfh.enc
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -1299,18 +1325,32 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang3.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang3.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang3.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang3.sty
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sim_1/new/ALU_TB.sv
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sim_1/new/ALU_TB.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGenFormal.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGenFormal.sv
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexMono-tlf-t1.tfm
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sim_1/new/ALU_TB.sv
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sim_1/new/ALU_TB.sv
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sim_1/new/ALU_TB.sv
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sim_1/new/ALU_TB.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGenFormal.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGenFormal.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGenFormal.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGenFormal.sv
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-tlf-t1.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-tlf-t1.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-Italic-tlf-t1.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexMono-Bold-tlf-t1.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexMono-Italic-tlf-t1.tfm
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGenBug.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGenBug.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGenBug.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGenBug.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGenBug.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGenBug.sv
+INPUT ./Figures/BranchAddressBugWaveform.png
+INPUT ./Figures/BranchAddressBugWaveform.png
+INPUT Figures/BranchAddressBugWaveform.png
+INPUT ./Figures/BranchAddressBugWaveform.png
+INPUT ./Figures/BranchAddressBugWaveform.png
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/ibm/plex/IBMPlexMono-tlf-t1.vf
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexMono-tlf-t1--base.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/plex/plx_x4zmfh.enc
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/ibm/plex/IBMPlexSans-Italic-tlf-t1.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-Italic-tlf-t1--base.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/ibm/plex/IBMPlexMono-Bold-tlf-t1.vf
@@ -1319,85 +1359,53 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/ibm/plex/IBMPlexMono-tlf-t1.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexMono-tlf-t1--base.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/ibm/plex/IBMPlexMono-Italic-tlf-t1.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexMono-Italic-tlf-t1--base.tfm
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/imports/HW4-ALU-ImmedGen/aluVerification.mem
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/imports/HW4-ALU-ImmedGen/aluVerification.mem
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/imports/HW4-ALU-ImmedGen/aluVerification.mem
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/imports/HW4-ALU-ImmedGen/aluVerification.mem
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/imports/HW4-ALU-ImmedGen/aluVerification.mem
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/imports/HW4-ALU-ImmedGen/aluVerification.mem
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sim_1/new/ImmdGen_TB.sv
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sim_1/new/ImmdGen_TB.sv
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sim_1/new/ImmdGen_TB.sv
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sim_1/new/ImmdGen_TB.sv
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sim_1/new/ImmdGen_TB.sv
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sim_1/new/ImmdGen_TB.sv
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/imports/HW4-ALU-ImmedGen/ImmdGenVerification.mem
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/imports/HW4-ALU-ImmedGen/ImmdGenVerification.mem
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/imports/HW4-ALU-ImmedGen/ImmdGenVerification.mem
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/imports/HW4-ALU-ImmedGen/ImmdGenVerification.mem
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/imports/HW4-ALU-ImmedGen/ImmdGenVerification.mem
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/imports/HW4-ALU-ImmedGen/ImmdGenVerification.mem
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-tlf-t1.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/mathpazo/zplmr7m.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/mathpazo/zplmr7m.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/mathpazo/zplmr7m.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/mathpazo/zplmr7y.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/mathpazo/zplmr7y.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/mathpazo/zplmr7y.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/mathpazo/zplmr7v.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/mathpazo/zplmr7v.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/mathpazo/zplmr7v.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/ibm/plex/IBMPlexSans-tlf-t1.vf
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/ibm/plex/IBMPlexSans-tlf-t1--base.tfm
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/ImmdGenTestCase.txt
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/ImmdGenTestCase.txt
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/ImmdGenTestCase.txt
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/ImmdGenTestCase.txt
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/ImmdGenTestCase.txt
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/ImmdGenTestCase.txt
-INPUT ./Figures/ALU-Simulation-0.png
-INPUT ./Figures/ALU-Simulation-0.png
-INPUT Figures/ALU-Simulation-0.png
-INPUT ./Figures/ALU-Simulation-0.png
-INPUT ./Figures/ALU-Simulation-0.png
-INPUT ./Figures/ALU-Simulation-1.png
-INPUT ./Figures/ALU-Simulation-1.png
-INPUT Figures/ALU-Simulation-1.png
-INPUT ./Figures/ALU-Simulation-1.png
-INPUT ./Figures/ALU-Simulation-1.png
-INPUT ./Figures/ALU-Simulation-2.png
-INPUT ./Figures/ALU-Simulation-2.png
-INPUT Figures/ALU-Simulation-2.png
-INPUT ./Figures/ALU-Simulation-2.png
-INPUT ./Figures/ALU-Simulation-2.png
-INPUT ./Figures/ALU-Simulation-3.png
-INPUT ./Figures/ALU-Simulation-3.png
-INPUT Figures/ALU-Simulation-3.png
-INPUT ./Figures/ALU-Simulation-3.png
-INPUT ./Figures/ALU-Simulation-3.png
-INPUT ./Figures/ImmdGen Simulation.png
-INPUT ./Figures/ImmdGen Simulation.png
-INPUT Figures/ImmdGen Simulation.png
-INPUT ./Figures/ImmdGen Simulation.png
-INPUT ./Figures/ImmdGen Simulation.png
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/new/ALU.sv
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/new/ALU.sv
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/new/ALU.sv
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/new/ALU.sv
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/new/ALU.sv
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/new/ALU.sv
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/new/ImmdGen.sv
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/new/ImmdGen.sv
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/new/ImmdGen.sv
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/new/ImmdGen.sv
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/new/ImmdGen.sv
-INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/new/ImmdGen.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchConditionGenFormal.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchConditionGenFormal.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchConditionGenFormal.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchConditionGenFormal.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchConditionGenFormal.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchConditionGenFormal.sv
+INPUT ./Figures/ConditionCoverTestWaveform.png
+INPUT ./Figures/ConditionCoverTestWaveform.png
+INPUT Figures/ConditionCoverTestWaveform.png
+INPUT ./Figures/ConditionCoverTestWaveform.png
+INPUT ./Figures/ConditionCoverTestWaveform.png
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGen.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGen.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGen.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGen.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGen.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGen.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGenFormal.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGenFormal.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGenFormal.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGenFormal.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGenFormal.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGenFormal.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/addressFormal.sby
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/addressFormal.sby
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/addressFormal.sby
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/addressFormal.sby
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/addressFormal.sby
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/addressFormal.sby
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchConditionGen.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchConditionGen.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchConditionGen.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchConditionGen.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchConditionGen.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchConditionGen.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchConditionGenFormal.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchConditionGenFormal.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchConditionGenFormal.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchConditionGenFormal.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchConditionGenFormal.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchConditionGenFormal.sv
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/conditionFormal.sby
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/conditionFormal.sby
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/conditionFormal.sby
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/conditionFormal.sby
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/conditionFormal.sby
+INPUT /Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/conditionFormal.sby
 INPUT HW5-BranchingHardware - Ethan Vosburg.aux
 INPUT ./HW5-BranchingHardware - Ethan Vosburg.out
 INPUT ./HW5-BranchingHardware - Ethan Vosburg.out
@@ -1409,4 +1417,5 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexMono.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexSans-Bold.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexSans-BoldItalic.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexSans-Italic.pfb
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexSans-SemiBold.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexSans.pfb

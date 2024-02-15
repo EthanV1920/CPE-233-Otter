@@ -59,6 +59,8 @@
 
 \usepackage{adjustbox}
 
+\usepackage{array}
+
 %----------------------------------------------------------------------------------------
 %	MARGINS
 %----------------------------------------------------------------------------------------
@@ -256,7 +258,7 @@
 %	COLORS
 %----------------------------------------------------------------------------------------
 
-\usepackage[usenames, svgnames]{xcolor} % Required for defining and using custom colors
+\usepackage[usenames, svgnames, table]{xcolor} % Required for defining and using custom colors
 
 %\definecolor{cyan}{RGB}{0, 255, 255} % Define custom colors in this format
 

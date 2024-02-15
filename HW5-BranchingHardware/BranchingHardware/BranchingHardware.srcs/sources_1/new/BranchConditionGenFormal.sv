@@ -52,5 +52,8 @@ always @(*) begin
     if (sourceReg1 < sourceReg2) begin
         assert(isLessUnsigned == 1'b1);
     end
+
+    // Test if both isLessUnsigned and isLess can be reached at the same time
+    cover(isLessUnsigned == 1'b1 && isLess ==1'b1);
 end
 endmodule

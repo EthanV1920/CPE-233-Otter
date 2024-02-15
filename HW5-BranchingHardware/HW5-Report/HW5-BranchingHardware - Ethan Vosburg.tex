@@ -130,7 +130,6 @@
 \end{twothirdswidth}
 
 \newpage
-
 %----------------------------------------------------------------------------------------
 %	SECTIONS
 %----------------------------------------------------------------------------------------
@@ -142,30 +141,36 @@ In this project, the branching hardware for the Otter CPU was made. The branch c
 
 \section{Structural Design} % Second level section
 
-\subsection{Arithmetic Logic Unit Elaborated Design} % Third level section
+\subsection{Branch Address Generator Elaborated Design} % Third level section
 
 \begin{figure}[H]
     \centering
     \captionsetup{style=widetable}
-    \includegraphics[width=.80\pdfpagewidth]{Figures/ALU-Elaborated-Design.png}
-    \caption{Arithmetic Logic Unit Elaborated Design}
-    \label{fig:ALUElaboratedDesign}
+    \makebox[.80\pdfpagewidth]{\includegraphics[width=.60\pdfpagewidth]{Figures/Branch Address Generator Elaborated Design.png}}
+    \caption{Branch Address Generator Elaborated Design}
+    \label{fig:addressDesign}
 \end{figure}
 
-\subsection{Immediate Generator Elaborated Design} % Third level section
+The branch address generator combines signals to output a new location for the program counter to jump to. From the elaborated design you can see this process as the different immediate values and registers are combined to get the respective outputs.
+\subsection{Branch Condition Generator Elaborated Design} % Third level section
 \begin{figure}[H]
     \centering
     \captionsetup{style=widetable}
-    \makebox[.80\pdfpagewidth]{\includegraphics[width=.50\pdfpagewidth]{Figures/Immediate-Generator-Elaborated Design.png}}
-    \caption{Immediate Generator Elaborated Design}
-    \label{fig:ALUElaboratedDesign}
+    \makebox[.80\pdfpagewidth]{\includegraphics[width=.75\pdfpagewidth]{Figures/Branch Condition Generator Elaborated Design.png}}
+    \caption{Branch Condition Generator Elaborated Design}
+    \label{fig:conditionDesign}
 \end{figure}
+
+The branch condition generator compares the two source registers and then outputs different one-bit values that represent different comparisons. This information can then be used to determine if a branch should be made. 
 
 \subsection{Otter Memory Module Signal Table}
-\begin{adjustbox}{width=\textwidth, center}
-\begin{table}
+% \begin{adjustbox}{width=\textwidth, center}
+\begin{table}[H]
+    \rowcolors{2}{gray!25}{white}
+    \newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+    \captionsetup{style=widetable}
     % \centering
-    \begin{tabular}{|c|c|c|} \hline 
+    \begin{tabular}{|M{1.5in}|M{1.5in}|M{3in}|} \hline 
         Signal Name&  Size (Bits)& Purpose\\ \hline 
         \hline
         MEM\_CLK&  1& This is the clock input for the module\\ \hline 
@@ -183,190 +188,114 @@ In this project, the branching hardware for the Otter CPU was made. The branch c
         MEM\_DOUT1& 32&This outputs the instruction that is requested by the PC\\\hline
         MEM\_DOUT2& 32&This outputs the data that is requested by the data address\\\hline
     \end{tabular}
-    \caption{Caption}
-    \label{tab:my_label}
+    \caption{Otter Memory Module Signal}
+    \label{tab:otterMemory}
 \end{table}
-\end{adjustbox}
 
 \section{Synthesis Warnings} % Second level section
 
-\subsection{Arithmetic Logic Unit Synthesis Warnings} % Third level section
+\subsection{Branch Address Generator Synthesis Warnings} % Third level section
 \begin{figure}[H]
     \captionsetup{style=widetable}
     \makebox[.80\pdfpagewidth]{\includegraphics[width=.75\pdfpagewidth]{Figures/Zero Console Warnings.png}}
-    \caption{Arithmetic Logic Unit Synthesis Warnings}
-    \label{fig:ALUSynthesisWarnings}
+    \caption{Branch Address Generator Synthesis Warnings}
+    \label{fig:addressWarnings}
 \end{figure}
 
-\subsection{Immediate Generator Synthesis Warnings} % Third level section
+\subsection{Branch Condition Generator Synthesis Warnings} % Third level section
 \begin{figure}[H]
     \captionsetup{style=widetable}
-    \makebox[.80\pdfpagewidth]{\includegraphics[width=.75\pdfpagewidth]{Figures/ImmdGen Console Warnings.png}}
-    \caption{Immediate Generator Synthesis Warnings}
-    \label{fig:ImmdGenSynthesisWarnings}
+    \makebox[.80\pdfpagewidth]{\includegraphics[width=.75\pdfpagewidth]{Figures/Zero Console Warnings.png}}
+    \caption{Branch Condition Generator Synthesis Warnings}
+    \label{fig:conditionWarnings}
 \end{figure}
 
-The three warning messages that came up in figure \ref{fig:ImmdGenSynthesisWarnings} are not concerning. Warning \\\verb|Synth 8-3917| references a constant driving the output of the module. This is expected because we are padding the immediate values with zeros which are constants. Warning \verb|Synth 8-7129| is also not a concern as to maintain the same terminology as the RiscV specification for the immediate values, the first 7 bits of the input to the immediate generator are not used. Warning \verb|Synth 8-3330| is also not a concern since this module is simply parsing an immediate value and is not performing logic. Finally, warning \verb|Synth 7080| is not a concern as we are not performing parallel synthesis.  
 \section{Verification} % Second level section
+In this section, the verification methodology and scope of the verification is explained. A different type of verification was used in this project that allowed for an increased level of confidence when testing the modules.  
 
-\subsection{Arithmetic Logic Unit Testbench Coverage} % Third level section
+\subsection{Verification Methodology and Scope}
+Using SymbiYosys, formal verification could be implemented to rigorously test the respective modules. With this testing, the desired function of the code is defined in a separate system verilog file and then that is used to drive an engine to try and break the module that is under test. In this case, two of the three available modes for testing were used Bounded Model Checking(BMC) and Cover. 
 
-The testbench for the ALU was designed to test many of the edge cases of the ALU as well as make sure that every operation was tested in a way where all of the bits in and out were either 1 or 0 for at least one operation. The testbench was able to verify that the ALU worked properly and passed all of the test cases.
+Bounded Model Checking is the most basic of the formal testing suit and allows attempts to break the module by using as many different combinations of inputs and outputs as possible. These are not random though, they have mathematical backing to try and break the module that they are testing. 
 
-\subsection{Immediate Generator Testbench Coverage} % Third level section
+Cover checking test for coverage of an individual case. This tells the engine to try and figure out how to get to the state that is defined in the code. This is a different process and is more akin to a precise test as you are checking for one thing rather than trying to break a module by any means. 
 
+A general verification process starts with the creation of the module that will be tested. The next step in this process is to generate a formal file that describes the expected behavior of the module that you want to test. It is worth noting that if you want to emphasize test-driven development, this step can be done before the actual programming of the module. The final step is to set up a configuration file that will be used to run the respective tests and set up different criteria. Combined all of these steps allow you to use the SymbiYosys engine to formally verify.
 
-\begin{enumerate}
-    \item \textbf{U Type} For testing the U Type immediate, several test cases were made in RARS to test the maximum and minimum values of the immediate as well as make sure every bit could be a 1 or a 0.
-    \item \textbf{I Type} For testing the I Type immediate, several test cases were made in RARS to test the maximum and minimum values of the immediate as well as make sure every bit could be a 1 or a 0.
-    \item \textbf{S Type} For testing the S Type immediate, several test cases were made in RARS to test the maximum and minimum values of the immediate as well as make sure every bit could be a 1 or a 0.
-    \item \textbf{S Type} For testing the S Type immediately, several values were tested as well as changing the sign extension of some values to make sure the sign extension was working properly.
-    \item \textbf{B Type} For the B Type immediate, a similar approach was taken as with the S Type where the sign extension was tested as well as several values.
-\end{enumerate}
+\subsection{Bounded Model Checking} % Third level section
 
 \captionsetup{style=widetable}
-\subsection{Arithmetic Logic Unit Testbench Code} % Third level section?
-
-\lstinputlisting[language=Verilog, caption=System Verilod Testbench Code for Arithmetic Logic Unit]{/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sim_1/new/ALU_TB.sv}
-
-\newpage
-\lstinputlisting[language=Verilog, caption=System Verilog Arithmetic Logic Unit Test Case File]{/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/imports/HW4-ALU-ImmedGen/aluVerification.mem}
-
-\newpage
-\subsection {Immediate Generator Testbench Code} % Third level section
-\lstinputlisting[language=Verilog, caption=System Verilog Immediate Generator Testbench]{/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sim_1/new/ImmdGen_TB.sv}
-
-\lstinputlisting[language=Verilog, caption=System Verilog Immediate Generator Testbench]{/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/imports/HW4-ALU-ImmedGen/ImmdGenVerification.mem}
+For bounded model checking an \verb|assert| statement was used to tell the verification engine to try and break the logic in the test file. An example of this can be seen below in Listing \ref{lst:addressFormalSnipet1}.
 
 
-\newpage
-\subsection{Arithmetic Logic Unit Testbench Output} % Third level section
-Running this testbench produced the following output in the TCL code console:
-\begin{table}[H]
-    \centering
-    % \captionsetup{justification=centering}
-    \footnotesize
-    \captionsetup{style=widetable}
-    \caption{Flow Chart 1 Test Cases}
-    \begin{tabular}{|c||l|c|c|c|}
-    % \begin{tabular}{|c|c|}
-    \hline
-     ALU FUN &ALU\_SEL&A& B& Output\\\hline
-    \hline
-    ADD&0000&0xA50F96C3& 0x5AF0693C& 0xffffffff\\\hline
-    &0000&0x84105F21& 0x7B105FDE& 0xff20beff\\\hline
-    &0000&0xFFFFFFFF& 0x00000001& 0x00000000\\\hline
-    \hline
-    SUB&1000& 0x00000000& 0x00000001&0xffffffff\\\hline
-    &1000& 0xAA806355& 0x550162AA& 0x557f00ab\\\hline
-    &1000& 0x550162AA& 0xAA806355&0xaa80ff55\\\hline
-    \hline
-    AND&0111& 0xA55A00FF& 0x5A5AFFFF&0x005a00ff\\\hline
-    &0111& 0xC3C3F966& 0xFF669F5A&0xc3429942\\\hline
-    \hline
-    OR&0110& 0x9A9AC300& 0x65A3CC0F&0xffbbcf0f\\\hline
-    &0110& 0xC3C3F966& 0xFF669F5A&0xffe7ff7e\\\hline
-    \hline
-    XOR&0100& 0xAA5500FF& 0x5AA50FF0&0xf0f00f0f\\\hline
-    &0100& 0xA5A56C6C& 0xFF00C6FF&0x5aa5aa93\\\hline
-    \hline
-    SRL&0101& 0x805A6CF3& 0x00000010&0x0000805a\\\hline
-    &0101& 0x705A6CF3& 0x00000005&0x0382d367\\\hline
-    &0101& 0x805A6CF3& 0x00000000&0x805a6cf3\\\hline
-    &0101& 0x805A6CF3& 0x00000100&0x00000000\\\hline
-    \hline
-    SLL&0001& 0x805A6CF3& 0x00000010&0x6cf30000\\\hline
-    &0001& 0x805A6CF3& 0x00000005&0x0b4d9e60\\\hline
-    &0001& 0x805A6CF3& 0x00000100&0x00000000\\\hline
-    \hline
-    SRA&1101& 0x805A6CF3& 0x00000010&0x0000805a\\\hline
-    &1101& 0x705A6CF3& 0x00000005&0x0382d367\\\hline
-    &1101& 0x805A6CF3& 0x00000000&0x805a6cf3\\\hline
-    &1101& 0x805A6CF3& 0x00000100&0x00000000\\\hline
-    \hline
-    SLT&0010& 0x7FFFFFFF& 0x80000000&0x00000000\\\hline
-    &0010& 0x80000000& 0x00000001&0x00000001\\\hline
-    &0010& 0x00000000& 0x00000000&0x00000000\\\hline
-    &0010& 0x55555555& 0x55555555&0x00000000\\\hline
-    \hline
-    SLTU&0011& 0x7FFFFFFF& 0x80000000&0x00000001\\\hline
-    &0011& 0x80000000& 0x00000001&0x00000000\\\hline
-    &0011& 0x00000000& 0x00000000&0x00000000\\\hline
-    &0011& 0x55AA55AA& 0x55AA55AA&0x00000000\\\hline
-    \hline
-    LUI COPY&1001& 0x01234567& 0x76543210&0x01234567\\\hline
-    &1001& 0xFEDCBA98& 0x89ABCDEF&0xfedcba98\\\hline
-    \end{tabular}
-\end{table}
+\lstinputlisting[label=lst:addressFormalSnipet1, language=Verilog, caption=System Verilog Arithmetic Logic Unit Test Case File, firstline=48, lastline=57]{/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGenFormal.sv}
 
-\newpage
-\subsection{Immediate Generator Testbench Output} % Third level section
-\lstinputlisting[language=Verilog, caption=Verilog Code for Arithmetic Logic Unit]{/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/ImmdGenTestCase.txt}
+This code will tell the engine what the desired behavior of the module code should be and then will try to break the code by checking different aspects of the inputs and outputs. If a failure is found then a waveform is outputted with the specific conditions needed to break the module.
 
-\newpage
-\subsection{Simulation Results} % Third level section
+To see this in action, let's introduce a bug into the \verb|BranchAddressGen.sv| file by changing how the jal line generates its value. In this case, a simple \verb|+ 1| was added to bring the code out of specification.
 
-Running this testbench produced the following simulation results:
+\lstinputlisting[language=Verilog, caption=Branch Address Generator Introduced Bug, firstline=33, lastline=34]{/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGenBug.sv}
+
+Now running this through the verification engine, we get the waveform seen in Figure \ref{fig:addressBug}.
 
 \begin{figure}[H]
     \centering
     \captionsetup{style=widetable}
-    \makebox[.80\pdfpagewidth]{\includegraphics[width=.8\pdfpagewidth]{Figures/ALU-Simulation-0.png}}
-    \caption{Arithmetic Logic Unit Simulation 0ns - 100ns}
-    \label{fig:ALUSim0}
+    \makebox[.80\pdfpagewidth]{\includegraphics[width=.60\pdfpagewidth]{Figures/BranchAddressBugWaveform.png}}
+    \caption{Branch Address Generator Introduced Bug Waverform}
+    \label{fig:addressBug}
 \end{figure}
+
+Examining Figure \ref{fig:addressBug} we can see that when all zeros are input into the system, we have an output of 1 on the \verb|jal| line which is not what we specified in our testbench when we refer to line 3 of Listing \ref{lst:addressFormalSnipet1}. The engine was able to find this and then error out and show us where the problem is. We can then go to that part of the code and fix that section. The engine was able to break our module and showed that the module that we set up did not work as we described.
+
+
+\captionsetup{style=widetable}
+\subsection{Coverage Verification} % Third level section?
+Switching gears, let's look at the cover command in the formal verification suit. This command is used to specify a state that we are looking for and then try to achieve that state in the verification of the code. This is useful when testing to see whether certain conditions are achievable in your code. For example in the snippet below we wish to see if it is possible to reach a state where both the signed and unsigned less-than lines are set. 
+\lstinputlisting[label=lst:conditionCoverSnippet, language=Verilog, caption=System Verilog Formal Verification Code for Branch Condition Generator, firstline=56, lastline=57]{/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchConditionGenFormal.sv}
+
+When running this kind of test, a waveform is generated upon success. When the engine is able to reach the state, it will output what steps it took to get there. The waveform for this specific code is shown below in Figure \ref{fig:coverOut}.
 
 \begin{figure}[H]
     \centering
     \captionsetup{style=widetable}
-    \makebox[.80\pdfpagewidth]{\includegraphics[width=.8\pdfpagewidth]{Figures/ALU-Simulation-1.png}}
-    \caption{Arithmetic Logic Unit Simulation 100ns - 200ns}
-    \label{fig:ALUSim1}
+    \makebox[.80\pdfpagewidth]{\includegraphics[width=.60\pdfpagewidth]{Figures/ConditionCoverTestWaveform.png}}
+    \caption{Branch Condition Generator Cover Test Waveform}
+    \label{fig:coverOut}
 \end{figure}
 
-\begin{figure}[H]
-    \centering
-    \captionsetup{style=widetable}
-    \makebox[.80\pdfpagewidth]{\includegraphics[width=.8\pdfpagewidth]{Figures/ALU-Simulation-2.png}}
-    \caption{Arithmetic Logic Unit Simulation 200ns - 300ns}
-    \label{fig:ALUSim2}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \captionsetup{style=widetable}
-    \makebox[.80\pdfpagewidth]{\includegraphics[width=.8\pdfpagewidth]{Figures/ALU-Simulation-3.png}}
-    \caption{Aritmetic Logic Unit Simulation 300ns - 330ns}
-    \label{fig:ALUSim3}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \captionsetup{style=widetable}
-    \makebox[.80\pdfpagewidth]{\includegraphics[width=.8\pdfpagewidth]{Figures/ImmdGen Simulation.png}}
-    \caption{Immediate Generator Simulation 0ns - 200ns}
-    \label{fig:ImmdGenSim0}
-\end{figure}
-
+This is useful when trying to make sure a critical path can be taken in your module. When designing a complex design, it is possible to introduce unexpected ways to reach a state and this helps with that. You can have the engine try to get to the state and check is that is a valid path. This kind of testing informs you on how to better build your modules.
 \newpage
 \section{Source Code}
-\captionsetup{style=widetable}
-\subsection{Arithmetic Logic Unit} % Third level section
+% \captionsetup{style=widetable}
+\subsection{Branch Address Generator Source Code} % Third level section
 
-\lstinputlisting[language=Verilog, caption=Verilog Code for Arithmetic Logic Unit]{/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/new/ALU.sv}
-
-\newpage
-\subsection{Immediate Generator} % Third level section
-
-\lstinputlisting[language=Verilog, caption=Verilog Code for Immediate Generator]{/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/new/ImmdGen.sv}
-
+\lstinputlisting[language=Verilog, caption=System Verilog Code for Branch Address Generator]{/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGen.sv}
 \newpage
 
 
+\lstinputlisting[language=Verilog, caption=System Verilog Formal Verification Code for Branch Address Generator]{/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGenFormal.sv}
 
-\section {Conclusion} % Second level section
+\newpage
+\lstinputlisting[language=Verilog, caption=SymbiYosys Config File for Branch Address Generator]{/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/addressFormal.sby}
+
+
+
+\subsection{Branch Condition Generator Source Code} % Third level section
+\lstinputlisting[language=Verilog, caption=System Verilog Code for Branch Condition Generator]{/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchConditionGen.sv}
+
+\lstinputlisting[language=Verilog, caption=System Verilog Formal Verification Code for Branch Condition Generator]{/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchConditionGenFormal.sv}
+
+\newpage
+\lstinputlisting[language=Verilog, caption=SymbiYosys Config File for Branch Condition Generator]{/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/conditionFormal.sby}
+
+% \newpage
+
+
+
+\section{Conclusion} % Second level section
 \hypersetup{urlcolor=blue} 
-The arithmetic logic unit is the heart of the Otter processor and performs all of the actions as described by the RiscV specification. The immediate generator is equally important and parses all of the immediate values that are frequently fed into the ALU. In this project, an ALU and immediate generator were created and tested. Through the verification process, both modules were tested and passed all test cases showing that there is reasonable confidence that the modules will work as expected in the Otter processor. 
+Both the branch address generator and branch condition generator hardware were constructed and formally verified. The goal of this hardware was to make decisions on where to branch when a machine code instruction requires branching. Both modules were found to be working as described. Unique to this assignment, formal verification was added and applied to the modules to ensure that they were working properly. Because of this behavioral specification, there was no need for traditional simulation.
 All code for this assignment can be found \href{https://github.com/EthanV1920/CPE-233-Otter/tree/main}{here}.
 
 

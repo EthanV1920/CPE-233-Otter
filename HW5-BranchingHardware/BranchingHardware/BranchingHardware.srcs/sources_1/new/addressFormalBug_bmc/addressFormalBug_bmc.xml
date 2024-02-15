@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+<testsuite timestamp="2024-02-14T17:20:28" hostname="Ethans-MacBook-Pro-389.local" package="addressFormalBug" id="0" name="bmc" tests="3" errors="0" failures="2" time="0" skipped="2">
+<properties>
+<property name="os" value="Darwin"/>
+<property name="expect" value="PASS"/>
+<property name="status" value="FAIL"/>
+</properties>
+<testcase classname="bmc" name="build execution" time="0">
+<failure type="FAIL" message="Task returned status FAIL." />
+</testcase>
+<testcase classname="bmc" name="Property ASSERT in BranchAddressGenFormalBug at BranchAddressGenFormalBug.sv:48.18-50.45" time="0" type="ASSERT" location="BranchAddressGenFormalBug.sv:48.18-50.45" id="$assert$BranchAddressGenFormalBug.sv:48$2" tracefile="engine_0/trace.vcd">
+<failure type="ASSERT" message="Property ASSERT in BranchAddressGenFormalBug at BranchAddressGenFormalBug.sv:48.18-50.45 failed. Trace file: engine_0/trace.vcd" />
+</testcase>
+<testcase classname="bmc" name="Property ASSERT in BranchAddressGenFormalBug at BranchAddressGenFormalBug.sv:50.46-53.49" time="0" type="ASSERT" location="BranchAddressGenFormalBug.sv:50.46-53.49" id="$assert$BranchAddressGenFormalBug.sv:50$5">
+<skipped />
+</testcase>
+<testcase classname="bmc" name="Property ASSERT in BranchAddressGenFormalBug at BranchAddressGenFormalBug.sv:53.50-56.43" time="0" type="ASSERT" location="BranchAddressGenFormalBug.sv:53.50-56.43" id="$assert$BranchAddressGenFormalBug.sv:53$8">
+<skipped />
+</testcase>
+<system-out>SBY 17:20:28 [addressFormalBug_bmc] Removing directory '/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/addressFormalBug_bmc'.
+SBY 17:20:28 [addressFormalBug_bmc] Copy '/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGenBug.sv' to '/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/addressFormalBug_bmc/src/BranchAddressGenBug.sv'.
+SBY 17:20:28 [addressFormalBug_bmc] Copy '/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGenFormalBug.sv' to '/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/addressFormalBug_bmc/src/BranchAddressGenFormalBug.sv'.
+SBY 17:20:28 [addressFormalBug_bmc] engine_0: smtbmc boolector
+SBY 17:20:28 [addressFormalBug_bmc] base: starting process &quot;cd addressFormalBug_bmc/src; yosys -ql ../model/design.log ../model/design.ys&quot;
+SBY 17:20:28 [addressFormalBug_bmc] base: finished (returncode=0)
+SBY 17:20:28 [addressFormalBug_bmc] prep: starting process &quot;cd addressFormalBug_bmc/model; yosys -ql design_prep.log design_prep.ys&quot;
+SBY 17:20:28 [addressFormalBug_bmc] prep: finished (returncode=0)
+SBY 17:20:28 [addressFormalBug_bmc] smt2: starting process &quot;cd addressFormalBug_bmc/model; yosys -ql design_smt2.log design_smt2.ys&quot;
+SBY 17:20:28 [addressFormalBug_bmc] smt2: finished (returncode=0)
+SBY 17:20:28 [addressFormalBug_bmc] engine_0: starting process &quot;cd addressFormalBug_bmc; yosys-smtbmc -s boolector --presat --unroll --noprogress -t 10  --append 0 --dump-vcd engine_0/trace.vcd --dump-yw engine_0/trace.yw --dump-vlogtb engine_0/trace_tb.v --dump-smtc engine_0/trace.smtc model/design_smt2.smt2&quot;
+SBY 17:20:28 [addressFormalBug_bmc] engine_0: ##   0:00:00  Solver: boolector
+SBY 17:20:28 [addressFormalBug_bmc] engine_0: ##   0:00:00  Checking assumptions in step 0..
+SBY 17:20:28 [addressFormalBug_bmc] engine_0: ##   0:00:00  Checking assertions in step 0..
+SBY 17:20:28 [addressFormalBug_bmc] engine_0: ##   0:00:00  BMC failed!
+SBY 17:20:28 [addressFormalBug_bmc] engine_0: ##   0:00:00  Assert failed in BranchAddressGenFormalBug: BranchAddressGenFormalBug.sv:48.18-50.45 ($assert$BranchAddressGenFormalBug.sv:48$2)
+SBY 17:20:28 [addressFormalBug_bmc] engine_0: ##   0:00:00  Writing trace to VCD file: engine_0/trace.vcd
+SBY 17:20:28 [addressFormalBug_bmc] engine_0: ##   0:00:00  Writing trace to Verilog testbench: engine_0/trace_tb.v
+SBY 17:20:28 [addressFormalBug_bmc] engine_0: ##   0:00:00  Writing trace to constraints file: engine_0/trace.smtc
+SBY 17:20:28 [addressFormalBug_bmc] engine_0: ##   0:00:00  Writing trace to Yosys witness file: engine_0/trace.yw
+SBY 17:20:28 [addressFormalBug_bmc] engine_0: ##   0:00:00  Status: failed
+SBY 17:20:28 [addressFormalBug_bmc] engine_0: finished (returncode=1)
+SBY 17:20:28 [addressFormalBug_bmc] engine_0: Status returned by engine: FAIL
+SBY 17:20:28 [addressFormalBug_bmc] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 17:20:28 [addressFormalBug_bmc] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY 17:20:28 [addressFormalBug_bmc] summary: engine_0 (smtbmc boolector) returned FAIL
+SBY 17:20:28 [addressFormalBug_bmc] summary: counterexample trace: addressFormalBug_bmc/engine_0/trace.vcd
+SBY 17:20:28 [addressFormalBug_bmc] summary:   failed assertion BranchAddressGenFormalBug.$assert$BranchAddressGenFormalBug.sv:48$2 at BranchAddressGenFormalBug.sv:48.18-50.45 in step 0
+SBY 17:20:28 [addressFormalBug_bmc] DONE (FAIL, rc=2)
+</system-out>
+<system-err>
+</system-err>
+</testsuite>
+</testsuites>

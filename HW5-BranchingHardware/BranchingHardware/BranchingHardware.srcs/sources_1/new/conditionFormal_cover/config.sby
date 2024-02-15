@@ -1,0 +1,15 @@
+[options]
+mode cover
+depth 10
+
+[engines]
+smtbmc boolector
+
+[script]
+read -formal -sv BranchConditionGenFormal.sv
+prep -top BranchConditionGenFormal
+
+[files]
+BranchConditionGen.sv
+BranchConditionGenFormal.sv
+

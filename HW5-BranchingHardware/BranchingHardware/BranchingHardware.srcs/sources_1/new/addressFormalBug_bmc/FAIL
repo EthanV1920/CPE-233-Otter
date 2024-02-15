@@ -1,0 +1,5 @@
+Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+engine_0 (smtbmc boolector) returned FAIL
+counterexample trace: engine_0/trace.vcd
+  failed assertion BranchAddressGenFormalBug.$assert$BranchAddressGenFormalBug.sv:48$2 at BranchAddressGenFormalBug.sv:48.18-50.45 in step 0

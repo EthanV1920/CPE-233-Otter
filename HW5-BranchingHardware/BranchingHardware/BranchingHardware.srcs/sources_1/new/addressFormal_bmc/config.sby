@@ -10,5 +10,5 @@ read -formal -sv BranchAddressGenFormal.sv
 prep -top BranchAddressGenFormal
 
 [files]
-BranchAddressGen.sv
-BranchAddressGenFormal.sv
+BranchAddressGenBug.sv
+BranchAddressGenFormalBug.sv

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.28)  9 FEB 2024 23:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.28)  14 FEB 2024 17:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -175,7 +175,16 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \sift@deathcycles=\count272
 \@vwid@loff=\dimen170
 \@vwid@roff=\dimen171
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
+)) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen172
+\ar@mcellbox=\box57
+\extrarowheight=\dimen173
+\NC@list=\toks31
+\extratabsurround=\skip64
+\backup@length=\skip65
+\ar@cellbox=\box58
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
@@ -185,21 +194,21 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@cnth=\count273
 \Gm@cntv=\count274
 \c@Gm@tempcnt=\count275
-\Gm@bindingoffset=\dimen172
-\Gm@wd@mp=\dimen173
-\Gm@odd@mp=\dimen174
-\Gm@even@mp=\dimen175
-\Gm@layoutwidth=\dimen176
-\Gm@layoutheight=\dimen177
-\Gm@layouthoffset=\dimen178
-\Gm@layoutvoffset=\dimen179
-\Gm@dimlist=\toks31
+\Gm@bindingoffset=\dimen174
+\Gm@wd@mp=\dimen175
+\Gm@odd@mp=\dimen176
+\Gm@even@mp=\dimen177
+\Gm@layoutwidth=\dimen178
+\Gm@layoutheight=\dimen179
+\Gm@layouthoffset=\dimen180
+\Gm@layoutvoffset=\dimen181
+\Gm@dimlist=\toks32
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/sidenotes/sidenotes.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2023-02-22 L3 programming layer (loader) 
  (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count276
-\l__pdf_internal_box=\box57
+\l__pdf_internal_box=\box59
 ))
 Package: l3keys2e 2023-02-02 LaTeX2e option processing using LaTeX3 keys
 )
@@ -211,14 +220,14 @@ Package: marginnote 2018/08/09 v1.4b non floating margin notes for LaTeX
 Package: caption 2023/03/12 v3.6j Customizing captions (AR)
  (/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
-\caption@tempdima=\dimen180
-\captionmargin=\dimen181
-\caption@leftmargin=\dimen182
-\caption@rightmargin=\dimen183
-\caption@width=\dimen184
-\caption@indent=\dimen185
-\caption@parindent=\dimen186
-\caption@hangindent=\dimen187
+\caption@tempdima=\dimen182
+\captionmargin=\dimen183
+\caption@leftmargin=\dimen184
+\caption@rightmargin=\dimen185
+\caption@width=\dimen186
+\caption@indent=\dimen187
+\caption@parindent=\dimen188
+\caption@hangindent=\dimen189
 Package caption Info: Standard document class detected.
 )
 \c@caption@flags=\count278
@@ -233,14 +242,14 @@ Package: changepage 2009/10/20 v1.0c check page and change page layout
 LaTeX Info: Redefining \checkoddpage on input line 59.
 )
 \c@sidenote=\count282
-\@sidenotes@marginfigurebox=\box58
-\@sidenotes@margintablebox=\box59
+\@sidenotes@marginfigurebox=\box60
+\@sidenotes@margintablebox=\box61
 )
-\fulltextwidth=\skip64
+\fulltextwidth=\skip66
  (/usr/local/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks32
-\inpenc@posthook=\toks33
+\inpenc@prehook=\toks33
+\inpenc@posthook=\toks34
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/mathpazo.sty
@@ -291,43 +300,43 @@ Package: plex-mono 2022/09/23 (Bob Tennent) Style file for IBMPlexMono fonts
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )) (/usr/local/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
-\f@nch@headwidth=\skip65
-\f@nch@O@elh=\skip66
-\f@nch@O@erh=\skip67
-\f@nch@O@olh=\skip68
-\f@nch@O@orh=\skip69
-\f@nch@O@elf=\skip70
-\f@nch@O@erf=\skip71
-\f@nch@O@olf=\skip72
-\f@nch@O@orf=\skip73
+\f@nch@headwidth=\skip67
+\f@nch@O@elh=\skip68
+\f@nch@O@erh=\skip69
+\f@nch@O@olh=\skip70
+\f@nch@O@orh=\skip71
+\f@nch@O@elf=\skip72
+\f@nch@O@erf=\skip73
+\f@nch@O@olf=\skip74
+\f@nch@O@orf=\skip75
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count283
 \calc@Bcount=\count284
-\calc@Adimen=\dimen188
-\calc@Bdimen=\dimen189
-\calc@Askip=\skip74
-\calc@Bskip=\skip75
+\calc@Adimen=\dimen190
+\calc@Bdimen=\dimen191
+\calc@Askip=\skip76
+\calc@Bskip=\skip77
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count285
-\calc@Cskip=\skip76
+\calc@Cskip=\skip78
 )
-\marginoffset=\skip77
+\marginoffset=\skip79
  (/usr/local/texlive/2023/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
-\ttl@box=\box60
-\beforetitleunit=\skip78
-\aftertitleunit=\skip79
-\ttl@plus=\dimen190
-\ttl@minus=\dimen191
-\ttl@toksa=\toks34
-\titlewidth=\dimen192
-\titlewidthlast=\dimen193
-\titlewidthfirst=\dimen194
+\ttl@box=\box62
+\beforetitleunit=\skip80
+\aftertitleunit=\skip81
+\ttl@plus=\dimen192
+\ttl@minus=\dimen193
+\ttl@toksa=\toks35
+\titlewidth=\dimen194
+\titlewidthlast=\dimen195
+\titlewidthfirst=\dimen196
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/titlesec/titletoc.sty
 Package: titletoc 2021/07/05 v2.14 TOC entries
-\ttl@leftsep=\dimen195
+\ttl@leftsep=\dimen197
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
  (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -335,7 +344,12 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Package option `usenames' ignored on input line 218.
 Package xcolor Info: Driver file: pdftex.def on input line 227.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
+\everycr=\toks36
+\minrowclearance=\skip82
+\rownum=\count286
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
 Package xcolor Info: Model `RGB' extended on input line 1369.
@@ -365,7 +379,7 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )) (/usr/local/texlive/2023/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count286
+\lrq@indent=\count287
  (/usr/local/texlive/2023/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
@@ -374,63 +388,63 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count287
-\c@listtotal=\count288
-\c@listcount=\count289
-\c@liststart=\count290
-\c@liststop=\count291
-\c@citecount=\count292
-\c@citetotal=\count293
-\c@multicitecount=\count294
-\c@multicitetotal=\count295
-\c@instcount=\count296
-\c@maxnames=\count297
-\c@minnames=\count298
-\c@maxitems=\count299
-\c@minitems=\count300
-\c@citecounter=\count301
-\c@maxcitecounter=\count302
-\c@savedcitecounter=\count303
-\c@uniquelist=\count304
-\c@uniquename=\count305
-\c@refsection=\count306
-\c@refsegment=\count307
-\c@maxextratitle=\count308
-\c@maxextratitleyear=\count309
-\c@maxextraname=\count310
-\c@maxextradate=\count311
-\c@maxextraalpha=\count312
-\c@abbrvpenalty=\count313
-\c@highnamepenalty=\count314
-\c@lownamepenalty=\count315
-\c@maxparens=\count316
-\c@parenlevel=\count317
-\blx@tempcnta=\count318
-\blx@tempcntb=\count319
-\blx@tempcntc=\count320
-\c@blx@maxsection=\count321
-\blx@maxsegment@0=\count322
-\blx@notetype=\count323
-\blx@parenlevel@text=\count324
-\blx@parenlevel@foot=\count325
-\blx@sectionciteorder@0=\count326
-\blx@sectionciteorderinternal@0=\count327
-\blx@entrysetcounter=\count328
-\blx@biblioinstance=\count329
-\labelnumberwidth=\skip80
-\labelalphawidth=\skip81
-\biblabelsep=\skip82
-\bibitemsep=\skip83
-\bibnamesep=\skip84
-\bibinitsep=\skip85
-\bibparsep=\skip86
-\bibhang=\skip87
+\c@tabx@nest=\count288
+\c@listtotal=\count289
+\c@listcount=\count290
+\c@liststart=\count291
+\c@liststop=\count292
+\c@citecount=\count293
+\c@citetotal=\count294
+\c@multicitecount=\count295
+\c@multicitetotal=\count296
+\c@instcount=\count297
+\c@maxnames=\count298
+\c@minnames=\count299
+\c@maxitems=\count300
+\c@minitems=\count301
+\c@citecounter=\count302
+\c@maxcitecounter=\count303
+\c@savedcitecounter=\count304
+\c@uniquelist=\count305
+\c@uniquename=\count306
+\c@refsection=\count307
+\c@refsegment=\count308
+\c@maxextratitle=\count309
+\c@maxextratitleyear=\count310
+\c@maxextraname=\count311
+\c@maxextradate=\count312
+\c@maxextraalpha=\count313
+\c@abbrvpenalty=\count314
+\c@highnamepenalty=\count315
+\c@lownamepenalty=\count316
+\c@maxparens=\count317
+\c@parenlevel=\count318
+\blx@tempcnta=\count319
+\blx@tempcntb=\count320
+\blx@tempcntc=\count321
+\c@blx@maxsection=\count322
+\blx@maxsegment@0=\count323
+\blx@notetype=\count324
+\blx@parenlevel@text=\count325
+\blx@parenlevel@foot=\count326
+\blx@sectionciteorder@0=\count327
+\blx@sectionciteorderinternal@0=\count328
+\blx@entrysetcounter=\count329
+\blx@biblioinstance=\count330
+\labelnumberwidth=\skip83
+\labelalphawidth=\skip84
+\biblabelsep=\skip85
+\bibitemsep=\skip86
+\bibnamesep=\skip87
+\bibinitsep=\skip88
+\bibparsep=\skip89
+\bibhang=\skip90
 \blx@bcfin=\read2
 \blx@bcfout=\write3
 \blx@langwohyphens=\language87
-\c@mincomprange=\count330
-\c@maxcomprange=\count331
-\c@mincompwidth=\count332
+\c@mincomprange=\count331
+\c@maxcomprange=\count332
+\c@mincompwidth=\count333
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/blx-dm.def
@@ -440,88 +454,88 @@ Package biblatex Info: Trying to load biblatex citestyle data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count333
-\c@savedafterword=\count334
-\c@annotator=\count335
-\c@savedannotator=\count336
-\c@author=\count337
-\c@savedauthor=\count338
-\c@bookauthor=\count339
-\c@savedbookauthor=\count340
-\c@commentator=\count341
-\c@savedcommentator=\count342
-\c@editor=\count343
-\c@savededitor=\count344
-\c@editora=\count345
-\c@savededitora=\count346
-\c@editorb=\count347
-\c@savededitorb=\count348
-\c@editorc=\count349
-\c@savededitorc=\count350
-\c@foreword=\count351
-\c@savedforeword=\count352
-\c@holder=\count353
-\c@savedholder=\count354
-\c@introduction=\count355
-\c@savedintroduction=\count356
-\c@namea=\count357
-\c@savednamea=\count358
-\c@nameb=\count359
-\c@savednameb=\count360
-\c@namec=\count361
-\c@savednamec=\count362
-\c@translator=\count363
-\c@savedtranslator=\count364
-\c@shortauthor=\count365
-\c@savedshortauthor=\count366
-\c@shorteditor=\count367
-\c@savedshorteditor=\count368
-\c@labelname=\count369
-\c@savedlabelname=\count370
-\c@institution=\count371
-\c@savedinstitution=\count372
-\c@lista=\count373
-\c@savedlista=\count374
-\c@listb=\count375
-\c@savedlistb=\count376
-\c@listc=\count377
-\c@savedlistc=\count378
-\c@listd=\count379
-\c@savedlistd=\count380
-\c@liste=\count381
-\c@savedliste=\count382
-\c@listf=\count383
-\c@savedlistf=\count384
-\c@location=\count385
-\c@savedlocation=\count386
-\c@organization=\count387
-\c@savedorganization=\count388
-\c@origlocation=\count389
-\c@savedoriglocation=\count390
-\c@origpublisher=\count391
-\c@savedorigpublisher=\count392
-\c@publisher=\count393
-\c@savedpublisher=\count394
-\c@language=\count395
-\c@savedlanguage=\count396
-\c@origlanguage=\count397
-\c@savedoriglanguage=\count398
-\c@pageref=\count399
-\c@savedpageref=\count400
-\shorthandwidth=\skip88
-\shortjournalwidth=\skip89
-\shortserieswidth=\skip90
-\shorttitlewidth=\skip91
-\shortauthorwidth=\skip92
-\shorteditorwidth=\skip93
-\locallabelnumberwidth=\skip94
-\locallabelalphawidth=\skip95
-\localshorthandwidth=\skip96
-\localshortjournalwidth=\skip97
-\localshortserieswidth=\skip98
-\localshorttitlewidth=\skip99
-\localshortauthorwidth=\skip100
-\localshorteditorwidth=\skip101
+\c@afterword=\count334
+\c@savedafterword=\count335
+\c@annotator=\count336
+\c@savedannotator=\count337
+\c@author=\count338
+\c@savedauthor=\count339
+\c@bookauthor=\count340
+\c@savedbookauthor=\count341
+\c@commentator=\count342
+\c@savedcommentator=\count343
+\c@editor=\count344
+\c@savededitor=\count345
+\c@editora=\count346
+\c@savededitora=\count347
+\c@editorb=\count348
+\c@savededitorb=\count349
+\c@editorc=\count350
+\c@savededitorc=\count351
+\c@foreword=\count352
+\c@savedforeword=\count353
+\c@holder=\count354
+\c@savedholder=\count355
+\c@introduction=\count356
+\c@savedintroduction=\count357
+\c@namea=\count358
+\c@savednamea=\count359
+\c@nameb=\count360
+\c@savednameb=\count361
+\c@namec=\count362
+\c@savednamec=\count363
+\c@translator=\count364
+\c@savedtranslator=\count365
+\c@shortauthor=\count366
+\c@savedshortauthor=\count367
+\c@shorteditor=\count368
+\c@savedshorteditor=\count369
+\c@labelname=\count370
+\c@savedlabelname=\count371
+\c@institution=\count372
+\c@savedinstitution=\count373
+\c@lista=\count374
+\c@savedlista=\count375
+\c@listb=\count376
+\c@savedlistb=\count377
+\c@listc=\count378
+\c@savedlistc=\count379
+\c@listd=\count380
+\c@savedlistd=\count381
+\c@liste=\count382
+\c@savedliste=\count383
+\c@listf=\count384
+\c@savedlistf=\count385
+\c@location=\count386
+\c@savedlocation=\count387
+\c@organization=\count388
+\c@savedorganization=\count389
+\c@origlocation=\count390
+\c@savedoriglocation=\count391
+\c@origpublisher=\count392
+\c@savedorigpublisher=\count393
+\c@publisher=\count394
+\c@savedpublisher=\count395
+\c@language=\count396
+\c@savedlanguage=\count397
+\c@origlanguage=\count398
+\c@savedoriglanguage=\count399
+\c@pageref=\count400
+\c@savedpageref=\count401
+\shorthandwidth=\skip91
+\shortjournalwidth=\skip92
+\shortserieswidth=\skip93
+\shorttitlewidth=\skip94
+\shortauthorwidth=\skip95
+\shorteditorwidth=\skip96
+\locallabelnumberwidth=\skip97
+\locallabelalphawidth=\skip98
+\localshorthandwidth=\skip99
+\localshortjournalwidth=\skip100
+\localshortserieswidth=\skip101
+\localshorttitlewidth=\skip102
+\localshortauthorwidth=\skip103
+\localshorteditorwidth=\skip104
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/blx-compat.def
@@ -531,19 +545,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count401
-\c@textcitetotal=\count402
-\c@textcitemaxnames=\count403
-\c@biburlbigbreakpenalty=\count404
-\c@biburlbreakpenalty=\count405
-\c@biburlnumpenalty=\count406
-\c@biburlucpenalty=\count407
-\c@biburllcpenalty=\count408
+\c@textcitecount=\count402
+\c@textcitetotal=\count403
+\c@textcitemaxnames=\count404
+\c@biburlbigbreakpenalty=\count405
+\c@biburlbreakpenalty=\count406
+\c@biburlnumpenalty=\count407
+\c@biburlucpenalty=\count408
+\c@biburllcpenalty=\count409
 \biburlbigskip=\muskip17
 \biburlnumskip=\muskip18
 \biburlucskip=\muskip19
 \biburllcskip=\muskip20
-\c@smartand=\count409
+\c@smartand=\count410
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -553,8 +567,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count410
-\c@bbx:relatedtotal=\count411
+\c@bbx:relatedcount=\count411
+\c@bbx:relatedtotal=\count412
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -587,40 +601,31 @@ Package biblatex Info: ... and expl3
 Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 )) (/usr/local/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen196
-\lightrulewidth=\dimen197
-\cmidrulewidth=\dimen198
-\belowrulesep=\dimen199
-\belowbottomsep=\dimen256
-\aboverulesep=\dimen257
-\abovetopsep=\dimen258
-\cmidrulesep=\dimen259
-\cmidrulekern=\dimen260
-\defaultaddspace=\dimen261
-\@cmidla=\count412
-\@cmidlb=\count413
-\@aboverulesep=\dimen262
-\@belowrulesep=\dimen263
-\@thisruleclass=\count414
-\@lastruleclass=\count415
-\@thisrulewidth=\dimen264
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
-Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen265
-\ar@mcellbox=\box61
-\extrarowheight=\dimen266
-\NC@list=\toks35
-\extratabsurround=\skip102
-\backup@length=\skip103
-\ar@cellbox=\box62
+\heavyrulewidth=\dimen198
+\lightrulewidth=\dimen199
+\cmidrulewidth=\dimen256
+\belowrulesep=\dimen257
+\belowbottomsep=\dimen258
+\aboverulesep=\dimen259
+\abovetopsep=\dimen260
+\cmidrulesep=\dimen261
+\cmidrulekern=\dimen262
+\defaultaddspace=\dimen263
+\@cmidla=\count413
+\@cmidlb=\count414
+\@aboverulesep=\dimen264
+\@belowrulesep=\dimen265
+\@thisruleclass=\count415
+\@lastruleclass=\count416
+\@thisrulewidth=\dimen266
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip104
+\labelindent=\skip105
 \enit@outerparindent=\dimen267
-\enit@toks=\toks36
+\enit@toks=\toks37
 \enit@inbox=\box63
-\enit@count@id=\count416
-\enitdp@description=\count417
+\enit@count@id=\count417
+\enitdp@description=\count418
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
  (/usr/local/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
@@ -640,11 +645,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count418
+\c@section@level=\count419
 )
 \@linkdim=\dimen268
-\Hy@linkcounter=\count419
-\Hy@pagecounter=\count420
+\Hy@linkcounter=\count420
+\Hy@pagecounter=\count421
  (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -654,7 +659,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count421
+\Hy@SavedSpaceFactor=\count422
  (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -667,7 +672,7 @@ Package hyperref Info: Plain pages OFF on input line 4192.
 Package hyperref Info: Backreferencing OFF on input line 4197.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4425.
-\c@Hy@tempcnt=\count422
+\c@Hy@tempcnt=\count423
 LaTeX Info: Redefining \url on input line 4763.
 \XeTeXLinkMargin=\dimen269
  (/usr/local/texlive/2023/texmf-dist/tex/generic/bitset/bitset.sty
@@ -675,7 +680,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (/usr/local/texlive/2023/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count423
+\Fld@menulength=\count424
 \Field@Width=\dimen270
 \Fld@charsize=\dimen271
 Package hyperref Info: Hyper figures OFF on input line 6042.
@@ -689,9 +694,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6072.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count424
-\c@Item=\count425
-\c@Hfootnote=\count426
+\Hy@abspage=\count425
+\c@Item=\count426
+\c@Hfootnote=\count427
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/hpdftex.def
@@ -700,8 +705,8 @@ File: hpdftex.def 2023-02-07 v7.00v Hyperref driver for pdfTeX
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
-\Fld@listcount=\count427
-\c@bookmark@seq@number=\count428
+\Fld@listcount=\count428
+\c@bookmark@seq@number=\count429
  (/usr/local/texlive/2023/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
  (/usr/local/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
@@ -709,36 +714,35 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
-\Hy@SectionHShift=\skip105
+\Hy@SectionHShift=\skip106
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 333.
+Package hyperref Info: Option `colorlinks' set `true' on input line 335.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count429
+\lst@mode=\count430
 \lst@gtempboxa=\box64
-\lst@token=\toks37
-\lst@length=\count430
+\lst@token=\toks38
+\lst@length=\count431
 \lst@currlwidth=\dimen272
-\lst@column=\count431
-\lst@pos=\count432
+\lst@column=\count432
+\lst@pos=\count433
 \lst@lostspace=\dimen273
 \lst@width=\dimen274
-\lst@newlines=\count433
-\lst@lineno=\count434
+\lst@newlines=\count434
+\lst@lineno=\count435
 \lst@maxwidth=\dimen275
  (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-\c@lstnumber=\count435
-\lst@skipnumbers=\count436
+\c@lstnumber=\count436
+\lst@skipnumbers=\count437
 \lst@framebox=\box65
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2023/02/27 1.9 listings configuration
 ))
 Package: listings 2023/02/27 1.9 (Carsten Heinz)
 )
-\@quotelevel=\count437
-\@quotereset=\count438
-
-No file "HW5-BranchingHardware - Ethan Vosburg".aux.
+\@quotelevel=\count438
+\@quotereset=\count439
+ (./HW5-BranchingHardware - Ethan Vosburg.aux)
 \openout1 = `"HW5-BranchingHardware - Ethan Vosburg.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
@@ -759,19 +763,19 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
 LaTeX Font Info:    ... okay on input line 46.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 46.
 LaTeX Font Info:    ... okay on input line 46.
-(/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count439
+\scratchcounter=\count440
 \scratchdimen=\dimen276
 \scratchbox=\box66
-\nofMPsegments=\count440
-\nofMParguments=\count441
-\everyMPshowfont=\toks38
-\MPscratchCnt=\count442
+\nofMPsegments=\count441
+\nofMParguments=\count442
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count443
 \MPscratchDim=\dimen277
-\MPnumerator=\count443
-\makeMPintoPDFobject=\count444
-\everyMPtoPDFconversion=\toks39
+\MPnumerator=\count444
+\makeMPintoPDFobject=\count445
+\everyMPtoPDFconversion=\toks40
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -821,10 +825,10 @@ Package caption Info: changepage package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\@sidenotes@extrawidth=\skip106
+\@sidenotes@extrawidth=\skip107
 \big@size=\dimen280
-\c@mv@tabular=\count445
-\c@mv@boldtabular=\count446
+\c@mv@tabular=\count446
+\c@mv@boldtabular=\count447
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/lbx/english.lbx
@@ -841,11 +845,12 @@ Package biblatex Info: ... file '"HW5-BranchingHardware - Ethan Vosburg".bbl' fo
 Package biblatex Info: Reference section=0 on input line 46.
 Package biblatex Info: Reference segment=0 on input line 46.
 Package hyperref Info: Link coloring ON on input line 46.
+ (./HW5-BranchingHardware - Ethan Vosburg.out) (./HW5-BranchingHardware - Ethan Vosburg.out)
 \@outlinefile=\write4
 \openout4 = `"HW5-BranchingHardware - Ethan Vosburg.out"'.
 
-\c@lstlisting=\count447
-<creodocs_logo.pdf, id=4, 794.97pt x 614.295pt>
+\c@lstlisting=\count448
+<creodocs_logo.pdf, id=68, 794.97pt x 614.295pt>
 File: creodocs_logo.pdf Graphic file (type pdf)
 <use creodocs_logo.pdf>
 Package pdftex.def Info: creodocs_logo.pdf  used on input line 57.
@@ -905,322 +910,159 @@ LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' aliased to
 (Font)              `T1/IBMPlexSans-TLF/bold/n' on input line 129.
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/bold/n' will be
 (Font)              scaled to size 20.74pt on input line 129.
-
-No file "HW5-BranchingHardware - Ethan Vosburg".toc.
+ (./HW5-BranchingHardware - Ethan Vosburg.toc
+LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/sb/n' aliased to
+(Font)              `T1/IBMPlexSans-TLF/semibold/n' on input line 1.
+LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/semibold/n' will be
+(Font)              scaled to size 12.0pt on input line 1.
+)
 \tf@toc=\write5
 \openout5 = `"HW5-BranchingHardware - Ethan Vosburg.toc"'.
 
+ [2]
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' aliased to
-(Font)              `T1/IBMPlexSans-TLF/bold/n' on input line 132.
+(Font)              `T1/IBMPlexSans-TLF/bold/n' on input line 144.
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/bold/n' will be
-(Font)              scaled to size 12.0pt on input line 132.
+(Font)              scaled to size 14.4pt on input line 144.
+<Figures/Branch Address Generator Elaborated Design.png, id=120, 1438.37375pt x 1028.84375pt>
+File: Figures/Branch Address Generator Elaborated Design.png Graphic file (type png)
+<use Figures/Branch Address Generator Elaborated Design.png>
+Package pdftex.def Info: Figures/Branch Address Generator Elaborated Design.png  used on input line 149.
+(pdftex.def)             Requested size: 358.50836pt x 256.42535pt.
 
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 132.
-
-[2]
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' aliased to
-(Font)              `T1/IBMPlexSans-TLF/bold/n' on input line 145.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/bold/n' will be
-(Font)              scaled to size 14.4pt on input line 145.
-<Figures/ALU-Elaborated-Design.png, id=21, 1360.08125pt x 984.67876pt>
-File: Figures/ALU-Elaborated-Design.png Graphic file (type png)
-<use Figures/ALU-Elaborated-Design.png>
-Package pdftex.def Info: Figures/ALU-Elaborated-Design.png  used on input line 150.
-(pdftex.def)             Requested size: 478.00812pt x 346.0701pt.
-
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 150--151
+Overfull \hbox (143.68822pt too wide) in paragraph at lines 149--150
  [][] 
  []
 
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' aliased to
-(Font)              `T1/IBMPlexSans-TLF/bold/n' on input line 151.
+(Font)              `T1/IBMPlexSans-TLF/bold/n' on input line 150.
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/bold/n' will be
-(Font)              scaled to size 10.0pt on input line 151.
-<Figures/Immediate-Generator-Elaborated Design.png, id=23, 717.68124pt x 440.64626pt>
-File: Figures/Immediate-Generator-Elaborated Design.png Graphic file (type png)
-<use Figures/Immediate-Generator-Elaborated Design.png>
-Package pdftex.def Info: Figures/Immediate-Generator-Elaborated Design.png  used on input line 159.
-(pdftex.def)             Requested size: 298.75394pt x 183.4363pt.
+(Font)              scaled to size 12.0pt on input line 150.
+LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' aliased to
+(Font)              `T1/IBMPlexSans-TLF/bold/n' on input line 150.
+LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/bold/n' will be
+(Font)              scaled to size 10.0pt on input line 150.
+<Figures/Branch Condition Generator Elaborated Design.png, id=122, 1633.10126pt x 919.435pt>
+File: Figures/Branch Condition Generator Elaborated Design.png Graphic file (type png)
+<use Figures/Branch Condition Generator Elaborated Design.png>
+Package pdftex.def Info: Figures/Branch Condition Generator Elaborated Design.png  used on input line 159.
+(pdftex.def)             Requested size: 448.1309pt x 252.29124pt.
 
 Overfull \hbox (143.68822pt too wide) in paragraph at lines 159--160
  [][] 
  []
 
-
-LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 163.
-
-[3 <./Figures/ALU-Elaborated-Design.png>]
-
-/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/HW5-Report/HW5-BranchingHardware - Ethan Vosburg.tex:168: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.168     \begin
-                {tabular}{|c|c|c|} \hline
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/HW5-Report/HW5-BranchingHardware - Ethan Vosburg.tex:168: Undefined control sequence.
-\@float@Hx ...ltovf \fi \global \setbox \@currbox 
-                                                  \color@vbox \normalcolor \...
-l.168     \begin
-                {tabular}{|c|c|c|} \hline
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/HW5-Report/HW5-BranchingHardware - Ethan Vosburg.tex:168: Missing number, treated as zero.
-<to be read again> 
-                   \vbox 
-l.168     \begin
-                {tabular}{|c|c|c|} \hline
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-
-Overfull \hbox (303.30351pt too wide) in paragraph at lines 168--186
+[3 <./Figures/Branch Address Generator Elaborated Design.png>]
+Overfull \hbox (136.90007pt too wide) in paragraph at lines 173--191
 [][]  
  []
 
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' aliased to
-(Font)              `T1/IBMPlexSans-TLF/bold/n' on input line 186.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/bold/n' will be
-(Font)              scaled to size 10.95pt on input line 186.
-
-/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/HW5-Report/HW5-BranchingHardware - Ethan Vosburg.tex:189: Package graphics Error: Division by 0.
-
-See the graphics package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.189 \end{adjustbox}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<Figures/Zero Console Warnings.png, id=33, 753.81625pt x 179.67125pt>
+[4 <./Figures/Branch Condition Generator Elaborated Design.png>]
+<Figures/Zero Console Warnings.png, id=137, 753.81625pt x 179.67125pt>
 File: Figures/Zero Console Warnings.png Graphic file (type png)
 <use Figures/Zero Console Warnings.png>
-Package pdftex.def Info: Figures/Zero Console Warnings.png  used on input line 196.
+Package pdftex.def Info: Figures/Zero Console Warnings.png  used on input line 200.
 (pdftex.def)             Requested size: 448.1309pt x 106.81113pt.
 
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 196--197
+Overfull \hbox (143.68822pt too wide) in paragraph at lines 200--201
 [][]  
  []
 
-<Figures/ImmdGen Console Warnings.png, id=34, 776.9025pt x 210.7875pt>
-File: Figures/ImmdGen Console Warnings.png Graphic file (type png)
-<use Figures/ImmdGen Console Warnings.png>
-Package pdftex.def Info: Figures/ImmdGen Console Warnings.png  used on input line 204.
-(pdftex.def)             Requested size: 448.1309pt x 121.58783pt.
+File: Figures/Zero Console Warnings.png Graphic file (type png)
+<use Figures/Zero Console Warnings.png>
+Package pdftex.def Info: Figures/Zero Console Warnings.png  used on input line 208.
+(pdftex.def)             Requested size: 448.1309pt x 106.81113pt.
 
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 204--205
+Overfull \hbox (143.68822pt too wide) in paragraph at lines 208--209
 [][]  
  []
 
-
-LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 208.
-
-[4 <./Figures/Immediate-Generator-Elaborated Design.png> <./Figures/Zero Console Warnings.png>]
-
-LaTeX Warning: Reference `fig:ImmdGenSynthesisWarnings' on page 5 undefined on input line 209.
-
-LaTeX Font Info:    Trying to load font information for T1+IBMPlexMono-TLF on input line 209.
-(/usr/local/texlive/2023/texmf-dist/tex/latex/plex/T1IBMPlexMono-TLF.fd
+[5 <./Figures/Zero Console Warnings.png>]
+LaTeX Font Info:    Trying to load font information for T1+IBMPlexMono-TLF on input line 228.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/plex/T1IBMPlexMono-TLF.fd
 File: T1IBMPlexMono-TLF.fd 2019/12/06 (autoinst) Font definitions for T1/IBMPlexMono-TLF.
 )
 LaTeX Font Info:    Font shape `T1/IBMPlexMono-TLF/m/n' aliased to
-(Font)              `T1/IBMPlexMono-TLF/regular/n' on input line 209.
+(Font)              `T1/IBMPlexMono-TLF/regular/n' on input line 228.
 LaTeX Font Info:    Font shape `T1/IBMPlexMono-TLF/regular/n' will be
-(Font)              scaled to size 12.0pt on input line 209.
-
-
-LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 224.
-
-[5{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/plex/plx_x4zmfh.enc} <./Figures/ImmdGen Console Warnings.png>] (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
+(Font)              scaled to size 12.0pt on input line 228.
+ [6] (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang2.sty
 File: lstlang2.sty 2023/02/27 1.9 listings language file
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang3.sty
 File: lstlang3.sty 2023/02/27 1.9 listings language file
 )
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 230.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 231.
 LaTeX Font Info:    Font shape `T1/IBMPlexMono-TLF/m/n' aliased to
-(Font)              `T1/IBMPlexMono-TLF/regular/n' on input line 230.
+(Font)              `T1/IBMPlexMono-TLF/regular/n' on input line 231.
 LaTeX Font Info:    Font shape `T1/IBMPlexMono-TLF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 230.
- (/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sim_1/new/ALU_TB.sv
+(Font)              scaled to size 8.0pt on input line 231.
+ (/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGenFormal.sv
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/n' aliased to
-(Font)              `T1/IBMPlexSans-TLF/regular/n' on input line 1.
+(Font)              `T1/IBMPlexSans-TLF/regular/n' on input line 48.
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 1.
+(Font)              scaled to size 8.0pt on input line 48.
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/n' aliased to
-(Font)              `T1/IBMPlexSans-TLF/regular/n' on input line 1.
+(Font)              `T1/IBMPlexSans-TLF/regular/n' on input line 48.
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/regular/n' will be
-(Font)              scaled to size 6.0pt on input line 1.
+(Font)              scaled to size 6.0pt on input line 48.
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/it' aliased to
-(Font)              `T1/IBMPlexSans-TLF/regular/it' on input line 1.
+(Font)              `T1/IBMPlexSans-TLF/regular/it' on input line 48.
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/regular/it' will be
-(Font)              scaled to size 6.0pt on input line 1.
+(Font)              scaled to size 6.0pt on input line 48.
 LaTeX Font Info:    Font shape `T1/IBMPlexMono-TLF/b/n' aliased to
-(Font)              `T1/IBMPlexMono-TLF/bold/n' on input line 1.
+(Font)              `T1/IBMPlexMono-TLF/bold/n' on input line 48.
 LaTeX Font Info:    Font shape `T1/IBMPlexMono-TLF/bold/n' will be
-(Font)              scaled to size 8.0pt on input line 1.
+(Font)              scaled to size 8.0pt on input line 48.
 LaTeX Font Info:    Font shape `T1/IBMPlexMono-TLF/m/it' aliased to
-(Font)              `T1/IBMPlexMono-TLF/regular/it' on input line 2.
+(Font)              `T1/IBMPlexMono-TLF/regular/it' on input line 49.
 LaTeX Font Info:    Font shape `T1/IBMPlexMono-TLF/regular/it' will be
-(Font)              scaled to size 8.0pt on input line 2.
+(Font)              scaled to size 8.0pt on input line 49.
+) (/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGenBug.sv)
+<Figures/BranchAddressBugWaveform.png, id=154, 1402.23875pt x 742.775pt>
+File: Figures/BranchAddressBugWaveform.png Graphic file (type png)
+<use Figures/BranchAddressBugWaveform.png>
+Package pdftex.def Info: Figures/BranchAddressBugWaveform.png  used on input line 244.
+(pdftex.def)             Requested size: 358.50836pt x 189.89813pt.
 
-
-LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 57.
-
-[6])
-
-LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 232.
-
-[7] (/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/imports/HW4-ALU-ImmedGen/aluVerification.mem
-
-LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 71.
-
-[8])
-
-LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 235.
-
-[9] (/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sim_1/new/ImmdGen_TB.sv
-
-LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 66.
-
-[10]) (/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/imports/HW4-ALU-ImmedGen/ImmdGenVerification.mem)
-
-LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 242.
-
-[11]
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/n' aliased to
-(Font)              `T1/IBMPlexSans-TLF/regular/n' on input line 248.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 248.
-
-
-LaTeX Warning: Reference `LastPage' on page 12 undefined on input line 302.
-
-[12] (/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/ImmdGenTestCase.txt)
-
-LaTeX Warning: Reference `LastPage' on page 13 undefined on input line 306.
-
-[13]
-<Figures/ALU-Simulation-0.png, id=449, 1645.14626pt x 206.7725pt>
-File: Figures/ALU-Simulation-0.png Graphic file (type png)
-<use Figures/ALU-Simulation-0.png>
-Package pdftex.def Info: Figures/ALU-Simulation-0.png  used on input line 314.
-(pdftex.def)             Requested size: 478.00812pt x 60.07922pt.
-
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 314--315
+Overfull \hbox (143.68822pt too wide) in paragraph at lines 244--245
  [][] 
  []
 
-<Figures/ALU-Simulation-1.png, id=450, 1645.14626pt x 206.7725pt>
-File: Figures/ALU-Simulation-1.png Graphic file (type png)
-<use Figures/ALU-Simulation-1.png>
-Package pdftex.def Info: Figures/ALU-Simulation-1.png  used on input line 322.
-(pdftex.def)             Requested size: 478.00812pt x 60.07922pt.
+[7{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/plex/plx_x4zmfh.enc} <./Figures/BranchAddressBugWaveform.png>] (/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchConditionGenFormal.sv)
+<Figures/ConditionCoverTestWaveform.png, id=185, 1402.23875pt x 742.775pt>
+File: Figures/ConditionCoverTestWaveform.png Graphic file (type png)
+<use Figures/ConditionCoverTestWaveform.png>
+Package pdftex.def Info: Figures/ConditionCoverTestWaveform.png  used on input line 262.
+(pdftex.def)             Requested size: 358.50836pt x 189.89813pt.
 
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 322--323
+Overfull \hbox (143.68822pt too wide) in paragraph at lines 262--263
  [][] 
  []
 
-<Figures/ALU-Simulation-2.png, id=451, 1645.14626pt x 206.7725pt>
-File: Figures/ALU-Simulation-2.png Graphic file (type png)
-<use Figures/ALU-Simulation-2.png>
-Package pdftex.def Info: Figures/ALU-Simulation-2.png  used on input line 330.
-(pdftex.def)             Requested size: 478.00812pt x 60.07922pt.
-
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 330--331
- [][] 
- []
-
-<Figures/ALU-Simulation-3.png, id=452, 1645.14626pt x 206.7725pt>
-File: Figures/ALU-Simulation-3.png Graphic file (type png)
-<use Figures/ALU-Simulation-3.png>
-Package pdftex.def Info: Figures/ALU-Simulation-3.png  used on input line 338.
-(pdftex.def)             Requested size: 478.00812pt x 60.07922pt.
-
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 338--339
- [][] 
- []
-
-<Figures/ImmdGen Simulation.png, id=453, 1752.5475pt x 187.70125pt>
-File: Figures/ImmdGen Simulation.png Graphic file (type png)
-<use Figures/ImmdGen Simulation.png>
-Package pdftex.def Info: Figures/ImmdGen Simulation.png  used on input line 346.
-(pdftex.def)             Requested size: 478.00812pt x 51.19554pt.
-
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 346--347
- [][] 
- []
-
-
-LaTeX Warning: Reference `LastPage' on page 14 undefined on input line 351.
-
-[14 <./Figures/ALU-Simulation-0.png> <./Figures/ALU-Simulation-1.png> <./Figures/ALU-Simulation-2.png> <./Figures/ALU-Simulation-3.png> <./Figures/ImmdGen Simulation.png>] (/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/new/ALU.sv)
-
-LaTeX Warning: Reference `LastPage' on page 15 undefined on input line 358.
-
-[15] (/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/new/ImmdGen.sv)
-
-LaTeX Warning: Reference `LastPage' on page 16 undefined on input line 363.
-
-[16]
-
-LaTeX Warning: Reference `LastPage' on page 17 undefined on input line 375.
-
-[17] 
+[8 <./Figures/ConditionCoverTestWaveform.png>] (/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGen.sv) [9] (/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGenFormal.sv) [10] (/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/addressFormal.sby) (/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchConditionGen.sv) [11] (/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchConditionGenFormal.sv) [12] (/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/conditionFormal.sby) [13] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./HW5-BranchingHardware - Ethan Vosburg.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `"HW5-BranchingHardware - Ethan Vosburg".out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `"HW5-BranchingHardware - Ethan Vosburg".out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  4BABFED8B3C917EC81038A9BFEFD75CE;3973.
-
-Package lastpage Warning: Rerun to get the references right on input line 375.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                "HW5-BranchingHardware - Ethan Vosburg"
-(biblatex)                and rerun LaTeX afterwards.
-
+Package rerunfilecheck Info: File `"HW5-BranchingHardware - Ethan Vosburg".out' has not changed.
+(rerunfilecheck)             Checksum: C0C22D799D7F5CC22C84C821070FD923;3169.
 Package logreq Info: Writing requests to '"HW5-BranchingHardware - Ethan Vosburg".run.xml'.
 \openout1 = `"HW5-BranchingHardware - Ethan Vosburg.run.xml"'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29944 strings out of 476025
- 552117 string characters out of 5790016
- 2209388 words of memory out of 5000000
- 49431 multiletter control sequences out of 15000+600000
- 740764 words of font info for 101 fonts, out of 8000000 for 9000
+ 29733 strings out of 476025
+ 550517 string characters out of 5790016
+ 2127388 words of memory out of 5000000
+ 49400 multiletter control sequences out of 15000+600000
+ 723183 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,12n,145p,946b,2723s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexMono-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexMono-Italic.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexMono.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexSans-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexSans-BoldItalic.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexSans-Italic.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexSans.pfb>
-Output written on "HW5-BranchingHardware - Ethan Vosburg.pdf" (17 pages, 3035733 bytes).
+ 99i,11n,145p,801b,1882s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexMono-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexMono-Italic.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexMono.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexSans-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexSans-BoldItalic.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexSans-Italic.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexSans-SemiBold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexSans.pfb>
+Output written on "HW5-BranchingHardware - Ethan Vosburg.pdf" (13 pages, 3087724 bytes).
 PDF statistics:
- 712 PDF objects out of 1000 (max. 8388607)
- 651 compressed objects within 7 object streams
- 484 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 568 PDF objects out of 1000 (max. 8388607)
+ 502 compressed objects within 6 object streams
+ 295 named destinations out of 1000 (max. 500000)
+ 159 words of extra memory for PDF output out of 10000 (max. 10000000)
 
