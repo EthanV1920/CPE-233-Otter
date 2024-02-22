@@ -1,0 +1,10 @@
+Time resolution is 1 ps
+Setup Complete
+ReadMux Test Passed
+MaxMux Test Passed
+MinMux Test Passed
+Reset Test Passed
+RandNum Test Passed
+JALR Write Disable Failed
+WriteEnable Test Failed
+$finish called at time : 300 ns : File "Z:/Documents/git/CPE-233-Otter/HW2-ProgramCounter/ProgramCounter/ProgramCounter.srcs/sim_1/new/ProgramCounterEnv_TB.sv" Line 71

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="MCU_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="MCU_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="100.001 ns"></ZoomEndTime>
+      <Cursor1Time time="18.288 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="156"></NameColumnWidth>
+      <ValueColumnWidth column_width="65"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/MCU_TB/RST_TB" type="logic">
+      <obj_property name="ElementShortName">RST_TB</obj_property>
+      <obj_property name="ObjectShortName">RST_TB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MCU_TB/CLK_TB" type="logic">
+      <obj_property name="ElementShortName">CLK_TB</obj_property>
+      <obj_property name="ObjectShortName">CLK_TB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MCU_TB/MCU_INST/PC/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MCU_TB/MCU_INST/PC/PC_COUNT" type="array">
+      <obj_property name="ElementShortName">PC_COUNT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_COUNT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MCU_TB/INTR_TB" type="logic">
+      <obj_property name="ElementShortName">INTR_TB</obj_property>
+      <obj_property name="ObjectShortName">INTR_TB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MCU_TB/IOBUS_IO_TB" type="logic">
+      <obj_property name="ElementShortName">IOBUS_IO_TB</obj_property>
+      <obj_property name="ObjectShortName">IOBUS_IO_TB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MCU_TB/IOBUS_IO_OUT_TB" type="array">
+      <obj_property name="ElementShortName">IOBUS_IO_OUT_TB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IOBUS_IO_OUT_TB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MCU_TB/IOBUS_ADDR_TB" type="array">
+      <obj_property name="ElementShortName">IOBUS_ADDR_TB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IOBUS_ADDR_TB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MCU_TB/IOBUS_WR_TB" type="logic">
+      <obj_property name="ElementShortName">IOBUS_WR_TB</obj_property>
+      <obj_property name="ObjectShortName">IOBUS_WR_TB</obj_property>
+   </wvobject>
+</wave_config>
