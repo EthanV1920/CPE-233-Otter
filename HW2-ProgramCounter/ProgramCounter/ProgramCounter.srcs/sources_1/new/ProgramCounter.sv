@@ -30,7 +30,7 @@ module ProgramCounter(
 
 
     // #TODO: change to comb
-    PC_COUNT_INC <= PC_DIN + 4; // Write the Data In to the Program Counter and increment by 4
+    assign PC_COUNT_INC = PC_DIN + 4; // Write the Data In to the Program Counter and increment by 4
 
     always_ff @( posedge CLK ) begin
         if (PC_RST) begin
