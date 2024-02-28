@@ -24,13 +24,13 @@ module ProgramCounter(
     input CLK,                          // Clock
 
     // Outputs
-    output logic [31:0] PC_COUNT,       // Data Out
-    output logic [31:0] PC_COUNT_INC    // Data Out Incremented by 4
+    output logic [31:0] PC_COUNT       // Data Out
+    // output logic [31:0] PC_COUNT_INC    // Data Out Incremented by 4
     );
 
 
     // #TODO: change to comb
-    assign PC_COUNT_INC = PC_DIN + 4; // Write the Data In to the Program Counter and increment by 4
+    // assign PC_COUNT_INC = PC_DIN + 4; // Write the Data In to the Program Counter and increment by 4
 
     always_ff @( posedge CLK ) begin
         if (PC_RST) begin

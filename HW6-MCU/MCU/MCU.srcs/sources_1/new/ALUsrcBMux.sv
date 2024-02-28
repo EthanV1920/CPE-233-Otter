@@ -30,11 +30,11 @@ module ALUsrcBMux(
 
     always_comb begin
         case (srcB_SEL)
-            3'b000: muxOut = RS2;
-            3'b001: muxOut = iTypeImmd;
-            3'b010: muxOut = sTypeImmd;
-            3'b011: muxOut = PC_COUNT;
-            3'b100: muxOut = csr_RD;
+            0: muxOut = RS2;
+            1: muxOut = iTypeImmd;
+            2: muxOut = sTypeImmd;
+            3: muxOut = PC_COUNT;
+            4: muxOut = csr_RD;
             default: muxOut = 32'h0;
         endcase
     end

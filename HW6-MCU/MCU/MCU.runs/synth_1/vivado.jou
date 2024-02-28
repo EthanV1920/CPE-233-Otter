@@ -3,8 +3,8 @@
 # SW Build 3900603 on Fri Jun 16 19:31:24 MDT 2023
 # IP Build 3900379 on Sat Jun 17 05:28:05 MDT 2023
 # SharedData Build 3899622 on Fri Jun 16 03:34:24 MDT 2023
-# Start of session at: Wed Feb 21 23:48:34 2024
-# Process ID: 11764
+# Start of session at: Thu Feb 22 21:47:28 2024
+# Process ID: 3156
 # Current directory: Z:/Documents/git/CPE-233-Otter/HW6-MCU/MCU/MCU.runs/synth_1
 # Command line: vivado.exe -log MCU.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MCU.tcl
 # Log file: Z:/Documents/git/CPE-233-Otter/HW6-MCU/MCU/MCU.runs/synth_1/MCU.vds

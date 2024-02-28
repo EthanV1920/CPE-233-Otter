@@ -39,17 +39,18 @@ module MCU(
     logic [2:0] alu_srcb_mux_select, pc_mux_select;
 
     // Submodules
-    
+    // Assign statments for single lines
     assign IOBUS_OUT = rs2;
     assign IOBUS_ADDR = alu_result;
+    assign pc_count_inc = pc_count + 4;
 
+    // Linking all modules together
     ProgramCounter PC(
         .PC_RST(RST),
         .PC_WE(pc_we),
         .PC_DIN(pc_mux),
         .CLK(CLK),
-        .PC_COUNT(pc_count),
-        .PC_COUNT_INC(pc_count_inc)
+        .PC_COUNT(pc_count)
     );
 
     ProgramCounterMux PCM(

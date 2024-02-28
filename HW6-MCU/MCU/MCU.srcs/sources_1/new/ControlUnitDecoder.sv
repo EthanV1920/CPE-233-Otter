@@ -17,19 +17,19 @@
 
 module ControlUnitDecoder(
     // Inputs
-    input br_eq,                         // Branch Equal
-    input br_lt,                         // Branch Less Than
-    input br_ltu,                        // Branch Less Than Unsigned
-    input [6:0] funct7,                  // Function 7
-    input [6:0] opcode,                  // Opcode
-    input [2:0] funct3,                  // Function 3
+    input br_eq,                            // Branch Equal
+    input br_lt,                            // Branch Less Than
+    input br_ltu,                           // Branch Less Than Unsigned
+    input [6:0] funct7,                     // Function 7
+    input [6:0] opcode,                     // Opcode
+    input [2:0] funct3,                     // Function 3
 
     // Outputs
-    output logic [3:0] ALU_FUN,                // ALU Function
-    output logic [1:0] srcA_SEL,               // Source A Select
-    output logic [2:0] srcB_SEL,               // Source B Select
-    output logic [2:0] PC_SEL,                 // Program Counter Select
-    output logic [1:0] RF_SEL                  // Register File Select
+    output logic [3:0] ALU_FUN,             // ALU Function
+    output logic [1:0] srcA_SEL,            // Source A Select
+    output logic [2:0] srcB_SEL,            // Source B Select
+    output logic [2:0] PC_SEL,              // Program Counter Select
+    output logic [1:0] RF_SEL               // Register File Select
     );
 
     always_comb begin
@@ -45,15 +45,18 @@ module ControlUnitDecoder(
         7'b0110011: begin
             ALU_FUN = {funct7[5], funct3};
             srcA_SEL = 2'b0;
-            srcB_SEL = 3'b0;
             PC_SEL = 3'b0;
             RF_SEL = 2'b11;
+            // Logic for ALU Select B
+            if ({funct7[5], funct3} == 4'b0010) srcB_SEL = 3'b1;
+            if ({funct7[5], funct3} == 4'b0100) srcB_SEL = 3'b0;
         end
         // I-Type Instruction
         7'b0010011: begin
             ALU_FUN = {1'b0, funct3};
             srcA_SEL = 2'b0;
             srcB_SEL = 3'b1;
+            RF_SEL = 2'b11;
             PC_SEL = 3'b0;
 
         end
@@ -64,13 +67,13 @@ module ControlUnitDecoder(
         // U-Type Instruction
         7'b0110111: begin
             ALU_FUN = 4'b1001;
-            srcA_SEL = 2'b0;
+            srcA_SEL = 2'b1;
             PC_SEL = 3'b0;
             RF_SEL = 2'b11;
         end
 
         default:begin
-            // Should never happen
+            // Should not be used
             ALU_FUN = 4'b0000;
             srcA_SEL = 2'b0;
             srcB_SEL = 3'b0;

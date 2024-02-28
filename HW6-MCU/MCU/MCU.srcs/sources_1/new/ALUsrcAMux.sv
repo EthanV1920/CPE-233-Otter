@@ -28,9 +28,9 @@ module ALUsrcAMux(
 
     always_comb begin
         case (srcA_SEL)
-            2'b00: muxOut = RS1;
-            2'b01: muxOut = uTypeImmd;
-            2'b10: muxOut = notRS1;
+            0: muxOut = RS1;
+            1: muxOut = uTypeImmd;
+            2: muxOut = notRS1;
             default: muxOut = 32'h0;
         endcase
     end

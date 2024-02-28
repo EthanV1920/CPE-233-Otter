@@ -17,22 +17,22 @@
 
 module ControlUnitFSM(
     // Inputs
-    input CLK,                          // Clock
-    input RST,                          // Reset
-    input INTR,                         // Interrupt
-    input [6:0] opcode,                 // Opcode
-    input [2:0] funct3,                 // Function 3
+    input CLK,                              // Clock
+    input RST,                              // Reset
+    input INTR,                             // Interrupt
+    input [6:0] opcode,                     // Opcode
+    input [2:0] funct3,                     // Function 3
 
     // Outputs
-    output logic PC_WE,                       // Program Counter Write Enable
-    output logic RF_WE,                       // Register File Write Enable
-    output logic memWE2,                      // Memory Write Enable 2
-    output logic memRDEN1,                    // Memory Read Enable 1
-    output logic memeRDEN2,                   // Memory Read Enable 2
-    output logic reset,                       // Reset
-    output logic csr_WE,                      // Control and Status Register Write Enable
-    output logic int_taken,                   // Interrupt
-    output logic mret_exec                    // MRET Execution
+    output logic PC_WE,                     // Program Counter Write Enable
+    output logic RF_WE,                     // Register File Write Enable
+    output logic memWE2,                    // Memory Write Enable 2
+    output logic memRDEN1,                  // Memory Read Enable 1
+    output logic memeRDEN2,                 // Memory Read Enable 2
+    output logic reset,                     // Reset
+    output logic csr_WE,                    // Control and Status Register Write Enable
+    output logic int_taken,                 // Interrupt
+    output logic mret_exec                  // MRET Execution
 );
     // Define the state type
     typedef enum { ST_INIT, ST_FETCH, ST_EXEC } state_type;
@@ -40,6 +40,7 @@ module ControlUnitFSM(
     //  Define state and next state
     state_type state, next_state;
 
+    // Transition State
     always_ff @(posedge CLK) begin
         if (RST) begin
             state <= ST_INIT;
