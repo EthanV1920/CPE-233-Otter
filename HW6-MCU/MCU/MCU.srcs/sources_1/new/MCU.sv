@@ -33,7 +33,7 @@ module MCU(
             rf_mux, utype, itype, stype, jtype, btype, csr_rd, jalr, branch,
             jal,alu_srca_mux, alu_srcb_mux, mtvec, mepc;
     logic pc_we, rf_we, memwe2, memrden1, memrden2, reset, csr_we, int_taken, 
-            mret_exec;
+            mret_exec, mstatus;
     logic [3:0] alu_fun;
     logic [1:0] alu_srca_mux_select, rf_mux_select;
     logic [2:0] alu_srcb_mux_select, pc_mux_select;
@@ -43,6 +43,7 @@ module MCU(
     assign IOBUS_OUT = rs2;
     assign IOBUS_ADDR = alu_result;
     assign pc_count_inc = pc_count + 4;
+    assign intr = INTR & mstatus;
 
     // Linking all modules together
     ProgramCounter PC(
@@ -143,14 +144,14 @@ module MCU(
     ControlUnitFSM CUF(
         .CLK(CLK),
         .RST(RST),
-        .INTR(INTR),
+        .INTR(intr),
         .opcode(ir[6:0]),
         .funct3(ir[14:12]),
         .PC_WE(pc_we),
         .RF_WE(rf_we),
         .memWE2(memwe2),
         .memRDEN1(memrden1),
-        .memeRDEN2(memrden2),
+        .memRDEN2(memrden2),
         .reset(reset),
         .csr_WE(csr_we),
         .int_taken(int_taken),
@@ -182,6 +183,21 @@ module MCU(
         .PC_COUNT(pc_count),
         .csr_RD(csr_rd),
         .muxOut(alu_srcb_mux)
+    );
+    
+    CSR CSR(
+        .CLK(CLK),
+        .RESET(RST),
+        .MRET_EXEC(mret_exec),
+        .INT_TAKEN(int_taken),
+        .ADDR(ir[31:20]),
+        .CSR_WE(csr_we),
+        .PC(pc_count),
+        .WD(alu_result),
+        .MSTATUS(mstatus),
+        .MEPC(mepc),
+        .MTVEC(mtvec),
+        .RD(csr_rd)
     );
     
 endmodule

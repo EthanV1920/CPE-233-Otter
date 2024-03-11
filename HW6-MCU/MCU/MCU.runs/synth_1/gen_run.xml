@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35ticpg236-1L" LaunchTime="1708667239" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/MCU.dcp">
-  <File Type="PA-TCL" Name="MCU.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="MCU_drc_synth.rpt"/>
-  <File Type="REPORTS-TCL" Name="MCU_reports.tcl"/>
-  <File Type="RDS-RDS" Name="MCU.vds"/>
-  <File Type="RDS-UTIL" Name="MCU_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="MCU_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="MCU.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="MCU_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="MCU_timing_summary_synth.pb"/>
+<GenRun Id="synth_1" LaunchPart="xc7a35ticpg236-1L" LaunchTime="1710137254" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/MCU.dcp">
+  <File Type="PA-TCL" Name="OTTER_Wrapper.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="OTTER_Wrapper_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="OTTER_Wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="OTTER_Wrapper.vds"/>
+  <File Type="RDS-UTIL" Name="OTTER_Wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="OTTER_Wrapper_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="OTTER_Wrapper.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="OTTER_Wrapper_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="OTTER_Wrapper_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PPRDIR/../../HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/new/ALU.sv">
@@ -32,6 +32,15 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/imports/Utilities/SevSeg SV/BCD.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Utilities/SevSeg SV/BCD.sv"/>
+        <Attr Name="ImportTime" Val="1546496974"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PPRDIR/../../HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGen.sv">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -41,6 +50,22 @@
     </File>
     <File Path="$PPRDIR/../../HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchConditionGen.sv">
       <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CSR.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Utilities/SevSeg SV/CathodeDriver.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Utilities/SevSeg SV/CathodeDriver.sv"/>
+        <Attr Name="ImportTime" Val="1546498096"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -60,7 +85,21 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PPRDIR/../../Utilities/Debouncer.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PPRDIR/../../HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/new/ImmdGen.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/MCU.sv">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -104,24 +143,49 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/MCU.sv">
+    <File Path="$PSRCDIR/sources_1/imports/Utilities/SevSeg SV/SevSegDisp.sv">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Utilities/SevSeg SV/SevSegDisp.sv"/>
+        <Attr Name="ImportTime" Val="1546497618"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/imports/Utilities/OTTERWrapper.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Utilities/OTTERWrapper.sv"/>
+        <Attr Name="ImportTime" Val="1709363873"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Utilities/Test_All.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Utilities/Test_All.mem"/>
+        <Attr Name="ImportTime" Val="1709267734"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/imports/RARS Testing/otter_memory.mem">
       <FileInfo>
-        <Attr Name="ImportPath" Val="//Mac/Home/Documents/git/CPE-233-Otter/HW6-MCU/RARS Testing/otter_memory.mem"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../RARS Testing/otter_memory.mem"/>
         <Attr Name="ImportTime" Val="1708572299"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Utilities/InterruptTesting.mem">
+      <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="MCU"/>
+      <Option Name="TopModule" Val="OTTER_Wrapper"/>
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>
   </FileSet>

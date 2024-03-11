@@ -20,7 +20,7 @@ module MCU_TB();
     logic RST_TB = 1'b0; // Reset
     logic CLK_TB = 1'b0; // Clock
     logic INTR_TB = 1'b0; // Interrupt
-    logic [31:0] IOBUS_IO_TB = 32'b0; // IO Bus
+    logic [31:0] IOBUS_IO_TB = 32'b000; // IO Bus
 
     // Outputs
     logic [31:0] IOBUS_IO_OUT_TB; // IO Bus Output

@@ -1,0 +1,9 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'HW7-Otter - Ethan Vosburg.blg'
+[37] biber-darwin:340> INFO - === Sat Mar  2, 2024, 23:34:31
+[46] Biber.pm:419> INFO - Reading 'HW7-Otter - Ethan Vosburg.bcf'
+[91] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[99] bbl.pm:660> INFO - Writing 'HW7-Otter - Ethan Vosburg.bbl' with encoding 'UTF-8'
+[99] bbl.pm:763> INFO - Output to HW7-Otter - Ethan Vosburg.bbl
+[99] Biber.pm:131> WARN - The file 'HW7-Otter - Ethan Vosburg.bcf' does not contain any citations!
+[99] Biber.pm:133> INFO - WARNINGS: 1

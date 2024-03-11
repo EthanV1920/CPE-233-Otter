@@ -23,6 +23,7 @@ module ControlUnitDecoder(
     input [6:0] funct7,                     // Function 7
     input [6:0] opcode,                     // Opcode
     input [2:0] funct3,                     // Function 3
+    input int_taken,                        // Interrupt taken flag
 
     // Outputs
     output logic [3:0] ALU_FUN,             // ALU Function
@@ -45,24 +46,95 @@ module ControlUnitDecoder(
         7'b0110011: begin
             ALU_FUN = {funct7[5], funct3};
             srcA_SEL = 2'b0;
+            srcB_SEL = 0;
             PC_SEL = 3'b0;
             RF_SEL = 2'b11;
             // Logic for ALU Select B
-            if ({funct7[5], funct3} == 4'b0010) srcB_SEL = 3'b1;
-            if ({funct7[5], funct3} == 4'b0100) srcB_SEL = 3'b0;
+            // if ({funct7[5], funct3} == 4'b0010) srcB_SEL = 3'b1;
+            // if ({funct7[5], funct3} == 4'b0100) srcB_SEL = 3'b0;
         end
         // I-Type Instruction
         7'b0010011: begin
-            ALU_FUN = {1'b0, funct3};
+            // Take care of special case with SRAI
+            if (funct3 == 3'b101)
+                ALU_FUN = {funct7[5], funct3};
+            else
+                ALU_FUN = {1'b0, funct3};
+            
+            // Configure selects
             srcA_SEL = 2'b0;
             srcB_SEL = 3'b1;
             RF_SEL = 2'b11;
             PC_SEL = 3'b0;
-
+        end
+        // JALR Instructions
+        7'b1100111: begin
+            PC_SEL = 3'b1;
+            // ALU_FUN = {1'b0, funct3};
+            // srcA_SEL = 2'b0;
+            // srcB_SEL = 3'b1;
+            RF_SEL = 2'b0;
+        end
+        // Loading Instructions
+        7'b0000011: begin
+            PC_SEL = 3'b0;
+            RF_SEL = 2;
+            srcA_SEL = 0;
+            srcB_SEL = 1;
+            ALU_FUN = 4'b0000;
+        end 
+        // J-Type Instruction
+        7'b1101111: begin
+            PC_SEL = 3'b11;
+            RF_SEL = 2'b0;
         end
         // B-Type Instruction
         7'b1100011: begin
-            PC_SEL = 3'b10;
+            case(funct3)
+                3'b000: begin
+                    if (br_eq)
+                        PC_SEL = 3'b10;
+                    else
+                        PC_SEL = 3'b0;
+                end
+
+                3'b101: begin
+                    if (!br_lt) 
+                        PC_SEL = 3'b10;
+                    else
+                        PC_SEL = 3'b0;
+                end
+
+                3'b111: begin
+                    if (!br_ltu)
+                        PC_SEL = 3'b10;
+                    else
+                        PC_SEL = 3'b0;
+                end
+
+                3'b100: begin
+                    if (br_lt)
+                        PC_SEL = 3'b10;
+                    else
+                        PC_SEL = 3'b0;
+                end
+
+                3'b110: begin
+                    if (br_ltu)
+                        PC_SEL = 3'b10;
+                    else
+                        PC_SEL = 3'b0;
+                end
+
+                3'b001: begin
+                    if (!br_eq) 
+                        PC_SEL = 3'b10;
+                    else
+                        PC_SEL = 3'b0;
+                end
+
+                default: PC_SEL = 3'b111;
+            endcase
         end
         // U-Type Instruction
         7'b0110111: begin
@@ -72,15 +144,59 @@ module ControlUnitDecoder(
             RF_SEL = 2'b11;
         end
 
-        default:begin
+        // AUIPC Command
+        7'b0010111: begin
+            ALU_FUN = 4'b0000;
+            srcA_SEL = 2'b1;
+            srcB_SEL = 3'b11;
+            PC_SEL = 3'b0;
+            RF_SEL = 2'b11;
+        end
+        // S-Type Instruction
+        7'b0100011: begin
+            ALU_FUN = 0;
+            srcA_SEL = 0;
+            srcB_SEL = 2;
+            PC_SEL = 0;
+        end
+        // Interrupt functions
+        7'b1110011: begin
+            case(funct3)
+                // CSRRW
+                3'b001: begin
+                    ALU_FUN = 4'b1001;
+                    RF_SEL = 2'b01; 
+                end
+                3'b010: begin
+                    ALU_FUN = 4'b0110;
+                    srcB_SEL = 3'b100;
+                    RF_SEL = 2'b01; 
+                end
+                3'b011:begin
+                    ALU_FUN = 4'b0111;
+                    srcA_SEL = 2'b10;
+                    srcB_SEL = 3'b100;
+                    RF_SEL = 2'b01; 
+                end
+
+            endcase
+
+
+        end
+
+        default: begin
             // Should not be used
             ALU_FUN = 4'b0000;
-            srcA_SEL = 2'b0;
-            srcB_SEL = 3'b0;
+            srcA_SEL = 2'b1;
+            srcB_SEL = 3'b11;
             PC_SEL = 3'b0;
-            RF_SEL = 2'b00;
+            RF_SEL = 2'b11;
         end
         endcase
+        
+        if(int_taken)begin
+            PC_SEL = 3'b100;
+        end
         
     end
 

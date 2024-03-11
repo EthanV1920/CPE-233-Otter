@@ -41,4 +41,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log MCU.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source MCU.tcl
+EAStep vivado -log OTTER_Wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source OTTER_Wrapper.tcl

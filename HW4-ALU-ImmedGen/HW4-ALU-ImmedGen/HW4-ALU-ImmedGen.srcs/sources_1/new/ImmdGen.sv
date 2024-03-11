@@ -32,7 +32,7 @@ module ImmdGen(
     assign uTypeImmd = {instruction[31:12], 12'b0};
     
     // I type immediate generation
-    assign iTypeImmd = {{20{instruction[31]}}, instruction[30:20]};
+    assign iTypeImmd = {{21{instruction[31]}}, instruction[30:20]};
     
     // S type immediate generation
     assign sTypeImmd = {{21{instruction[31]}}, instruction[30:25], instruction[11:7]};

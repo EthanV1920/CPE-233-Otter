@@ -18,7 +18,7 @@ module ALU(
     // Inputs
     input [31:0] srcA,          // 32-bit input A
     input [31:0] srcB,          // 32-bit input B
-    input [3:0] operation,      // 5-bit function code
+    input [3:0] operation,      // 4-bit function code
 
     // Outputs
     output logic [31:0] result  // 32-bit result
@@ -31,11 +31,11 @@ always_comb begin
         4'b0110: result = srcA | srcB;                      // OR: or the two inputs
         4'b0111: result = srcA & srcB;                      // AND: and the two inputs
         4'b0100: result = srcA ^ srcB;                      // XOR: xor the two inputs
-        4'b0101: result = srcA >> srcB;                     // SRL: logical shift left
-        4'b0001: result = srcA << srcB;                     // SLL: logical shift right
-        4'b1101: result = srcA >>> srcB;                    // SRA: shift right arithmetic
-        4'b0010: result = srcA > srcB;                      // SLT: set less than
-        4'b0011: result = $signed(srcA) > $signed(srcB);    // SLTU: set less than or equal 
+        4'b0101: result = srcA >> srcB[4:0];                // SRL: logical shift right
+        4'b0001: result = srcA << srcB[4:0];                // SLL: logical shift left
+        4'b1101: result = $signed(srcA) >>> srcB[4:0];      // SRA: shift right arithmetic
+        4'b0010: result = $signed(srcA) < $signed(srcB);    // SLT: set less than
+        4'b0011: result = srcA < srcB;                      // SLTU: set less than or equal 
         4'b1001: result = srcA;                             // LUI-COPY: copy srcA to result
         default: result = 32'b0;                            // default case should not be reached
     endcase
