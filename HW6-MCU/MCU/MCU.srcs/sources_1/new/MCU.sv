@@ -134,6 +134,7 @@ module MCU(
         .funct7(ir[31:25]),
         .opcode(ir[6:0]),
         .funct3(ir[14:12]),
+        .int_taken(int_taken),
         .ALU_FUN(alu_fun),
         .srcA_SEL(alu_srca_mux_select),
         .srcB_SEL(alu_srcb_mux_select),

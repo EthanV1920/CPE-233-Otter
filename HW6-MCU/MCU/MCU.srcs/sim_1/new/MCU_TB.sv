@@ -20,7 +20,7 @@ module MCU_TB();
     logic RST_TB = 1'b0; // Reset
     logic CLK_TB = 1'b0; // Clock
     logic INTR_TB = 1'b0; // Interrupt
-    logic [31:0] IOBUS_IO_TB = 32'b000; // IO Bus
+    logic [31:0] IOBUS_IO_TB = 32'b001; // IO Bus
 
     // Outputs
     logic [31:0] IOBUS_IO_OUT_TB; // IO Bus Output
@@ -41,6 +41,13 @@ module MCU_TB();
         CLK_TB = 1'b0;
         RST_TB = 1'b1;
         #10 RST_TB = 1'b0;
+
+        #1500;
+
+        INTR_TB = 1;
+        #40 INTR_TB = 0;
+
+
     end
 
     // Instantiate the clock

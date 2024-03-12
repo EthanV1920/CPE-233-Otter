@@ -1,0 +1,22 @@
+0.7
+2020.2
+Jun 16 2023
+19:55:58
+Z:/Documents/git/CPE-233-Otter/HW2-ProgramCounter/ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounter.sv,1708971935,systemVerilog,,Z:/Documents/git/CPE-233-Otter/HW2-ProgramCounter/ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounterMux.sv,,ProgramCounter,,uvm,,,,,,
+Z:/Documents/git/CPE-233-Otter/HW2-ProgramCounter/ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounterMux.sv,1708589583,systemVerilog,,Z:/Documents/git/CPE-233-Otter/HW3-RegFile/RegFile/RegFile.srcs/sources_1/new/RegFile.sv,,ProgramCounterMux,,uvm,,,,,,
+Z:/Documents/git/CPE-233-Otter/HW3-RegFile/RegFile/RegFile.srcs/sources_1/new/RegFile.sv,1706687888,systemVerilog,,Z:/Documents/git/CPE-233-Otter/HW6-MCU/MCU/MCU.srcs/sources_1/new/RegFileMux.sv,,RegFile,,uvm,,,,,,
+Z:/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/new/ALU.sv,1709608808,systemVerilog,,Z:/Documents/git/CPE-233-Otter/HW6-MCU/MCU/MCU.srcs/sources_1/new/ALUsrcAMux.sv,,ALU,,uvm,,,,,,
+Z:/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/new/ImmdGen.sv,1709608808,systemVerilog,,Z:/Documents/git/CPE-233-Otter/HW6-MCU/MCU/MCU.srcs/sources_1/new/MCU.sv,,ImmdGen,,uvm,,,,,,
+Z:/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGen.sv,1707525367,systemVerilog,,Z:/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchConditionGen.sv,,BranchAddressGen,,uvm,,,,,,
+Z:/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchConditionGen.sv,1707524939,systemVerilog,,Z:/Documents/git/CPE-233-Otter/HW6-MCU/MCU/MCU.srcs/sources_1/new/CSR.sv,,BranchConditionGen,,uvm,,,,,,
+Z:/Documents/git/CPE-233-Otter/HW6-MCU/MCU/MCU.sim/sim_1/behav/xsim/glbl.v,1683266558,verilog,,,,glbl,,uvm,,,,,,
+Z:/Documents/git/CPE-233-Otter/HW6-MCU/MCU/MCU.srcs/sim_1/new/MCU_TB.sv,1710222300,systemVerilog,,,,MCU_TB,,uvm,,,,,,
+Z:/Documents/git/CPE-233-Otter/HW6-MCU/MCU/MCU.srcs/sources_1/imports/Downloads/OtterMemory.sv,1710131017,systemVerilog,,Z:/Documents/git/CPE-233-Otter/HW2-ProgramCounter/ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounter.sv,,OtterMemory,,uvm,,,,,,
+Z:/Documents/git/CPE-233-Otter/HW6-MCU/MCU/MCU.srcs/sources_1/new/ALUsrcAMux.sv,1708971935,systemVerilog,,Z:/Documents/git/CPE-233-Otter/HW6-MCU/MCU/MCU.srcs/sources_1/new/ALUsrcBMux.sv,,ALUsrcAMux,,uvm,,,,,,
+Z:/Documents/git/CPE-233-Otter/HW6-MCU/MCU/MCU.srcs/sources_1/new/ALUsrcBMux.sv,1708971935,systemVerilog,,Z:/Documents/git/CPE-233-Otter/HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGen.sv,,ALUsrcBMux,,uvm,,,,,,
+Z:/Documents/git/CPE-233-Otter/HW6-MCU/MCU/MCU.srcs/sources_1/new/CSR.sv,1710133754,systemVerilog,,Z:/Documents/git/CPE-233-Otter/HW6-MCU/MCU/MCU.srcs/sources_1/new/ControlUnitDecoder.sv,,CSR,,uvm,,,,,,
+Z:/Documents/git/CPE-233-Otter/HW6-MCU/MCU/MCU.srcs/sources_1/new/CSR_TB.sv,1710219818,systemVerilog,,,,CSR_TB,,uvm,,,,,,
+Z:/Documents/git/CPE-233-Otter/HW6-MCU/MCU/MCU.srcs/sources_1/new/ControlUnitDecoder.sv,1710137246,systemVerilog,,Z:/Documents/git/CPE-233-Otter/HW6-MCU/MCU/MCU.srcs/sources_1/new/ControlUnitFSM.sv,,ControlUnitDecoder,,uvm,,,,,,
+Z:/Documents/git/CPE-233-Otter/HW6-MCU/MCU/MCU.srcs/sources_1/new/ControlUnitFSM.sv,1710138188,systemVerilog,,Z:/Documents/git/CPE-233-Otter/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/new/ImmdGen.sv,,ControlUnitFSM,,uvm,,,,,,
+Z:/Documents/git/CPE-233-Otter/HW6-MCU/MCU/MCU.srcs/sources_1/new/MCU.sv,1710223610,systemVerilog,,Z:/Documents/git/CPE-233-Otter/HW6-MCU/MCU/MCU.srcs/sources_1/imports/Downloads/OtterMemory.sv,,MCU,,uvm,,,,,,
+Z:/Documents/git/CPE-233-Otter/HW6-MCU/MCU/MCU.srcs/sources_1/new/RegFileMux.sv,1708572059,systemVerilog,,Z:/Documents/git/CPE-233-Otter/HW6-MCU/MCU/MCU.srcs/sim_1/new/MCU_TB.sv,,RegFileMux,,uvm,,,,,,
