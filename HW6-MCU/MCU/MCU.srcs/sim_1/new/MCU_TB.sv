@@ -46,6 +46,41 @@ module MCU_TB();
 
         INTR_TB = 1;
         #40 INTR_TB = 0;
+        
+        #1500;
+
+        INTR_TB = 1;
+        #40 INTR_TB = 0;
+
+        #1500;
+
+        INTR_TB = 1;
+        #40 INTR_TB = 0;
+
+        #1500;
+
+        INTR_TB = 1;
+        #40 INTR_TB = 0;
+
+        #1500;
+
+        INTR_TB = 1;
+        #40 INTR_TB = 0;
+
+        #1500;
+
+        INTR_TB = 1;
+        #40 INTR_TB = 0;
+
+        #1500;
+
+        INTR_TB = 1;
+        #40 INTR_TB = 0;
+
+        #1500;
+
+        INTR_TB = 1;
+        #40 INTR_TB = 0;
 
 
     end

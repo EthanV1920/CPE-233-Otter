@@ -161,22 +161,26 @@ module ControlUnitDecoder(
         end
         // Interrupt functions
         7'b1110011: begin
+            RF_SEL = 2'b01;
+            srcB_SEL = 3'b100;
+
             case(funct3)
                 // CSRRW
                 3'b001: begin
                     ALU_FUN = 4'b1001;
-                    RF_SEL = 2'b01; 
+                    srcA_SEL = 2'b00; 
                 end
                 3'b010: begin
                     ALU_FUN = 4'b0110;
-                    srcB_SEL = 3'b100;
-                    RF_SEL = 2'b01; 
+                    srcA_SEL = 2'b00; 
                 end
                 3'b011:begin
                     ALU_FUN = 4'b0111;
                     srcA_SEL = 2'b10;
-                    srcB_SEL = 3'b100;
-                    RF_SEL = 2'b01; 
+                    // RF_SEL = 2'b10; 
+                end
+                3'b000: begin
+                    PC_SEL = 5;
                 end
 
             endcase

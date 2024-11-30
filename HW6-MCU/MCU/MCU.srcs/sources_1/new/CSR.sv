@@ -42,7 +42,7 @@ module CSR(
             12'h300: RD = mstatus;
             12'h305: RD = MTVEC;
             12'h341: RD = MEPC;
-            default: RD = 32'hffffffff;
+            default: RD = 32'hbad0bad0;
         endcase
     end
     

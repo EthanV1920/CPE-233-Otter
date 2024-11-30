@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35ticpg236-1L" LaunchTime="1732948293">
+  <File Type="ROUTE-PWR" Name="MCU_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="MCU.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="MCU_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="MCU_reports.tcl"/>
+  <File Type="OPT-RQA-PB" Name="MCU_rqa_opted.pb"/>
+  <File Type="BITSTR-MMI" Name="MCU.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="MCU_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="MCU_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="MCU_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="MCU_opt.dcp"/>
+  <File Type="OPT-DRC" Name="MCU_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="MCU.hwdef"/>
+  <File Type="PWROPT-DCP" Name="MCU_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="MCU_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="MCU_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="MCU_placed.dcp"/>
+  <File Type="PLACE-IO" Name="MCU_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="MCU_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="MCU_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="MCU_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="MCU_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="MCU_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="MCU_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="MCU.bin"/>
+  <File Type="PLACE-TIMING" Name="MCU_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="MCU_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="MCU_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="MCU_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="MCU.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="MCU_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="MCU_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="MCU_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="MCU.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="MCU_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="MCU_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="MCU_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="MCU_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="MCU_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="MCU_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="MCU_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="MCU_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="MCU_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="MCU_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="MCU_rqs_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="MCU_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="MCU_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="MCU_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="MCU_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="MCU_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="MCU_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="MCU_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="MCU_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="MCU_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="MCU_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="MCU_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="MCU_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="MCU_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="MCU_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="MCU_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="MCU_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="MCU.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="MCU_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="MCU_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="MCU.nky"/>
+  <File Type="BITSTR-BMM" Name="MCU_bd.bmm"/>
+  <File Type="PDI-FILE" Name="MCU.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="MCU_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="MCU_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="MCU.rcfi"/>
+  <File Type="CFI_FILE" Name="MCU.cfi"/>
+  <File Type="RNPI_FILE" Name="MCU.rnpi"/>
+  <File Type="NPI_FILE" Name="MCU.npi"/>
+  <File Type="RBD_FILE" Name="MCU.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="MCU.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="MCU.sysdef"/>
+  <File Type="BG-BGN" Name="MCU.bgn"/>
+  <File Type="BG-DRC" Name="MCU.drc"/>
+  <File Type="RDI-RDI" Name="MCU.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="MCU_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="MCU_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../../HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/new/ALU.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ALUsrcAMux.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ALUsrcBMux.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchAddressGen.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/sources_1/new/BranchConditionGen.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CSR.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ControlUnitDecoder.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ControlUnitFSM.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../HW4-ALU-ImmedGen/HW4-ALU-ImmedGen/HW4-ALU-ImmedGen.srcs/sources_1/new/ImmdGen.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Downloads/OtterMemory.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="//Mac/Home/Downloads/OtterMemory.sv"/>
+        <Attr Name="ImportTime" Val="1708563370"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../HW2-ProgramCounter/ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounter.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../HW2-ProgramCounter/ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounterMux.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../HW3-RegFile/RegFile/RegFile.srcs/sources_1/new/RegFile.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/RegFileMux.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/MCU.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Utilities/SevSeg SV/BCD.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Utilities/SevSeg SV/BCD.sv"/>
+        <Attr Name="ImportTime" Val="1546496974"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Utilities/SevSeg SV/CathodeDriver.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Utilities/SevSeg SV/CathodeDriver.sv"/>
+        <Attr Name="ImportTime" Val="1546498096"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Utilities/Debouncer.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Utilities/SevSeg SV/SevSegDisp.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Utilities/SevSeg SV/SevSegDisp.sv"/>
+        <Attr Name="ImportTime" Val="1546497618"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Utilities/OTTERWrapper.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Utilities/OTTERWrapper.sv"/>
+        <Attr Name="ImportTime" Val="1709363873"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Utilities/Test_All.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Utilities/Test_All.mem"/>
+        <Attr Name="ImportTime" Val="1709267734"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RARS Testing/otter_memory.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../RARS Testing/otter_memory.mem"/>
+        <Attr Name="ImportTime" Val="1708572299"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Utilities/InterruptTesting.mem">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CSR_TB.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="MCU"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Resources/Basys3_constraints.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../HW5-BranchingHardware/BranchingHardware/BranchingHardware.srcs/constrs_1/imports/Resources/Basys3_constraints.xdc"/>
+        <Attr Name="ImportTime" Val="1695409477"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/MCU.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

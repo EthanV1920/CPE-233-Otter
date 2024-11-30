@@ -1,947 +1,226 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.28)  16 JAN 2024 16:20
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=euptex 2024.4.11)  27 NOV 2024 15:00
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW1-ProgROM/HW1-Report/Report.tex
-(/Users/ethanvosburg/Documents/git/CPE-233-Otter/HW1-ProgROM/HW1-Report/Report.tex
-LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-02-22> (./CSSullivanBusinessReport.cls
-Document Class: CSSullivanBusinessReport 2022/05/05 Creodocs Sullivan Business Report Class v1.0
-(/usr/local/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count185
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
-(/usr/local/texlive/2023/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
-)
-\c@part=\count186
-\c@section=\count187
-\c@subsection=\count188
-\c@subsubsection=\count189
-\c@paragraph=\count190
-\c@subparagraph=\count191
-\c@figure=\count192
-\c@table=\count193
-\abovecaptionskip=\skip48
-\belowcaptionskip=\skip49
-\bibindent=\dimen140
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 107.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
-))
-\Gin@req@height=\dimen141
-\Gin@req@width=\dimen142
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/footmisc/footmisc.sty
-Package: footmisc 2022/03/08 v6.0d a miscellany of footnote facilities
-\FN@temptoken=\toks17
-\footnotemargin=\dimen143
-\@outputbox@depth=\dimen144
-Package footmisc Info: Declaring symbol style bringhurst on input line 695.
-Package footmisc Info: Declaring symbol style chicago on input line 703.
-Package footmisc Info: Declaring symbol style wiley on input line 712.
-Package footmisc Info: Declaring symbol style lamport-robust on input line 723.
-Package footmisc Info: Declaring symbol style lamport* on input line 743.
-Package footmisc Info: Declaring symbol style lamport*-robust on input line 764.
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/ragged2e/ragged2e.sty
-Package: ragged2e 2023/02/25 v3.4 ragged2e Package
-\CenteringLeftskip=\skip50
-\RaggedLeftLeftskip=\skip51
-\RaggedRightLeftskip=\skip52
-\CenteringRightskip=\skip53
-\RaggedLeftRightskip=\skip54
-\RaggedRightRightskip=\skip55
-\CenteringParfillskip=\skip56
-\RaggedLeftParfillskip=\skip57
-\RaggedRightParfillskip=\skip58
-\JustifyingParfillskip=\skip59
-\CenteringParindent=\skip60
-\RaggedLeftParindent=\skip61
-\RaggedRightParindent=\skip62
-\JustifyingParindent=\skip63
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/lastpage/lastpage.sty
-Package: lastpage 2023/03/07 v2.0a lastpage: 2.09 or 2e? (HMM)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/lastpage/lastpage2e.sty
-Package: lastpage2e 2023/03/07 v2.0a Decide which 2e lastpage version to use (HMM)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/lastpage/lastpagemodern.sty
-Package: lastpagemodern 2023-03-07 v2.0a Refers to last page's name (HMM; JPG)
-) 
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/appendix/appendix.sty
-Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count194
-\c@@ppsavesec=\count195
-\c@@ppsaveapp=\count196
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/float/float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count197
-\float@exts=\toks18
-\float@box=\box51
-\@float@everytoks=\toks19
-\@floatcapt=\box52
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
- (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
-Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
-))
-\Gm@cnth=\count198
-\Gm@cntv=\count199
-\c@Gm@tempcnt=\count266
-\Gm@bindingoffset=\dimen145
-\Gm@wd@mp=\dimen146
-\Gm@odd@mp=\dimen147
-\Gm@even@mp=\dimen148
-\Gm@layoutwidth=\dimen149
-\Gm@layoutheight=\dimen150
-\Gm@layouthoffset=\dimen151
-\Gm@layoutvoffset=\dimen152
-\Gm@dimlist=\toks20
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/sidenotes/sidenotes.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2023-02-22 L3 programming layer (loader) 
- (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count267
-\l__pdf_internal_box=\box53
-))
-Package: l3keys2e 2023-02-02 LaTeX2e option processing using LaTeX3 keys
-)
-Package: sidenotes 2016/04/21 v1.00 rich text in the margin for LaTeX
- (/usr/local/texlive/2023/texmf-dist/tex/latex/marginnote/marginnote.sty
-Package: marginnote 2018/08/09 v1.4b non floating margin notes for LaTeX
-\c@mn@abspage=\count268
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2023/03/12 v3.6j Customizing captions (AR)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
-\caption@tempdima=\dimen153
-\captionmargin=\dimen154
-\caption@leftmargin=\dimen155
-\caption@rightmargin=\dimen156
-\caption@width=\dimen157
-\caption@indent=\dimen158
-\caption@parindent=\dimen159
-\caption@hangindent=\dimen160
-Package caption Info: Standard document class detected.
-)
-\c@caption@flags=\count269
-\c@continuedfloat=\count270
-Package caption Info: float package is loaded.
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2023-02-02 L3 Experimental document command parser
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/changepage/changepage.sty
-Package: changepage 2009/10/20 v1.0c check page and change page layout
-\c@cp@cntr=\count271
-\cp@tempcnt=\count272
-)
-\c@sidenote=\count273
-\@sidenotes@marginfigurebox=\box54
-\@sidenotes@margintablebox=\box55
-)
-\fulltextwidth=\skip64
- (/usr/local/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks21
-\inpenc@posthook=\toks22
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/mathpazo.sty
-Package: mathpazo 2020/03/25 PSNFSS-v9.3 Palatino w/ Pazo Math (D.Puga, WaS) 
-\symupright=\mathgroup4
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/plex/plex-sans.sty
-Package: plex-sans 2022/09/123 (Bob Tennent) Style file for IBMPlexSans fonts
- (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifxetex.sty
-Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifluatex.sty
-Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
- (/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks23
-\XKV@tempa@toks=\toks24
-)
-\XKV@depth=\count274
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+ppl on input line 112.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/t1ppl.fd
-File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/fontaxes/fontaxes.sty
-Package: fontaxes 2020/07/21 v1.0e Font selection axes
-LaTeX Info: Redefining \upshape on input line 29.
-LaTeX Info: Redefining \itshape on input line 31.
-LaTeX Info: Redefining \slshape on input line 33.
-LaTeX Info: Redefining \swshape on input line 35.
-LaTeX Info: Redefining \scshape on input line 37.
-LaTeX Info: Redefining \sscshape on input line 39.
-LaTeX Info: Redefining \ulcshape on input line 41.
-LaTeX Info: Redefining \textsw on input line 47.
-LaTeX Info: Redefining \textssc on input line 48.
-LaTeX Info: Redefining \textulc on input line 49.
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/plex/plex-serif.sty
-Package: plex-serif 2022/09/23 (Bob Tennent) Style file for IBMPlexSerif fonts
- (/usr/local/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+IBMPlexSans-TLF on input line 112.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/plex/T1IBMPlexSans-TLF.fd
-File: T1IBMPlexSans-TLF.fd 2019/12/06 (autoinst) Font definitions for T1/IBMPlexSans-TLF.
-)
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/n' aliased to
-(Font)              `T1/IBMPlexSans-TLF/regular/n' on input line 112.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/regular/n' will be
-(Font)              scaled to size 12.0pt on input line 112.
-)
-LaTeX Info: Redefining \textsu on input line 80.
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/plex/plex-mono.sty
-Package: plex-mono 2022/09/23 (Bob Tennent) Style file for IBMPlexMono fonts
- (/usr/local/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
-\f@nch@headwidth=\skip65
-\f@nch@O@elh=\skip66
-\f@nch@O@erh=\skip67
-\f@nch@O@olh=\skip68
-\f@nch@O@orh=\skip69
-\f@nch@O@elf=\skip70
-\f@nch@O@erf=\skip71
-\f@nch@O@olf=\skip72
-\f@nch@O@orf=\skip73
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count275
-\calc@Bcount=\count276
-\calc@Adimen=\dimen161
-\calc@Bdimen=\dimen162
-\calc@Askip=\skip74
-\calc@Bskip=\skip75
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count277
-\calc@Cskip=\skip76
-)
-\marginoffset=\skip77
- (/usr/local/texlive/2023/texmf-dist/tex/latex/titlesec/titlesec.sty
-Package: titlesec 2021/07/05 v2.14 Sectioning titles
-\ttl@box=\box56
-\beforetitleunit=\skip78
-\aftertitleunit=\skip79
-\ttl@plus=\dimen163
-\ttl@minus=\dimen164
-\ttl@toksa=\toks25
-\titlewidth=\dimen165
-\titlewidthlast=\dimen166
-\titlewidthfirst=\dimen167
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/titlesec/titletoc.sty
-Package: titletoc 2021/07/05 v2.14 TOC entries
-\ttl@leftsep=\dimen168
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package xcolor Info: Package option `usenames' ignored on input line 218.
-Package xcolor Info: Driver file: pdftex.def on input line 227.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
-Package xcolor Info: Model `RGB' extended on input line 1369.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/svgnam.def
-File: svgnam.def 2022/06/12 v2.14 Predefined colors according to SVG 1.1 (UK)
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
- (/usr/local/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (/usr/local/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/logreq/logreq.sty
-Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count278
- (/usr/local/texlive/2023/texmf-dist/tex/latex/logreq/logreq.def
-File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip16
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-\c@tabx@nest=\count279
-\c@listtotal=\count280
-\c@listcount=\count281
-\c@liststart=\count282
-\c@liststop=\count283
-\c@citecount=\count284
-\c@citetotal=\count285
-\c@multicitecount=\count286
-\c@multicitetotal=\count287
-\c@instcount=\count288
-\c@maxnames=\count289
-\c@minnames=\count290
-\c@maxitems=\count291
-\c@minitems=\count292
-\c@citecounter=\count293
-\c@maxcitecounter=\count294
-\c@savedcitecounter=\count295
-\c@uniquelist=\count296
-\c@uniquename=\count297
-\c@refsection=\count298
-\c@refsegment=\count299
-\c@maxextratitle=\count300
-\c@maxextratitleyear=\count301
-\c@maxextraname=\count302
-\c@maxextradate=\count303
-\c@maxextraalpha=\count304
-\c@abbrvpenalty=\count305
-\c@highnamepenalty=\count306
-\c@lownamepenalty=\count307
-\c@maxparens=\count308
-\c@parenlevel=\count309
-\blx@tempcnta=\count310
-\blx@tempcntb=\count311
-\blx@tempcntc=\count312
-\c@blx@maxsection=\count313
-\blx@maxsegment@0=\count314
-\blx@notetype=\count315
-\blx@parenlevel@text=\count316
-\blx@parenlevel@foot=\count317
-\blx@sectionciteorder@0=\count318
-\blx@sectionciteorderinternal@0=\count319
-\blx@entrysetcounter=\count320
-\blx@biblioinstance=\count321
-\labelnumberwidth=\skip80
-\labelalphawidth=\skip81
-\biblabelsep=\skip82
-\bibitemsep=\skip83
-\bibnamesep=\skip84
-\bibinitsep=\skip85
-\bibparsep=\skip86
-\bibhang=\skip87
-\blx@bcfin=\read2
-\blx@bcfout=\write3
-\blx@langwohyphens=\language87
-\c@mincomprange=\count322
-\c@maxcomprange=\count323
-\c@mincompwidth=\count324
-Package biblatex Info: Trying to load biblatex default data model...
-Package biblatex Info: ... file 'blx-dm.def' found.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/blx-dm.def
-File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
-)
-Package biblatex Info: Trying to load biblatex citestyle data model...
-Package biblatex Info: ... file 'numeric.dbx' not found.
-Package biblatex Info: Trying to load biblatex custom data model...
-Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count325
-\c@savedafterword=\count326
-\c@annotator=\count327
-\c@savedannotator=\count328
-\c@author=\count329
-\c@savedauthor=\count330
-\c@bookauthor=\count331
-\c@savedbookauthor=\count332
-\c@commentator=\count333
-\c@savedcommentator=\count334
-\c@editor=\count335
-\c@savededitor=\count336
-\c@editora=\count337
-\c@savededitora=\count338
-\c@editorb=\count339
-\c@savededitorb=\count340
-\c@editorc=\count341
-\c@savededitorc=\count342
-\c@foreword=\count343
-\c@savedforeword=\count344
-\c@holder=\count345
-\c@savedholder=\count346
-\c@introduction=\count347
-\c@savedintroduction=\count348
-\c@namea=\count349
-\c@savednamea=\count350
-\c@nameb=\count351
-\c@savednameb=\count352
-\c@namec=\count353
-\c@savednamec=\count354
-\c@translator=\count355
-\c@savedtranslator=\count356
-\c@shortauthor=\count357
-\c@savedshortauthor=\count358
-\c@shorteditor=\count359
-\c@savedshorteditor=\count360
-\c@labelname=\count361
-\c@savedlabelname=\count362
-\c@institution=\count363
-\c@savedinstitution=\count364
-\c@lista=\count365
-\c@savedlista=\count366
-\c@listb=\count367
-\c@savedlistb=\count368
-\c@listc=\count369
-\c@savedlistc=\count370
-\c@listd=\count371
-\c@savedlistd=\count372
-\c@liste=\count373
-\c@savedliste=\count374
-\c@listf=\count375
-\c@savedlistf=\count376
-\c@location=\count377
-\c@savedlocation=\count378
-\c@organization=\count379
-\c@savedorganization=\count380
-\c@origlocation=\count381
-\c@savedoriglocation=\count382
-\c@origpublisher=\count383
-\c@savedorigpublisher=\count384
-\c@publisher=\count385
-\c@savedpublisher=\count386
-\c@language=\count387
-\c@savedlanguage=\count388
-\c@origlanguage=\count389
-\c@savedoriglanguage=\count390
-\c@pageref=\count391
-\c@savedpageref=\count392
-\shorthandwidth=\skip88
-\shortjournalwidth=\skip89
-\shortserieswidth=\skip90
-\shorttitlewidth=\skip91
-\shortauthorwidth=\skip92
-\shorteditorwidth=\skip93
-\locallabelnumberwidth=\skip94
-\locallabelalphawidth=\skip95
-\localshorthandwidth=\skip96
-\localshortjournalwidth=\skip97
-\localshortserieswidth=\skip98
-\localshorttitlewidth=\skip99
-\localshortauthorwidth=\skip100
-\localshorteditorwidth=\skip101
-Package biblatex Info: Trying to load compatibility code...
-Package biblatex Info: ... file 'blx-compat.def' found.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-)
-Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex.def' found.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.def
-File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count393
-\c@textcitetotal=\count394
-\c@textcitemaxnames=\count395
-\c@biburlbigbreakpenalty=\count396
-\c@biburlbreakpenalty=\count397
-\c@biburlnumpenalty=\count398
-\c@biburlucpenalty=\count399
-\c@biburllcpenalty=\count400
-\biburlbigskip=\muskip17
-\biburlnumskip=\muskip18
-\biburlucskip=\muskip19
-\biburllcskip=\muskip20
-\c@smartand=\count401
-)
-Package biblatex Info: Trying to load bibliography style 'numeric'...
-Package biblatex Info: ... file 'numeric.bbx' found.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
-File: numeric.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-Package biblatex Info: Trying to load bibliography style 'standard'...
-Package biblatex Info: ... file 'standard.bbx' found.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count402
-\c@bbx:relatedtotal=\count403
-))
-Package biblatex Info: Trying to load citation style 'numeric'...
-Package biblatex Info: ... file 'numeric.cbx' found.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
-File: numeric.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\supercite'.
-Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\textcites'.
-Package biblatex Info: Redefining '\cites'.
-Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\smartcites'.
-)
-Package biblatex Info: Trying to load configuration file...
-Package biblatex Info: ... file 'biblatex.cfg' found.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.cfg
-File: biblatex.cfg 
-)
-Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Document encoding is UTF8 ....
-Package biblatex Info: ... and expl3
-(biblatex)             2023-02-22 L3 programming layer (loader) 
-(biblatex)             is new enough (at least 2020/04/06),
-(biblatex)             setting 'casechanger=expl3'.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
-Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
-Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen169
-\lightrulewidth=\dimen170
-\cmidrulewidth=\dimen171
-\belowrulesep=\dimen172
-\belowbottomsep=\dimen173
-\aboverulesep=\dimen174
-\abovetopsep=\dimen175
-\cmidrulesep=\dimen176
-\cmidrulekern=\dimen177
-\defaultaddspace=\dimen178
-\@cmidla=\count404
-\@cmidlb=\count405
-\@aboverulesep=\dimen179
-\@belowrulesep=\dimen180
-\@thisruleclass=\count406
-\@lastruleclass=\count407
-\@thisrulewidth=\dimen181
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
-Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen182
-\ar@mcellbox=\box57
-\extrarowheight=\dimen183
-\NC@list=\toks26
-\extratabsurround=\skip102
-\backup@length=\skip103
-\ar@cellbox=\box58
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/enumitem/enumitem.sty
-Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip104
-\enit@outerparindent=\dimen184
-\enit@toks=\toks27
-\enit@inbox=\box59
-\enit@count@id=\count408
-\enitdp@description=\count409
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
- (/usr/local/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/pdfescape/pdfescape.sty
-Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/hycolor/hycolor.sty
-Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
-Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/auxhook/auxhook.sty
-Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
- (/usr/local/texlive/2023/texmf-dist/tex/latex/refcount/refcount.sty
-Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-)
-\c@section@level=\count410
-)
-\@linkdim=\dimen185
-\Hy@linkcounter=\count411
-\Hy@pagecounter=\count412
- (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/intcalc/intcalc.sty
-Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/etexcmds/etexcmds.sty
-Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-)
-\Hy@SavedSpaceFactor=\count413
- (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
-Now handling font encoding PU ...
-... no UTF-8 mapping file for font encoding PU
-)
-Package hyperref Info: Hyper figures OFF on input line 4177.
-Package hyperref Info: Link nesting OFF on input line 4182.
-Package hyperref Info: Hyper index ON on input line 4185.
-Package hyperref Info: Plain pages OFF on input line 4192.
-Package hyperref Info: Backreferencing OFF on input line 4197.
-Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4425.
-\c@Hy@tempcnt=\count414
-LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen186
- (/usr/local/texlive/2023/texmf-dist/tex/generic/bitset/bitset.sty
-Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (/usr/local/texlive/2023/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
-))
-\Fld@menulength=\count415
-\Field@Width=\dimen187
-\Fld@charsize=\dimen188
-Package hyperref Info: Hyper figures OFF on input line 6042.
-Package hyperref Info: Link nesting OFF on input line 6047.
-Package hyperref Info: Hyper index ON on input line 6050.
-Package hyperref Info: backreferencing OFF on input line 6057.
-Package hyperref Info: Link coloring OFF on input line 6062.
-Package hyperref Info: Link coloring with OCG OFF on input line 6067.
-Package hyperref Info: PDF/A mode OFF on input line 6072.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/base/atbegshi-ltx.sty
-Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
-package with kernel methods
-)
-\Hy@abspage=\count416
-\c@Item=\count417
-\c@Hfootnote=\count418
-)
-Package hyperref Info: Driver (autodetected): hpdftex.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2023-02-07 v7.00v Hyperref driver for pdfTeX
- (/usr/local/texlive/2023/texmf-dist/tex/latex/base/atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
-with kernel methods
-)
-\Fld@listcount=\count419
-\c@bookmark@seq@number=\count420
- (/usr/local/texlive/2023/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
- (/usr/local/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
-Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
-)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
-)
-\Hy@SectionHShift=\skip105
-)
-Package hyperref Info: Option `colorlinks' set `true' on input line 329.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count421
-\lst@gtempboxa=\box60
-\lst@token=\toks28
-\lst@length=\count422
-\lst@currlwidth=\dimen189
-\lst@column=\count423
-\lst@pos=\count424
-\lst@lostspace=\dimen190
-\lst@width=\dimen191
-\lst@newlines=\count425
-\lst@lineno=\count426
-\lst@maxwidth=\dimen192
- (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-\c@lstnumber=\count427
-\lst@skipnumbers=\count428
-\lst@framebox=\box61
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2023/02/27 1.9 listings configuration
-))
-Package: listings 2023/02/27 1.9 (Carsten Heinz)
-)
-\@quotelevel=\count429
-\@quotereset=\count430
- (./Report.aux)
-\openout1 = `Report.aux'.
+**Report.tex
+(./Report.tex
+! Undefined control sequence.
+l.22 \documentclass
+                   [
+? 
+! Undefined control sequence.
+l.28     \addbibresource
+                        {sample.bib} % BibLaTeX bibliography file
+? 
+! Undefined control sequence.
+l.34 \reporttitle
+                 {CPE 233 Hardware Assignment 1} % The report title is to ap...
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
- (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count431
-\scratchdimen=\dimen193
-\scratchbox=\box62
-\nofMPsegments=\count432
-\nofMParguments=\count433
-\everyMPshowfont=\toks29
-\MPscratchCnt=\count434
-\MPscratchDim=\dimen194
-\MPnumerator=\count435
-\makeMPintoPDFobject=\count436
-\everyMPtoPDFconversion=\toks30
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-))
-Package ragged2e Info: ABD: executing \RaggedRight on input line 46.
+? 
+! Undefined control sequence.
+l.36 \reportsubtitle
+                    {Reverse Engineering and Testing ROM} % Report subtitle,...
 
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(56.9055pt, 334.3199pt, 206.28247pt)
-* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=334.3199pt
-* \textheight=674.33032pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-38.12675pt
-* \headheight=28.45274pt
-* \headsep=22.76228pt
-* \topskip=12.0pt
-* \footskip=42.67912pt
-* \marginparwidth=120.92421pt
-* \marginparsep=28.45274pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+? 
+! Undefined control sequence.
+l.38 \reportauthors
+                   {Report by:\\\smallskip Ethan Vosburg (evosburg@calpoly.e...
 
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: changepage package is loaded.
-\caption@adjustwidth@hsize=\dimen195
-\caption@adjustwidth@linewidth=\dimen196
-Package caption Info: hyperref package is loaded.
-Package caption Info: listings package is loaded.
-Package caption Info: End \AtBeginDocument code.
-\@sidenotes@extrawidth=\skip106
-\big@size=\dimen197
-\c@mv@tabular=\count437
-\c@mv@boldtabular=\count438
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
-(/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
-)
-Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `Report.bcf'.
+? 
+! Argument of \\ has an extra }.
+<inserted text> 
+                \par 
+<to be read again> 
+                   }
+l.38 ...skip Ethan Vosburg (evosburg@calpoly.edu)}
+                                                   % Report authors/group/de...
 
-Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'Report.bbl' found.
- (./Report.bbl)
-Package biblatex Info: Reference section=0 on input line 46.
-Package biblatex Info: Reference segment=0 on input line 46.
-Package hyperref Info: Link coloring ON on input line 46.
- (./Report.out) (./Report.out)
-\@outlinefile=\write4
-\openout4 = `Report.out'.
+? 
+Runaway argument?
+\smallskip Ethan Vosburg (evosburg@calpoly.edu)
+! Paragraph ended before \\ was complete.
+<to be read again> 
+                   \par 
+<to be read again> 
+                   }
+l.38 ...skip Ethan Vosburg (evosburg@calpoly.edu)}
+                                                   % Report authors/group/de...
 
-\c@lstlisting=\count439
-<creodocs_logo.pdf, id=28, 794.97pt x 614.295pt>
-File: creodocs_logo.pdf Graphic file (type pdf)
-<use creodocs_logo.pdf>
-Package pdftex.def Info: creodocs_logo.pdf  used on input line 57.
-(pdftex.def)             Requested size: 142.26378pt x 109.93094pt.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/n' aliased to
-(Font)              `T1/IBMPlexSans-TLF/regular/n' on input line 61.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/regular/n' will be
-(Font)              scaled to size 50.0pt on input line 61.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' aliased to
-(Font)              `T1/IBMPlexSans-TLF/bold/n' on input line 61.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/bold/n' will be
-(Font)              scaled to size 50.0pt on input line 61.
-LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 61.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ppl.fd
-File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
-)
-LaTeX Font Info:    Trying to load font information for OML+zplm on input line 61.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/omlzplm.fd
-File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
-)
-LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 61.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/omszplm.fd
-File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
-)
-LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 61.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/omxzplm.fd
-File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
-)
-LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 61.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ot1zplm.fd
-File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
-)
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/n' aliased to
-(Font)              `T1/IBMPlexSans-TLF/regular/n' on input line 65.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/regular/n' will be
-(Font)              scaled to size 20.74pt on input line 65.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/it' aliased to
-(Font)              `T1/IBMPlexSans-TLF/regular/it' on input line 65.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/regular/it' will be
-(Font)              scaled to size 20.74pt on input line 65.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/it' aliased to
-(Font)              `T1/IBMPlexSans-TLF/bold/it' on input line 65.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/bold/it' will be
-(Font)              scaled to size 20.74pt on input line 65.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/n' aliased to
-(Font)              `T1/IBMPlexSans-TLF/regular/n' on input line 69.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/regular/n' will be
-(Font)              scaled to size 17.28pt on input line 69.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/n' aliased to
-(Font)              `T1/IBMPlexSans-TLF/regular/n' on input line 73.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/regular/n' will be
-(Font)              scaled to size 14.4pt on input line 73.
- [1
+? 
+! Undefined control sequence.
+l.40 \reportdate
+                {\today} % Report date, include new lines for additional inf...
 
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/plex/plx_umrhwx.enc} <./creodocs_logo.pdf, page is rotated 90 degrees>]
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' aliased to
-(Font)              `T1/IBMPlexSans-TLF/bold/n' on input line 129.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/bold/n' will be
-(Font)              scaled to size 20.74pt on input line 129.
- (./Report.toc
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/sb/n' aliased to
-(Font)              `T1/IBMPlexSans-TLF/semibold/n' on input line 1.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/semibold/n' will be
-(Font)              scaled to size 12.0pt on input line 1.
-)
-\tf@toc=\write5
-\openout5 = `Report.toc'.
+? 
+! Undefined control sequence.
+l.40 \reportdate{\today
+                       } % Report date, include new lines for additional inf...
 
- [2]
-LaTeX Font Info:    Trying to load font information for T1+IBMPlexMono-TLF on input line 141.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/plex/T1IBMPlexMono-TLF.fd
-File: T1IBMPlexMono-TLF.fd 2019/12/06 (autoinst) Font definitions for T1/IBMPlexMono-TLF.
-)
-LaTeX Font Info:    Font shape `T1/IBMPlexMono-TLF/m/n' aliased to
-(Font)              `T1/IBMPlexMono-TLF/regular/n' on input line 141.
-LaTeX Font Info:    Font shape `T1/IBMPlexMono-TLF/regular/n' will be
-(Font)              scaled to size 12.0pt on input line 141.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' aliased to
-(Font)              `T1/IBMPlexSans-TLF/bold/n' on input line 145.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/bold/n' will be
-(Font)              scaled to size 14.4pt on input line 145.
+? 
+! Undefined control sequence.
+l.42 \rightheadercontent
+                        {\includegraphics[width=3cm]{creodocs_logo.pdf}} % T...
 
-Overfull \hbox (23.13483pt too wide) in paragraph at lines 146--147
-\T1/IBMPlexSans-TLF/regular/n/12 Below is a ta-ble of the ma-chine code and as-sem-bly in-struc-tions from the [][]\T1/IBMPlexMono-TLF/regular/n/12 otter_memory.mem 
- []
+? 
+! Undefined control sequence.
+l.42 \rightheadercontent{\includegraphics
+                                         [width=3cm]{creodocs_logo.pdf}} % T...
 
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/n' aliased to
-(Font)              `T1/IBMPlexSans-TLF/regular/n' on input line 151.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 151.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' aliased to
-(Font)              `T1/IBMPlexSans-TLF/bold/n' on input line 153.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/bold/n' will be
-(Font)              scaled to size 12.0pt on input line 153.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' aliased to
-(Font)              `T1/IBMPlexSans-TLF/bold/n' on input line 153.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/bold/n' will be
-(Font)              scaled to size 10.0pt on input line 153.
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.42 ...tent{\includegraphics[width=3cm]{creodocs_
+                                                  logo.pdf}} % The content i...
 
-Overfull \hbox (130.08978pt too wide) in paragraph at lines 154--176
- [][] 
- []
+? 
+! Extra }, or forgotten $.
+l.42 ...ludegraphics[width=3cm]{creodocs_logo.pdf}
+                                                  } % The content in the rig...
 
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 184.
-LaTeX Font Info:    Font shape `T1/IBMPlexMono-TLF/m/n' aliased to
-(Font)              `T1/IBMPlexMono-TLF/regular/n' on input line 184.
-LaTeX Font Info:    Font shape `T1/IBMPlexMono-TLF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 184.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/n' aliased to
-(Font)              `T1/IBMPlexSans-TLF/regular/n' on input line 185.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 185.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/n' aliased to
-(Font)              `T1/IBMPlexSans-TLF/regular/n' on input line 185.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/regular/n' will be
-(Font)              scaled to size 6.0pt on input line 185.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/it' aliased to
-(Font)              `T1/IBMPlexSans-TLF/regular/it' on input line 185.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/regular/it' will be
-(Font)              scaled to size 6.0pt on input line 185.
-[3{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/plex/plx_x4zmfh.enc}] (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2023/02/27 1.9 listings language file
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2023/02/27 1.9 listings language file
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2023/02/27 1.9 listings language file
-)
-LaTeX Font Info:    Font shape `T1/IBMPlexMono-TLF/b/n' aliased to
-(Font)              `T1/IBMPlexMono-TLF/bold/n' on input line 200.
-LaTeX Font Info:    Font shape `T1/IBMPlexMono-TLF/bold/n' will be
-(Font)              scaled to size 8.0pt on input line 200.
-LaTeX Font Info:    Font shape `T1/IBMPlexMono-TLF/m/it' aliased to
-(Font)              `T1/IBMPlexMono-TLF/regular/it' on input line 201.
-LaTeX Font Info:    Font shape `T1/IBMPlexMono-TLF/regular/it' will be
-(Font)              scaled to size 8.0pt on input line 201.
- [4]
-<Figures/ProgRom Simulation.png, id=140, 1666.225pt x 144.54pt>
-File: Figures/ProgRom Simulation.png Graphic file (type png)
-<use Figures/ProgRom Simulation.png>
-Package pdftex.def Info: Figures/ProgRom Simulation.png  used on input line 321.
-(pdftex.def)             Requested size: 478.00812pt x 41.46559pt.
+? 
+! Extra }, or forgotten $.
+l.42 ...udegraphics[width=3cm]{creodocs_logo.pdf}}
+                                                   % The content in the righ...
 
-Overfull \hbox (143.68822pt too wide) in paragraph at lines 321--322
- [][] 
- []
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.43 
+     
+? 
+! Undefined control sequence.
+l.46 \begin
+           {document}
+? 
+! Undefined control sequence.
+l.52 \thispagestyle
+                   {empty} % Suppress headers and footers on this page
+? 
+! Undefined control sequence.
+l.54 \begin
+           {fullwidth} % Use the whole page width
+? 
+! Undefined control sequence.
+l.55 ^^I\vspace
+               *{-0.075\textheight} % Pull logo into the top margin
+? 
+! Undefined control sequence.
+l.55 ^^I\vspace*{-0.075\textheight
+                                  } % Pull logo into the top margin
+? 
+! Undefined control sequence.
+l.57 ^^I\hfill\includegraphics
+                              [width=5cm]{creodocs_logo.pdf} % Company logo
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.57 ...hfill\includegraphics[width=5cm]{creodocs_
+                                                  logo.pdf} % Company logo
+? 
+! Extra }, or forgotten $.
+l.57 ...ludegraphics[width=5cm]{creodocs_logo.pdf}
+                                                   % Company logo
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.58 
+     
+? 
+! Undefined control sequence.
+l.59 ^^I\vspace
+               {0.15\textheight} % Vertical whitespace
+? 
+! Undefined control sequence.
+l.59 ^^I\vspace{0.15\textheight
+                               } % Vertical whitespace
+? 
+! Undefined control sequence.
+l.61 ^^I\parbox
+               {0.9\fulltextwidth}{\fontsize{50pt}{52pt}\selectfont\raggedri...
 
+? 
+! Undefined control sequence.
+l.61 ^^I\parbox{0.9\fulltextwidth
+                                 }{\fontsize{50pt}{52pt}\selectfont\raggedri...
 
-Overfull \hbox (2.20673pt too wide) in paragraph at lines 328--330
-\T1/IBMPlexSans-TLF/regular/n/12 sem-bly in-struc-tions from the [][]\T1/IBMPlexMono-TLF/regular/n/12 otter_memory.mem []\T1/IBMPlexSans-TLF/regular/n/12 file were able to be reverse-engineered 
- []
+? 
+! Undefined control sequence.
+l.61 ^^I\parbox{0.9\fulltextwidth}{\fontsize
+                                            {50pt}{52pt}\selectfont\raggedri...
 
-[5 <./Figures/ProgRom Simulation.png>] [6] 
-enddocument/afterlastpage: lastpage setting LastPage.
-(./Report.aux)
-Package rerunfilecheck Info: File `Report.out' has not changed.
-(rerunfilecheck)             Checksum: 323A4BE3C9B4303536528AFA237F5D45;862.
-Package logreq Info: Writing requests to 'Report.run.xml'.
-\openout1 = `Report.run.xml'.
+? 
+! Undefined control sequence.
+l.61 ...extwidth}{\fontsize{50pt}{52pt}\selectfont
+                                                  \raggedright\textbf{\repor...
 
- ) 
-Here is how much of TeX's memory you used:
- 23336 strings out of 476025
- 413512 string characters out of 5790016
- 2208388 words of memory out of 5000000
- 43308 multiletter control sequences out of 15000+600000
- 740959 words of font info for 101 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 87i,12n,91p,750b,2535s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexMono-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexMono-Italic.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexMono.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexSans-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexSans-BoldItalic.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexSans-Italic.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexSans-SemiBold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ibm/plex/IBMPlexSans.pfb>
-Output written on Report.pdf (6 pages, 1896261 bytes).
-PDF statistics:
- 270 PDF objects out of 1000 (max. 8388607)
- 232 compressed objects within 3 object streams
- 129 named destinations out of 1000 (max. 500000)
- 59 words of extra memory for PDF output out of 10000 (max. 10000000)
+? 
+! Undefined control sequence.
+l.61 ...{50pt}{52pt}\selectfont\raggedright\textbf
+                                                  {\reporttitle}\par} % Repo...
 
+? 
+! Undefined control sequence.
+l.61 ...selectfont\raggedright\textbf{\reporttitle
+                                                  }\par} % Report title, int...
+
+? 
+! Undefined control sequence.
+l.63 ^^I\vspace
+               {0.03\textheight} % Vertical whitespace
+? 
+! Undefined control sequence.
+l.63 ^^I\vspace{0.03\textheight
+                               } % Vertical whitespace
+? 
+! Undefined control sequence.
+l.65 ^^I{\LARGE
+               \textit{\textbf{\reportsubtitle}}\par} % Subtitle
+? 
+! Undefined control sequence.
+l.65 ^^I{\LARGE\textit
+                      {\textbf{\reportsubtitle}}\par} % Subtitle
+? 
+! Undefined control sequence.
+l.65 ^^I{\LARGE\textit{\textbf
+                              {\reportsubtitle}}\par} % Subtitle
+? 
+! Undefined control sequence.
+l.65 ^^I{\LARGE\textit{\textbf{\reportsubtitle
+                                              }}\par} % Subtitle
+? 
+! Undefined control sequence.
+l.69 ^^I{\Large
+               \reportauthors\par} % Report authors, group or department
+? 
+! Undefined control sequence.
+l.69 ^^I{\Large\reportauthors
+                             \par} % Report authors, group or department
+? 
+! Undefined control sequence.
+l.73 ^^I{\large
+               \reportdate\par} % Report date
+? 
+! Undefined control sequence.
+l.73 ^^I{\large\reportdate
+                          \par} % Report date
+? 
+[1] )
+(\end occurred inside a group at level 3)
+
+### simple group (level 3) entered at line 57 ({)
+### simple group (level 2) entered at line 42 ({)
+### simple group (level 1) entered at line 42 ({)
+### bottom level
+Output written on Report.dvi (1 page, 708 bytes).

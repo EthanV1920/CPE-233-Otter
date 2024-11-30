@@ -11,15 +11,19 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
-      <ZoomEndTime time="2,739.590 ns"></ZoomEndTime>
-      <Cursor1Time time="3,000.000 ns"></Cursor1Time>
+      <ZoomStartTime time="1,480.719 ns"></ZoomStartTime>
+      <ZoomEndTime time="2,014.384 ns"></ZoomEndTime>
+      <Cursor1Time time="6,000.000 ns"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="239"></NameColumnWidth>
-      <ValueColumnWidth column_width="116"></ValueColumnWidth>
+      <NameColumnWidth column_width="345"></NameColumnWidth>
+      <ValueColumnWidth column_width="180"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="17" />
+   <WVObjectSize size="20" />
+   <wave_markers>
+      <marker time="1875000" label="" />
+      <marker time="1510000" label="" />
+   </wave_markers>
    <wvobject fp_name="/MCU_TB/CLK_TB" type="logic">
       <obj_property name="ElementShortName">CLK_TB</obj_property>
       <obj_property name="ObjectShortName">CLK_TB</obj_property>
@@ -35,6 +39,138 @@
    <wvobject fp_name="/MCU_TB/MCU_INST/RF/register" type="array">
       <obj_property name="ElementShortName">register[0:31][31:0]</obj_property>
       <obj_property name="ObjectShortName">register[0:31][31:0]</obj_property>
+      <wvobject fp_name="/MCU_TB/MCU_INST/RF/register[0]" type="array">
+         <obj_property name="ElementShortName">[0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/MCU_INST/RF/register[1]" type="array">
+         <obj_property name="ElementShortName">[1][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/MCU_INST/RF/register[2]" type="array">
+         <obj_property name="ElementShortName">[2][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/MCU_INST/RF/register[3]" type="array">
+         <obj_property name="ElementShortName">[3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/MCU_INST/RF/register[4]" type="array">
+         <obj_property name="ElementShortName">[4][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/MCU_INST/RF/register[5]" type="array">
+         <obj_property name="ElementShortName">[5][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/MCU_INST/RF/register[6]" type="array">
+         <obj_property name="ElementShortName">[6][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/MCU_INST/RF/register[7]" type="array">
+         <obj_property name="ElementShortName">[7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/MCU_INST/RF/register[8]" type="array">
+         <obj_property name="ElementShortName">[8][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/MCU_INST/RF/register[9]" type="array">
+         <obj_property name="ElementShortName">[9][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/MCU_INST/RF/register[10]" type="array">
+         <obj_property name="ElementShortName">[10][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/MCU_INST/RF/register[11]" type="array">
+         <obj_property name="ElementShortName">[11][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/MCU_INST/RF/register[12]" type="array">
+         <obj_property name="ElementShortName">[12][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/MCU_INST/RF/register[13]" type="array">
+         <obj_property name="ElementShortName">[13][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/MCU_INST/RF/register[14]" type="array">
+         <obj_property name="ElementShortName">[14][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/MCU_INST/RF/register[15]" type="array">
+         <obj_property name="ElementShortName">[15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/MCU_INST/RF/register[16]" type="array">
+         <obj_property name="ElementShortName">[16][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[16][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/MCU_INST/RF/register[17]" type="array">
+         <obj_property name="ElementShortName">[17][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[17][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/MCU_INST/RF/register[18]" type="array">
+         <obj_property name="ElementShortName">[18][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[18][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/MCU_INST/RF/register[19]" type="array">
+         <obj_property name="ElementShortName">[19][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[19][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/MCU_INST/RF/register[20]" type="array">
+         <obj_property name="ElementShortName">[20][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[20][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/MCU_INST/RF/register[21]" type="array">
+         <obj_property name="ElementShortName">[21][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[21][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/MCU_INST/RF/register[22]" type="array">
+         <obj_property name="ElementShortName">[22][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[22][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/MCU_INST/RF/register[23]" type="array">
+         <obj_property name="ElementShortName">[23][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[23][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/MCU_INST/RF/register[24]" type="array">
+         <obj_property name="ElementShortName">[24][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[24][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/MCU_INST/RF/register[25]" type="array">
+         <obj_property name="ElementShortName">[25][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[25][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/MCU_INST/RF/register[26]" type="array">
+         <obj_property name="ElementShortName">[26][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[26][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/MCU_INST/RF/register[27]" type="array">
+         <obj_property name="ElementShortName">[27][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[27][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/MCU_INST/RF/register[28]" type="array">
+         <obj_property name="ElementShortName">[28][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[28][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/MCU_INST/RF/register[29]" type="array">
+         <obj_property name="ElementShortName">[29][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[29][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/MCU_INST/RF/register[30]" type="array">
+         <obj_property name="ElementShortName">[30][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[30][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/MCU_INST/RF/register[31]" type="array">
+         <obj_property name="ElementShortName">[31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[31][31:0]</obj_property>
+      </wvobject>
    </wvobject>
    <wvobject fp_name="/MCU_TB/MCU_INST/PC/PC_COUNT" type="array">
       <obj_property name="ElementShortName">PC_COUNT[31:0]</obj_property>
@@ -182,6 +318,7 @@
       <wvobject fp_name="group76" type="group">
          <obj_property name="label">ProgramCounter Mux In</obj_property>
          <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
          <wvobject fp_name="/MCU_TB/MCU_INST/PCM/PC_COUNT_INCD" type="array">
             <obj_property name="ElementShortName">PC_COUNT_INCD[31:0]</obj_property>
             <obj_property name="ObjectShortName">PC_COUNT_INCD[31:0]</obj_property>
@@ -214,6 +351,7 @@
       <wvobject fp_name="group77" type="group">
          <obj_property name="label">ProgramCounter Mux Out</obj_property>
          <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
          <wvobject fp_name="/MCU_TB/MCU_INST/PCM/PC_MUX_OUT" type="array">
             <obj_property name="ElementShortName">PC_MUX_OUT[31:0]</obj_property>
             <obj_property name="ObjectShortName">PC_MUX_OUT[31:0]</obj_property>
@@ -257,6 +395,7 @@
    <wvobject fp_name="group166" type="group">
       <obj_property name="label">ALU</obj_property>
       <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
       <wvobject type="divider" fp_name="divider248">
          <obj_property name="label">ALU Mux A</obj_property>
          <obj_property name="DisplayName">label</obj_property>
@@ -474,7 +613,6 @@
    <wvobject fp_name="group207" type="group">
       <obj_property name="label">Control Unit</obj_property>
       <obj_property name="DisplayName">label</obj_property>
-      <obj_property name="isExpanded"></obj_property>
       <wvobject type="divider" fp_name="divider120">
          <obj_property name="label">ControlUnit Decoder</obj_property>
          <obj_property name="DisplayName">label</obj_property>
@@ -540,6 +678,7 @@
    <wvobject fp_name="group209" type="group">
       <obj_property name="label">Memory</obj_property>
       <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
       <wvobject type="divider" fp_name="divider153">
          <obj_property name="label">Memory</obj_property>
          <obj_property name="DisplayName">label</obj_property>
@@ -547,6 +686,7 @@
       <wvobject fp_name="group167" type="group">
          <obj_property name="label">Memory In</obj_property>
          <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
          <wvobject fp_name="/MCU_TB/MCU_INST/MEM/MEM_CLK" type="logic">
             <obj_property name="ElementShortName">MEM_CLK</obj_property>
             <obj_property name="ObjectShortName">MEM_CLK</obj_property>
@@ -686,6 +826,88 @@
          <wvobject fp_name="/MCU_TB/MCU_INST/CSR/mstatus" type="array">
             <obj_property name="ElementShortName">mstatus[31:0]</obj_property>
             <obj_property name="ObjectShortName">mstatus[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/MCU_TB/MCU_INST/MEM/memory[16382]" type="array">
+      <obj_property name="ElementShortName">[16382][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[16382][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MCU_TB/MCU_INST/MEM/memory[16383]" type="array">
+      <obj_property name="ElementShortName">[16383][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[16383][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group532" type="group">
+      <obj_property name="label">FSM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="divider" fp_name="divider533">
+         <obj_property name="label">FSM</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="group530" type="group">
+         <obj_property name="label">FSM In</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/MCU_TB/MCU_INST/CUF/CLK" type="logic">
+            <obj_property name="ElementShortName">CLK</obj_property>
+            <obj_property name="ObjectShortName">CLK</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/MCU_INST/CUF/RST" type="logic">
+            <obj_property name="ElementShortName">RST</obj_property>
+            <obj_property name="ObjectShortName">RST</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/MCU_INST/CUF/INTR" type="logic">
+            <obj_property name="ElementShortName">INTR</obj_property>
+            <obj_property name="ObjectShortName">INTR</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/MCU_INST/CUF/opcode" type="array">
+            <obj_property name="ElementShortName">opcode[6:0]</obj_property>
+            <obj_property name="ObjectShortName">opcode[6:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/MCU_INST/CUF/funct3" type="array">
+            <obj_property name="ElementShortName">funct3[2:0]</obj_property>
+            <obj_property name="ObjectShortName">funct3[2:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group531" type="group">
+         <obj_property name="label">FSM Out</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/MCU_TB/MCU_INST/CUF/PC_WE" type="logic">
+            <obj_property name="ElementShortName">PC_WE</obj_property>
+            <obj_property name="ObjectShortName">PC_WE</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/MCU_INST/CUF/RF_WE" type="logic">
+            <obj_property name="ElementShortName">RF_WE</obj_property>
+            <obj_property name="ObjectShortName">RF_WE</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/MCU_INST/CUF/memWE2" type="logic">
+            <obj_property name="ElementShortName">memWE2</obj_property>
+            <obj_property name="ObjectShortName">memWE2</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/MCU_INST/CUF/memRDEN1" type="logic">
+            <obj_property name="ElementShortName">memRDEN1</obj_property>
+            <obj_property name="ObjectShortName">memRDEN1</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/MCU_INST/CUF/memRDEN2" type="logic">
+            <obj_property name="ElementShortName">memRDEN2</obj_property>
+            <obj_property name="ObjectShortName">memRDEN2</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/MCU_INST/CUF/reset" type="logic">
+            <obj_property name="ElementShortName">reset</obj_property>
+            <obj_property name="ObjectShortName">reset</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/MCU_INST/CUF/csr_WE" type="logic">
+            <obj_property name="ElementShortName">csr_WE</obj_property>
+            <obj_property name="ObjectShortName">csr_WE</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/MCU_INST/CUF/int_taken" type="logic">
+            <obj_property name="ElementShortName">int_taken</obj_property>
+            <obj_property name="ObjectShortName">int_taken</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/MCU_INST/CUF/mret_exec" type="logic">
+            <obj_property name="ElementShortName">mret_exec</obj_property>
+            <obj_property name="ObjectShortName">mret_exec</obj_property>
          </wvobject>
       </wvobject>
    </wvobject>

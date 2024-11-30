@@ -73,8 +73,11 @@ module ControlUnitFSM(
                 next_state = ST_EXEC;
             end
             ST_EXEC: begin
-                if(INTR)begin
+                if(INTR && opcode != 7'b11)begin
                     next_state <= ST_INTR;
+                end
+                else if (opcode == 7'b11) begin
+                    next_state <= ST_WB;
                 end
                 else begin
                     next_state <= ST_FETCH;
